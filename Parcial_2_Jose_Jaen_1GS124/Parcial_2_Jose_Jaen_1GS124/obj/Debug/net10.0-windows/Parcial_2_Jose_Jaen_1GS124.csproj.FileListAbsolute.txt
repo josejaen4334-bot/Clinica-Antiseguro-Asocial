@@ -1,0 +1,39 @@
+C:\Users\Alejandro Jaén\Documents\JOSE\DS 4\Parcial_2_Jose_Jaen_1GS124\Parcial_2_Jose_Jaen_1GS124\bin\Debug\net10.0-windows\Parcial_2_Jose_Jaen_1GS124.exe
+C:\Users\Alejandro Jaén\Documents\JOSE\DS 4\Parcial_2_Jose_Jaen_1GS124\Parcial_2_Jose_Jaen_1GS124\bin\Debug\net10.0-windows\Parcial_2_Jose_Jaen_1GS124.dll
+C:\Users\Alejandro Jaén\Documents\JOSE\DS 4\Parcial_2_Jose_Jaen_1GS124\Parcial_2_Jose_Jaen_1GS124\bin\Debug\net10.0-windows\Parcial_2_Jose_Jaen_1GS124.deps.json
+C:\Users\Alejandro Jaén\Documents\JOSE\DS 4\Parcial_2_Jose_Jaen_1GS124\Parcial_2_Jose_Jaen_1GS124\bin\Debug\net10.0-windows\Parcial_2_Jose_Jaen_1GS124.runtimeconfig.json
+C:\Users\Alejandro Jaén\Documents\JOSE\DS 4\Parcial_2_Jose_Jaen_1GS124\Parcial_2_Jose_Jaen_1GS124\bin\Debug\net10.0-windows\Parcial_2_Jose_Jaen_1GS124.pdb
+C:\Users\Alejandro Jaén\Documents\JOSE\DS 4\Parcial_2_Jose_Jaen_1GS124\Parcial_2_Jose_Jaen_1GS124\obj\Debug\net10.0-windows\Parcial_2_Jose_Jaen_1GS124.Form1.resources
+C:\Users\Alejandro Jaén\Documents\JOSE\DS 4\Parcial_2_Jose_Jaen_1GS124\Parcial_2_Jose_Jaen_1GS124\obj\Debug\net10.0-windows\Parcial_2_Jose_Jaen_1GS124.Properties.Resources.resources
+C:\Users\Alejandro Jaén\Documents\JOSE\DS 4\Parcial_2_Jose_Jaen_1GS124\Parcial_2_Jose_Jaen_1GS124\obj\Debug\net10.0-windows\Parcial_2_Jose_Jaen_1GS124.Registro_Clientes.resources
+C:\Users\Alejandro Jaén\Documents\JOSE\DS 4\Parcial_2_Jose_Jaen_1GS124\Parcial_2_Jose_Jaen_1GS124\obj\Debug\net10.0-windows\Parcial_2_Jose_Jaen_1GS124.csproj.GenerateResource.cache
+C:\Users\Alejandro Jaén\Documents\JOSE\DS 4\Parcial_2_Jose_Jaen_1GS124\Parcial_2_Jose_Jaen_1GS124\obj\Debug\net10.0-windows\Parcial_2_Jose_Jaen_1GS124.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alejandro Jaén\Documents\JOSE\DS 4\Parcial_2_Jose_Jaen_1GS124\Parcial_2_Jose_Jaen_1GS124\obj\Debug\net10.0-windows\Parcial_2_Jose_Jaen_1GS124.AssemblyInfoInputs.cache
+C:\Users\Alejandro Jaén\Documents\JOSE\DS 4\Parcial_2_Jose_Jaen_1GS124\Parcial_2_Jose_Jaen_1GS124\obj\Debug\net10.0-windows\Parcial_2_Jose_Jaen_1GS124.AssemblyInfo.cs
+C:\Users\Alejandro Jaén\Documents\JOSE\DS 4\Parcial_2_Jose_Jaen_1GS124\Parcial_2_Jose_Jaen_1GS124\obj\Debug\net10.0-windows\Parcial_2_Jose_Jaen_1GS124.csproj.CoreCompileInputs.cache
+C:\Users\Alejandro Jaén\Documents\JOSE\DS 4\Parcial_2_Jose_Jaen_1GS124\Parcial_2_Jose_Jaen_1GS124\obj\Debug\net10.0-windows\Parcial_2_Jose_Jaen_1GS124.dll
+C:\Users\Alejandro Jaén\Documents\JOSE\DS 4\Parcial_2_Jose_Jaen_1GS124\Parcial_2_Jose_Jaen_1GS124\obj\Debug\net10.0-windows\refint\Parcial_2_Jose_Jaen_1GS124.dll
+C:\Users\Alejandro Jaén\Documents\JOSE\DS 4\Parcial_2_Jose_Jaen_1GS124\Parcial_2_Jose_Jaen_1GS124\obj\Debug\net10.0-windows\Parcial_2_Jose_Jaen_1GS124.pdb
+C:\Users\Alejandro Jaén\Documents\JOSE\DS 4\Parcial_2_Jose_Jaen_1GS124\Parcial_2_Jose_Jaen_1GS124\obj\Debug\net10.0-windows\Parcial_2_Jose_Jaen_1GS124.genruntimeconfig.cache
+C:\Users\Alejandro Jaén\Documents\JOSE\DS 4\Parcial_2_Jose_Jaen_1GS124\Parcial_2_Jose_Jaen_1GS124\obj\Debug\net10.0-windows\ref\Parcial_2_Jose_Jaen_1GS124.dll
+C:\Users\Alejandro Jaén\Documents\JOSE\DS 4\Parcial_2_Jose_Jaen_1GS124\Parcial_2_Jose_Jaen_1GS124\obj\Debug\net10.0-windows\Parcial_.D06A6750.Up2Date
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\DS 4\Parcial_2_Jose_Jaen_1GS124\Parcial_2_Jose_Jaen_1GS124\obj\Debug\net10.0-windows\Parcial_2_Jose_Jaen_1GS124.dll
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\DS 4\Parcial_2_Jose_Jaen_1GS124\Parcial_2_Jose_Jaen_1GS124\obj\Debug\net10.0-windows\refint\Parcial_2_Jose_Jaen_1GS124.dll
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\DS 4\Parcial_2_Jose_Jaen_1GS124\Parcial_2_Jose_Jaen_1GS124\obj\Debug\net10.0-windows\Parcial_2_Jose_Jaen_1GS124.pdb
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\DS 4\Parcial_2_Jose_Jaen_1GS124\Parcial_2_Jose_Jaen_1GS124\bin\Debug\net10.0-windows\Parcial_2_Jose_Jaen_1GS124.exe
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\DS 4\Parcial_2_Jose_Jaen_1GS124\Parcial_2_Jose_Jaen_1GS124\bin\Debug\net10.0-windows\Parcial_2_Jose_Jaen_1GS124.deps.json
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\DS 4\Parcial_2_Jose_Jaen_1GS124\Parcial_2_Jose_Jaen_1GS124\bin\Debug\net10.0-windows\Parcial_2_Jose_Jaen_1GS124.runtimeconfig.json
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\DS 4\Parcial_2_Jose_Jaen_1GS124\Parcial_2_Jose_Jaen_1GS124\bin\Debug\net10.0-windows\Parcial_2_Jose_Jaen_1GS124.dll
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\DS 4\Parcial_2_Jose_Jaen_1GS124\Parcial_2_Jose_Jaen_1GS124\bin\Debug\net10.0-windows\Parcial_2_Jose_Jaen_1GS124.pdb
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\DS 4\Parcial_2_Jose_Jaen_1GS124\Parcial_2_Jose_Jaen_1GS124\obj\Debug\net10.0-windows\Parcial_2_Jose_Jaen_1GS124.Finanzas.resources
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\DS 4\Parcial_2_Jose_Jaen_1GS124\Parcial_2_Jose_Jaen_1GS124\obj\Debug\net10.0-windows\Parcial_2_Jose_Jaen_1GS124.Form1.resources
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\DS 4\Parcial_2_Jose_Jaen_1GS124\Parcial_2_Jose_Jaen_1GS124\obj\Debug\net10.0-windows\Parcial_2_Jose_Jaen_1GS124.Properties.Resources.resources
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\DS 4\Parcial_2_Jose_Jaen_1GS124\Parcial_2_Jose_Jaen_1GS124\obj\Debug\net10.0-windows\Parcial_2_Jose_Jaen_1GS124.Registro_Clientes.resources
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\DS 4\Parcial_2_Jose_Jaen_1GS124\Parcial_2_Jose_Jaen_1GS124\obj\Debug\net10.0-windows\Parcial_2_Jose_Jaen_1GS124.csproj.GenerateResource.cache
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\DS 4\Parcial_2_Jose_Jaen_1GS124\Parcial_2_Jose_Jaen_1GS124\obj\Debug\net10.0-windows\Parcial_2_Jose_Jaen_1GS124.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\DS 4\Parcial_2_Jose_Jaen_1GS124\Parcial_2_Jose_Jaen_1GS124\obj\Debug\net10.0-windows\Parcial_2_Jose_Jaen_1GS124.AssemblyInfoInputs.cache
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\DS 4\Parcial_2_Jose_Jaen_1GS124\Parcial_2_Jose_Jaen_1GS124\obj\Debug\net10.0-windows\Parcial_2_Jose_Jaen_1GS124.AssemblyInfo.cs
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\DS 4\Parcial_2_Jose_Jaen_1GS124\Parcial_2_Jose_Jaen_1GS124\obj\Debug\net10.0-windows\Parcial_2_Jose_Jaen_1GS124.csproj.CoreCompileInputs.cache
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\DS 4\Parcial_2_Jose_Jaen_1GS124\Parcial_2_Jose_Jaen_1GS124\obj\Debug\net10.0-windows\Parcial_2_Jose_Jaen_1GS124.genruntimeconfig.cache
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\DS 4\Parcial_2_Jose_Jaen_1GS124\Parcial_2_Jose_Jaen_1GS124\obj\Debug\net10.0-windows\ref\Parcial_2_Jose_Jaen_1GS124.dll
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\DS 4\Parcial_2_Jose_Jaen_1GS124\Parcial_2_Jose_Jaen_1GS124\obj\Debug\net10.0-windows\Parcial_.D06A6750.Up2Date
