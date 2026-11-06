@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\josej\\Documents\\UNIVERSIDAD\\DSIV\\JOSE\\DS 4\\Parcial_2_Jose_Jaen_1GS124\\Parcial_2_Jose_Jaen_1GS124\\Parcial_2_Jose_Jaen_1GS124.csproj",
+      "projectUniqueName": "C:\\Users\\josej\\Documents\\UNIVERSIDAD\\DSIV\\JOSE\\DS 4\\Parcial_3_Proyecto_1\\Parcial_2_Jose_Jaen_1GS124\\Parcial_2_Jose_Jaen_1GS124.csproj",
       "projectName": "Parcial_2_Jose_Jaen_1GS124",
-      "projectPath": "C:\\Users\\josej\\Documents\\UNIVERSIDAD\\DSIV\\JOSE\\DS 4\\Parcial_2_Jose_Jaen_1GS124\\Parcial_2_Jose_Jaen_1GS124\\Parcial_2_Jose_Jaen_1GS124.csproj",
+      "projectPath": "C:\\Users\\josej\\Documents\\UNIVERSIDAD\\DSIV\\JOSE\\DS 4\\Parcial_3_Proyecto_1\\Parcial_2_Jose_Jaen_1GS124\\Parcial_2_Jose_Jaen_1GS124.csproj",
       "packagesPath": "C:\\Users\\josej\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\josej\\Documents\\UNIVERSIDAD\\DSIV\\JOSE\\DS 4\\Parcial_2_Jose_Jaen_1GS124\\Parcial_2_Jose_Jaen_1GS124\\obj\\",
+      "outputPath": "C:\\Users\\josej\\Documents\\UNIVERSIDAD\\DSIV\\JOSE\\DS 4\\Parcial_3_Proyecto_1\\Parcial_2_Jose_Jaen_1GS124\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

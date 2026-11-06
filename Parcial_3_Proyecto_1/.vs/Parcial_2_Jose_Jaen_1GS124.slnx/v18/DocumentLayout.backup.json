@@ -1,25 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\josej\\Documents\\UNIVERSIDAD\\DSIV\\JOSE\\DS 4\\Parcial_2_Jose_Jaen_1GS124\\",
+  "WorkspaceRootPath": "C:\\Users\\josej\\Documents\\UNIVERSIDAD\\DSIV\\JOSE\\DS 4\\Parcial_3_Proyecto_1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0AA60EBE-EE39-FD45-2F59-5DB1F5D91AAC}|Parcial_2_Jose_Jaen_1GS124\\Parcial_2_Jose_Jaen_1GS124.csproj|c:\\users\\josej\\documents\\universidad\\dsiv\\jose\\ds 4\\parcial_2_jose_jaen_1gs124\\parcial_2_jose_jaen_1gs124\\finanzas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0AA60EBE-EE39-FD45-2F59-5DB1F5D91AAC}|Parcial_2_Jose_Jaen_1GS124\\Parcial_2_Jose_Jaen_1GS124.csproj|solutionrelative:parcial_2_jose_jaen_1gs124\\finanzas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{0AA60EBE-EE39-FD45-2F59-5DB1F5D91AAC}|Parcial_2_Jose_Jaen_1GS124\\Parcial_2_Jose_Jaen_1GS124.csproj|c:\\users\\josej\\documents\\universidad\\dsiv\\jose\\ds 4\\parcial_3_proyecto_1\\parcial_2_jose_jaen_1gs124\\finanzas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AA60EBE-EE39-FD45-2F59-5DB1F5D91AAC}|Parcial_2_Jose_Jaen_1GS124\\Parcial_2_Jose_Jaen_1GS124.csproj|solutionrelative:parcial_2_jose_jaen_1gs124\\finanzas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0AA60EBE-EE39-FD45-2F59-5DB1F5D91AAC}|Parcial_2_Jose_Jaen_1GS124\\Parcial_2_Jose_Jaen_1GS124.csproj|C:\\Users\\josej\\Documents\\UNIVERSIDAD\\DSIV\\JOSE\\DS 4\\Parcial_2_Jose_Jaen_1GS124\\parcial_2_jose_jaen_1gs124\\registro_clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0AA60EBE-EE39-FD45-2F59-5DB1F5D91AAC}|Parcial_2_Jose_Jaen_1GS124\\Parcial_2_Jose_Jaen_1GS124.csproj|solutionrelative:parcial_2_jose_jaen_1gs124\\registro_clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AA60EBE-EE39-FD45-2F59-5DB1F5D91AAC}|Parcial_2_Jose_Jaen_1GS124\\Parcial_2_Jose_Jaen_1GS124.csproj|C:\\Users\\josej\\Documents\\UNIVERSIDAD\\DSIV\\JOSE\\DS 4\\Parcial_2_Jose_Jaen_1GS124\\parcial_2_jose_jaen_1gs124\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0AA60EBE-EE39-FD45-2F59-5DB1F5D91AAC}|Parcial_2_Jose_Jaen_1GS124\\Parcial_2_Jose_Jaen_1GS124.csproj|solutionrelative:parcial_2_jose_jaen_1gs124\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AA60EBE-EE39-FD45-2F59-5DB1F5D91AAC}|Parcial_2_Jose_Jaen_1GS124\\Parcial_2_Jose_Jaen_1GS124.csproj|c:\\users\\josej\\documents\\universidad\\dsiv\\jose\\ds 4\\parcial_2_jose_jaen_1gs124\\parcial_2_jose_jaen_1gs124\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0AA60EBE-EE39-FD45-2F59-5DB1F5D91AAC}|Parcial_2_Jose_Jaen_1GS124\\Parcial_2_Jose_Jaen_1GS124.csproj|c:\\users\\josej\\documents\\universidad\\dsiv\\jose\\ds 4\\parcial_3_proyecto_1\\parcial_2_jose_jaen_1gs124\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0AA60EBE-EE39-FD45-2F59-5DB1F5D91AAC}|Parcial_2_Jose_Jaen_1GS124\\Parcial_2_Jose_Jaen_1GS124.csproj|solutionrelative:parcial_2_jose_jaen_1gs124\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0AA60EBE-EE39-FD45-2F59-5DB1F5D91AAC}|Parcial_2_Jose_Jaen_1GS124\\Parcial_2_Jose_Jaen_1GS124.csproj|c:\\users\\josej\\documents\\universidad\\dsiv\\jose\\ds 4\\parcial_2_jose_jaen_1gs124\\parcial_2_jose_jaen_1gs124\\registro_clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0AA60EBE-EE39-FD45-2F59-5DB1F5D91AAC}|Parcial_2_Jose_Jaen_1GS124\\Parcial_2_Jose_Jaen_1GS124.csproj|C:\\Users\\josej\\Documents\\UNIVERSIDAD\\DSIV\\JOSE\\DS 4\\Parcial_3_Proyecto_1\\parcial_2_jose_jaen_1gs124\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0AA60EBE-EE39-FD45-2F59-5DB1F5D91AAC}|Parcial_2_Jose_Jaen_1GS124\\Parcial_2_Jose_Jaen_1GS124.csproj|solutionrelative:parcial_2_jose_jaen_1gs124\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AA60EBE-EE39-FD45-2F59-5DB1F5D91AAC}|Parcial_2_Jose_Jaen_1GS124\\Parcial_2_Jose_Jaen_1GS124.csproj|c:\\users\\josej\\documents\\universidad\\dsiv\\jose\\ds 4\\parcial_3_proyecto_1\\parcial_2_jose_jaen_1gs124\\finanzas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0AA60EBE-EE39-FD45-2F59-5DB1F5D91AAC}|Parcial_2_Jose_Jaen_1GS124\\Parcial_2_Jose_Jaen_1GS124.csproj|solutionrelative:parcial_2_jose_jaen_1gs124\\finanzas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AA60EBE-EE39-FD45-2F59-5DB1F5D91AAC}|Parcial_2_Jose_Jaen_1GS124\\Parcial_2_Jose_Jaen_1GS124.csproj|C:\\Users\\josej\\Documents\\UNIVERSIDAD\\DSIV\\JOSE\\DS 4\\Parcial_3_Proyecto_1\\parcial_2_jose_jaen_1gs124\\registro_clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0AA60EBE-EE39-FD45-2F59-5DB1F5D91AAC}|Parcial_2_Jose_Jaen_1GS124\\Parcial_2_Jose_Jaen_1GS124.csproj|solutionrelative:parcial_2_jose_jaen_1gs124\\registro_clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AA60EBE-EE39-FD45-2F59-5DB1F5D91AAC}|Parcial_2_Jose_Jaen_1GS124\\Parcial_2_Jose_Jaen_1GS124.csproj|c:\\users\\josej\\documents\\universidad\\dsiv\\jose\\ds 4\\parcial_3_proyecto_1\\parcial_2_jose_jaen_1gs124\\registro_clientes.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{0AA60EBE-EE39-FD45-2F59-5DB1F5D91AAC}|Parcial_2_Jose_Jaen_1GS124\\Parcial_2_Jose_Jaen_1GS124.csproj|solutionrelative:parcial_2_jose_jaen_1gs124\\registro_clientes.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AA60EBE-EE39-FD45-2F59-5DB1F5D91AAC}|Parcial_2_Jose_Jaen_1GS124\\Parcial_2_Jose_Jaen_1GS124.csproj|c:\\users\\josej\\documents\\universidad\\dsiv\\jose\\ds 4\\parcial_3_proyecto_1\\parcial_2_jose_jaen_1gs124\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{0AA60EBE-EE39-FD45-2F59-5DB1F5D91AAC}|Parcial_2_Jose_Jaen_1GS124\\Parcial_2_Jose_Jaen_1GS124.csproj|solutionrelative:parcial_2_jose_jaen_1gs124\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AA60EBE-EE39-FD45-2F59-5DB1F5D91AAC}|Parcial_2_Jose_Jaen_1GS124\\Parcial_2_Jose_Jaen_1GS124.csproj|c:\\users\\josej\\documents\\universidad\\dsiv\\jose\\ds 4\\parcial_3_proyecto_1\\parcial_2_jose_jaen_1gs124\\registro_clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0AA60EBE-EE39-FD45-2F59-5DB1F5D91AAC}|Parcial_2_Jose_Jaen_1GS124\\Parcial_2_Jose_Jaen_1GS124.csproj|solutionrelative:parcial_2_jose_jaen_1gs124\\registro_clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -39,10 +51,34 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Finanzas.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\josej\\Documents\\UNIVERSIDAD\\DSIV\\JOSE\\DS 4\\Parcial_2_Jose_Jaen_1GS124\\Parcial_2_Jose_Jaen_1GS124\\Finanzas.cs",
+              "Title": "Finanzas.cs",
+              "DocumentMoniker": "C:\\Users\\josej\\Documents\\UNIVERSIDAD\\DSIV\\JOSE\\DS 4\\Parcial_3_Proyecto_1\\Parcial_2_Jose_Jaen_1GS124\\Finanzas.cs",
               "RelativeDocumentMoniker": "Parcial_2_Jose_Jaen_1GS124\\Finanzas.cs",
-              "ToolTip": "C:\\Users\\josej\\Documents\\UNIVERSIDAD\\DSIV\\JOSE\\DS 4\\Parcial_2_Jose_Jaen_1GS124\\Parcial_2_Jose_Jaen_1GS124\\Finanzas.cs [Design]",
+              "ToolTip": "C:\\Users\\josej\\Documents\\UNIVERSIDAD\\DSIV\\JOSE\\DS 4\\Parcial_3_Proyecto_1\\Parcial_2_Jose_Jaen_1GS124\\Finanzas.cs",
+              "RelativeToolTip": "Parcial_2_Jose_Jaen_1GS124\\Finanzas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T11:50:45.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Resources.resx",
+              "DocumentMoniker": "C:\\Users\\josej\\Documents\\UNIVERSIDAD\\DSIV\\JOSE\\DS 4\\Parcial_3_Proyecto_1\\Parcial_2_Jose_Jaen_1GS124\\Properties\\Resources.resx",
+              "RelativeDocumentMoniker": "Parcial_2_Jose_Jaen_1GS124\\Properties\\Resources.resx",
+              "ToolTip": "C:\\Users\\josej\\Documents\\UNIVERSIDAD\\DSIV\\JOSE\\DS 4\\Parcial_3_Proyecto_1\\Parcial_2_Jose_Jaen_1GS124\\Properties\\Resources.resx",
+              "RelativeToolTip": "Parcial_2_Jose_Jaen_1GS124\\Properties\\Resources.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2026-10-29T16:22:33.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Finanzas.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\josej\\Documents\\UNIVERSIDAD\\DSIV\\JOSE\\DS 4\\Parcial_3_Proyecto_1\\Parcial_2_Jose_Jaen_1GS124\\Finanzas.cs",
+              "RelativeDocumentMoniker": "Parcial_2_Jose_Jaen_1GS124\\Finanzas.cs",
+              "ToolTip": "C:\\Users\\josej\\Documents\\UNIVERSIDAD\\DSIV\\JOSE\\DS 4\\Parcial_3_Proyecto_1\\Parcial_2_Jose_Jaen_1GS124\\Finanzas.cs [Design]",
               "RelativeToolTip": "Parcial_2_Jose_Jaen_1GS124\\Finanzas.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-27T20:08:33.609Z",
@@ -50,35 +86,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\josej\\Documents\\UNIVERSIDAD\\DSIV\\JOSE\\DS 4\\Parcial_2_Jose_Jaen_1GS124\\Parcial_2_Jose_Jaen_1GS124\\Form1.cs",
-              "RelativeDocumentMoniker": "Parcial_2_Jose_Jaen_1GS124\\Form1.cs",
-              "ToolTip": "C:\\Users\\josej\\Documents\\UNIVERSIDAD\\DSIV\\JOSE\\DS 4\\Parcial_2_Jose_Jaen_1GS124\\Parcial_2_Jose_Jaen_1GS124\\Form1.cs",
-              "RelativeToolTip": "Parcial_2_Jose_Jaen_1GS124\\Form1.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAkwCoAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-27T01:18:31.181Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\josej\\Documents\\UNIVERSIDAD\\DSIV\\JOSE\\DS 4\\Parcial_2_Jose_Jaen_1GS124\\Parcial_2_Jose_Jaen_1GS124\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\josej\\Documents\\UNIVERSIDAD\\DSIV\\JOSE\\DS 4\\Parcial_3_Proyecto_1\\Parcial_2_Jose_Jaen_1GS124\\Form1.cs",
               "RelativeDocumentMoniker": "Parcial_2_Jose_Jaen_1GS124\\Form1.cs",
-              "ToolTip": "C:\\Users\\josej\\Documents\\UNIVERSIDAD\\DSIV\\JOSE\\DS 4\\Parcial_2_Jose_Jaen_1GS124\\Parcial_2_Jose_Jaen_1GS124\\Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\josej\\Documents\\UNIVERSIDAD\\DSIV\\JOSE\\DS 4\\Parcial_3_Proyecto_1\\Parcial_2_Jose_Jaen_1GS124\\Form1.cs [Design]",
               "RelativeToolTip": "Parcial_2_Jose_Jaen_1GS124\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-27T01:17:41.292Z"
+              "WhenOpened": "2026-10-27T01:17:41.292Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Registro_Clientes.cs",
-              "DocumentMoniker": "C:\\Users\\josej\\Documents\\UNIVERSIDAD\\DSIV\\JOSE\\DS 4\\Parcial_2_Jose_Jaen_1GS124\\Parcial_2_Jose_Jaen_1GS124\\Registro_Clientes.cs",
+              "DocumentMoniker": "C:\\Users\\josej\\Documents\\UNIVERSIDAD\\DSIV\\JOSE\\DS 4\\Parcial_3_Proyecto_1\\Parcial_2_Jose_Jaen_1GS124\\Registro_Clientes.cs",
               "RelativeDocumentMoniker": "Parcial_2_Jose_Jaen_1GS124\\Registro_Clientes.cs",
-              "ToolTip": "C:\\Users\\josej\\Documents\\UNIVERSIDAD\\DSIV\\JOSE\\DS 4\\Parcial_2_Jose_Jaen_1GS124\\Parcial_2_Jose_Jaen_1GS124\\Registro_Clientes.cs",
+              "ToolTip": "C:\\Users\\josej\\Documents\\UNIVERSIDAD\\DSIV\\JOSE\\DS 4\\Parcial_3_Proyecto_1\\Parcial_2_Jose_Jaen_1GS124\\Registro_Clientes.cs",
               "RelativeToolTip": "Parcial_2_Jose_Jaen_1GS124\\Registro_Clientes.cs",
               "ViewState": "AgIAAEUAAAAAAAAAAAAIwFIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -87,14 +111,38 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Registro_Clientes.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\josej\\Documents\\UNIVERSIDAD\\DSIV\\JOSE\\DS 4\\Parcial_2_Jose_Jaen_1GS124\\Parcial_2_Jose_Jaen_1GS124\\Registro_Clientes.cs",
+              "DocumentMoniker": "C:\\Users\\josej\\Documents\\UNIVERSIDAD\\DSIV\\JOSE\\DS 4\\Parcial_3_Proyecto_1\\Parcial_2_Jose_Jaen_1GS124\\Registro_Clientes.cs",
               "RelativeDocumentMoniker": "Parcial_2_Jose_Jaen_1GS124\\Registro_Clientes.cs",
-              "ToolTip": "C:\\Users\\josej\\Documents\\UNIVERSIDAD\\DSIV\\JOSE\\DS 4\\Parcial_2_Jose_Jaen_1GS124\\Parcial_2_Jose_Jaen_1GS124\\Registro_Clientes.cs [Design]",
+              "ToolTip": "C:\\Users\\josej\\Documents\\UNIVERSIDAD\\DSIV\\JOSE\\DS 4\\Parcial_3_Proyecto_1\\Parcial_2_Jose_Jaen_1GS124\\Registro_Clientes.cs [Design]",
               "RelativeToolTip": "Parcial_2_Jose_Jaen_1GS124\\Registro_Clientes.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-01T19:54:47.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\josej\\Documents\\UNIVERSIDAD\\DSIV\\JOSE\\DS 4\\Parcial_3_Proyecto_1\\Parcial_2_Jose_Jaen_1GS124\\Form1.cs",
+              "RelativeDocumentMoniker": "Parcial_2_Jose_Jaen_1GS124\\Form1.cs",
+              "ToolTip": "C:\\Users\\josej\\Documents\\UNIVERSIDAD\\DSIV\\JOSE\\DS 4\\Parcial_3_Proyecto_1\\Parcial_2_Jose_Jaen_1GS124\\Form1.cs",
+              "RelativeToolTip": "Parcial_2_Jose_Jaen_1GS124\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T01:18:31.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Registro_Clientes.resx",
+              "DocumentMoniker": "C:\\Users\\josej\\Documents\\UNIVERSIDAD\\DSIV\\JOSE\\DS 4\\Parcial_3_Proyecto_1\\Parcial_2_Jose_Jaen_1GS124\\Registro_Clientes.resx",
+              "RelativeDocumentMoniker": "Parcial_2_Jose_Jaen_1GS124\\Registro_Clientes.resx",
+              "ToolTip": "C:\\Users\\josej\\Documents\\UNIVERSIDAD\\DSIV\\JOSE\\DS 4\\Parcial_3_Proyecto_1\\Parcial_2_Jose_Jaen_1GS124\\Registro_Clientes.resx",
+              "RelativeToolTip": "Parcial_2_Jose_Jaen_1GS124\\Registro_Clientes.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2026-10-29T16:23:42.803Z"
             }
           ]
         }

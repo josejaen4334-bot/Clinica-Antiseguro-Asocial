@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Parcial_2_Jose_Jaen_1GS124")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0ec9984134912c8c34ea0090870087f1de629707")]
 [assembly: System.Reflection.AssemblyProductAttribute("Parcial_2_Jose_Jaen_1GS124")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Parcial_2_Jose_Jaen_1GS124")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
