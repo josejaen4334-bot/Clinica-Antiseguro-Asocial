@@ -1,0 +1,191 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\VS\\Parcial 3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9B72574B-9428-4662-8160-8315F6DC3676}|Parcial 3\\Parcial 3.csproj|C:\\VS\\Parcial 3\\parcial 3\\medicos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9B72574B-9428-4662-8160-8315F6DC3676}|Parcial 3\\Parcial 3.csproj|solutionrelative:parcial 3\\medicos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B72574B-9428-4662-8160-8315F6DC3676}|Parcial 3\\Parcial 3.csproj|C:\\VS\\Parcial 3\\parcial 3\\medicos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B72574B-9428-4662-8160-8315F6DC3676}|Parcial 3\\Parcial 3.csproj|solutionrelative:parcial 3\\medicos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B72574B-9428-4662-8160-8315F6DC3676}|Parcial 3\\Parcial 3.csproj|c:\\vs\\parcial 3\\parcial 3\\citas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9B72574B-9428-4662-8160-8315F6DC3676}|Parcial 3\\Parcial 3.csproj|solutionrelative:parcial 3\\citas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B72574B-9428-4662-8160-8315F6DC3676}|Parcial 3\\Parcial 3.csproj|C:\\VS\\Parcial 3\\parcial 3\\empleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B72574B-9428-4662-8160-8315F6DC3676}|Parcial 3\\Parcial 3.csproj|solutionrelative:parcial 3\\empleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B72574B-9428-4662-8160-8315F6DC3676}|Parcial 3\\Parcial 3.csproj|C:\\VS\\Parcial 3\\parcial 3\\empleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9B72574B-9428-4662-8160-8315F6DC3676}|Parcial 3\\Parcial 3.csproj|solutionrelative:parcial 3\\empleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B72574B-9428-4662-8160-8315F6DC3676}|Parcial 3\\Parcial 3.csproj|C:\\VS\\Parcial 3\\parcial 3\\panelprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B72574B-9428-4662-8160-8315F6DC3676}|Parcial 3\\Parcial 3.csproj|solutionrelative:parcial 3\\panelprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B72574B-9428-4662-8160-8315F6DC3676}|Parcial 3\\Parcial 3.csproj|C:\\VS\\Parcial 3\\parcial 3\\pacientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9B72574B-9428-4662-8160-8315F6DC3676}|Parcial 3\\Parcial 3.csproj|solutionrelative:parcial 3\\pacientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B72574B-9428-4662-8160-8315F6DC3676}|Parcial 3\\Parcial 3.csproj|C:\\VS\\Parcial 3\\parcial 3\\portada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9B72574B-9428-4662-8160-8315F6DC3676}|Parcial 3\\Parcial 3.csproj|solutionrelative:parcial 3\\portada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B72574B-9428-4662-8160-8315F6DC3676}|Parcial 3\\Parcial 3.csproj|C:\\VS\\Parcial 3\\parcial 3\\panelprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9B72574B-9428-4662-8160-8315F6DC3676}|Parcial 3\\Parcial 3.csproj|solutionrelative:parcial 3\\panelprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Parcial 3||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B72574B-9428-4662-8160-8315F6DC3676}|Parcial 3\\Parcial 3.csproj|C:\\VS\\Parcial 3\\parcial 3\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9B72574B-9428-4662-8160-8315F6DC3676}|Parcial 3\\Parcial 3.csproj|solutionrelative:parcial 3\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Parcial 3",
+              "DocumentMoniker": "C:\\VS\\Parcial 3\\Parcial 3\\Parcial 3.csproj",
+              "RelativeDocumentMoniker": "Parcial 3\\Parcial 3.csproj",
+              "ToolTip": "C:\\VS\\Parcial 3\\Parcial 3\\Parcial 3.csproj",
+              "RelativeToolTip": "Parcial 3\\Parcial 3.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-11-03T20:39:16.29Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Citas.cs [Design]",
+              "DocumentMoniker": "C:\\VS\\Parcial 3\\Parcial 3\\Citas.cs",
+              "RelativeDocumentMoniker": "Parcial 3\\Citas.cs",
+              "ToolTip": "C:\\VS\\Parcial 3\\Parcial 3\\Citas.cs [Design]",
+              "RelativeToolTip": "Parcial 3\\Citas.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-04T23:57:27.773Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Empleados.cs",
+              "DocumentMoniker": "C:\\VS\\Parcial 3\\Parcial 3\\Empleados.cs",
+              "RelativeDocumentMoniker": "Parcial 3\\Empleados.cs",
+              "ToolTip": "C:\\VS\\Parcial 3\\Parcial 3\\Empleados.cs",
+              "RelativeToolTip": "Parcial 3\\Empleados.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAgwBcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-04T23:56:18.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Medicos.cs",
+              "DocumentMoniker": "C:\\VS\\Parcial 3\\Parcial 3\\Medicos.cs",
+              "RelativeDocumentMoniker": "Parcial 3\\Medicos.cs",
+              "ToolTip": "C:\\VS\\Parcial 3\\Parcial 3\\Medicos.cs",
+              "RelativeToolTip": "Parcial 3\\Medicos.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAgwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-04T21:51:52.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PanelPrincipal.cs",
+              "DocumentMoniker": "C:\\VS\\Parcial 3\\Parcial 3\\PanelPrincipal.cs",
+              "RelativeDocumentMoniker": "Parcial 3\\PanelPrincipal.cs",
+              "ToolTip": "C:\\VS\\Parcial 3\\Parcial 3\\PanelPrincipal.cs",
+              "RelativeToolTip": "Parcial 3\\PanelPrincipal.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAQwCUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-04T21:46:43.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Portada.cs [Design]",
+              "DocumentMoniker": "C:\\VS\\Parcial 3\\Parcial 3\\Portada.cs",
+              "RelativeDocumentMoniker": "Parcial 3\\Portada.cs",
+              "ToolTip": "C:\\VS\\Parcial 3\\Parcial 3\\Portada.cs [Design]",
+              "RelativeToolTip": "Parcial 3\\Portada.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-04T19:23:40.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "C:\\VS\\Parcial 3\\Parcial 3\\Login.cs",
+              "RelativeDocumentMoniker": "Parcial 3\\Login.cs",
+              "ToolTip": "C:\\VS\\Parcial 3\\Parcial 3\\Login.cs [Design]",
+              "RelativeToolTip": "Parcial 3\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T20:02:50.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PanelPrincipal.cs [Design]",
+              "DocumentMoniker": "C:\\VS\\Parcial 3\\Parcial 3\\PanelPrincipal.cs",
+              "RelativeDocumentMoniker": "Parcial 3\\PanelPrincipal.cs",
+              "ToolTip": "C:\\VS\\Parcial 3\\Parcial 3\\PanelPrincipal.cs [Design]",
+              "RelativeToolTip": "Parcial 3\\PanelPrincipal.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-04T02:56:03.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Pacientes.cs [Design]",
+              "DocumentMoniker": "C:\\VS\\Parcial 3\\Parcial 3\\Pacientes.cs",
+              "RelativeDocumentMoniker": "Parcial 3\\Pacientes.cs",
+              "ToolTip": "C:\\VS\\Parcial 3\\Parcial 3\\Pacientes.cs [Design]",
+              "RelativeToolTip": "Parcial 3\\Pacientes.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-04T05:26:38.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Medicos.cs [Design]",
+              "DocumentMoniker": "C:\\VS\\Parcial 3\\Parcial 3\\Medicos.cs",
+              "RelativeDocumentMoniker": "Parcial 3\\Medicos.cs",
+              "ToolTip": "C:\\VS\\Parcial 3\\Parcial 3\\Medicos.cs [Design]",
+              "RelativeToolTip": "Parcial 3\\Medicos.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-04T21:29:38.925Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Empleados.cs [Design]",
+              "DocumentMoniker": "C:\\VS\\Parcial 3\\Parcial 3\\Empleados.cs",
+              "RelativeDocumentMoniker": "Parcial 3\\Empleados.cs",
+              "ToolTip": "C:\\VS\\Parcial 3\\Parcial 3\\Empleados.cs [Design]",
+              "RelativeToolTip": "Parcial 3\\Empleados.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-04T21:59:02.524Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
