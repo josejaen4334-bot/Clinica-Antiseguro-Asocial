@@ -59,6 +59,7 @@
             this.btnRegistrar = new System.Windows.Forms.Button();
             this.btnVolver = new System.Windows.Forms.Button();
             this.lblGestionEmpleados = new System.Windows.Forms.Label();
+            this.btnActualizarTabla = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).BeginInit();
             this.grpDatosEmpleado.SuspendLayout();
             this.grpEmpleados.SuspendLayout();
@@ -417,6 +418,17 @@
             this.lblGestionEmpleados.TabIndex = 34;
             this.lblGestionEmpleados.Text = "Unidad de Gestion de Empleados";
             // 
+            // btnActualizarTabla
+            // 
+            this.btnActualizarTabla.Font = new System.Drawing.Font("Manrope", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnActualizarTabla.ForeColor = System.Drawing.Color.MediumSeaGreen;
+            this.btnActualizarTabla.Location = new System.Drawing.Point(1244, 127);
+            this.btnActualizarTabla.Name = "btnActualizarTabla";
+            this.btnActualizarTabla.Size = new System.Drawing.Size(179, 40);
+            this.btnActualizarTabla.TabIndex = 35;
+            this.btnActualizarTabla.Text = "Actualizar Tabla";
+            this.btnActualizarTabla.UseVisualStyleBackColor = true;
+            // 
             // frmEmpleados
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -424,6 +436,7 @@
             this.BackgroundImage = global::Parcial_3.Properties.Resources.fondo_1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1475, 849);
+            this.Controls.Add(this.btnActualizarTabla);
             this.Controls.Add(this.lblGestionEmpleados);
             this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.btnLimpiar);
@@ -478,5 +491,6 @@
         private System.Windows.Forms.Button btnRegistrar;
         private System.Windows.Forms.Button btnVolver;
         private System.Windows.Forms.Label lblGestionEmpleados;
+        private System.Windows.Forms.Button btnActualizarTabla;
     }
 }
