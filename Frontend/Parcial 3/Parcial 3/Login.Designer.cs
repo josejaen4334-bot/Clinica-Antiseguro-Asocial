@@ -35,7 +35,6 @@
             this.lblLema = new System.Windows.Forms.Label();
             this.picLogo = new System.Windows.Forms.PictureBox();
             this.btnLogin = new System.Windows.Forms.Button();
-            this.btnRegistrar = new System.Windows.Forms.Button();
             this.txtUsuario = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -48,7 +47,7 @@
             this.lblUsuario.AutoSize = true;
             this.lblUsuario.BackColor = System.Drawing.Color.Transparent;
             this.lblUsuario.Font = new System.Drawing.Font("Manrope SemiBold", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUsuario.Location = new System.Drawing.Point(218, 197);
+            this.lblUsuario.Location = new System.Drawing.Point(226, 196);
             this.lblUsuario.Name = "lblUsuario";
             this.lblUsuario.Size = new System.Drawing.Size(74, 22);
             this.lblUsuario.TabIndex = 0;
@@ -59,7 +58,7 @@
             this.lblContrasena.AutoSize = true;
             this.lblContrasena.BackColor = System.Drawing.Color.Transparent;
             this.lblContrasena.Font = new System.Drawing.Font("Manrope SemiBold", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblContrasena.Location = new System.Drawing.Point(218, 264);
+            this.lblContrasena.Location = new System.Drawing.Point(226, 263);
             this.lblContrasena.Name = "lblContrasena";
             this.lblContrasena.Size = new System.Drawing.Size(107, 22);
             this.lblContrasena.TabIndex = 1;
@@ -70,7 +69,7 @@
             this.lblInicio.AutoSize = true;
             this.lblInicio.BackColor = System.Drawing.Color.Transparent;
             this.lblInicio.Font = new System.Drawing.Font("Manrope SemiBold", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblInicio.Location = new System.Drawing.Point(362, 154);
+            this.lblInicio.Location = new System.Drawing.Point(380, 143);
             this.lblInicio.Name = "lblInicio";
             this.lblInicio.Size = new System.Drawing.Size(112, 22);
             this.lblInicio.TabIndex = 2;
@@ -81,7 +80,7 @@
             this.lblTitulo.AutoSize = true;
             this.lblTitulo.BackColor = System.Drawing.Color.Transparent;
             this.lblTitulo.Font = new System.Drawing.Font("Manrope", 9.791999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitulo.Location = new System.Drawing.Point(319, 46);
+            this.lblTitulo.Location = new System.Drawing.Point(354, 53);
             this.lblTitulo.Name = "lblTitulo";
             this.lblTitulo.Size = new System.Drawing.Size(188, 23);
             this.lblTitulo.TabIndex = 3;
@@ -93,7 +92,7 @@
             this.lblLema.BackColor = System.Drawing.Color.Transparent;
             this.lblLema.Font = new System.Drawing.Font("Manrope SemiBold", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLema.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.lblLema.Location = new System.Drawing.Point(319, 91);
+            this.lblLema.Location = new System.Drawing.Point(342, 89);
             this.lblLema.Name = "lblLema";
             this.lblLema.Size = new System.Drawing.Size(210, 22);
             this.lblLema.TabIndex = 4;
@@ -113,7 +112,7 @@
             // btnLogin
             // 
             this.btnLogin.Font = new System.Drawing.Font("Manrope", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogin.Location = new System.Drawing.Point(222, 390);
+            this.btnLogin.Location = new System.Drawing.Point(369, 387);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(146, 47);
             this.btnLogin.TabIndex = 6;
@@ -121,21 +120,10 @@
             this.btnLogin.UseVisualStyleBackColor = true;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
-            // btnRegistrar
-            // 
-            this.btnRegistrar.Font = new System.Drawing.Font("Manrope", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegistrar.Location = new System.Drawing.Point(460, 390);
-            this.btnRegistrar.Name = "btnRegistrar";
-            this.btnRegistrar.Size = new System.Drawing.Size(147, 47);
-            this.btnRegistrar.TabIndex = 7;
-            this.btnRegistrar.Text = "Registrarse";
-            this.btnRegistrar.UseVisualStyleBackColor = true;
-            this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrar_Click);
-            // 
             // txtUsuario
             // 
             this.txtUsuario.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUsuario.Location = new System.Drawing.Point(338, 197);
+            this.txtUsuario.Location = new System.Drawing.Point(346, 196);
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(241, 24);
             this.txtUsuario.TabIndex = 8;
@@ -143,7 +131,7 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(338, 264);
+            this.textBox1.Location = new System.Drawing.Point(346, 263);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(241, 24);
             this.textBox1.TabIndex = 9;
@@ -153,7 +141,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Manrope SemiBold", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(218, 329);
+            this.label1.Location = new System.Drawing.Point(226, 328);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(39, 22);
             this.label1.TabIndex = 10;
@@ -167,7 +155,7 @@
             "Medico",
             "Paciente",
             "Admin"});
-            this.cmbRoles.Location = new System.Drawing.Point(338, 327);
+            this.cmbRoles.Location = new System.Drawing.Point(346, 326);
             this.cmbRoles.Name = "cmbRoles";
             this.cmbRoles.Size = new System.Drawing.Size(241, 27);
             this.cmbRoles.TabIndex = 11;
@@ -183,7 +171,6 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.txtUsuario);
-            this.Controls.Add(this.btnRegistrar);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.picLogo);
             this.Controls.Add(this.lblLema);
@@ -209,7 +196,6 @@
         private System.Windows.Forms.Label lblLema;
         private System.Windows.Forms.PictureBox picLogo;
         private System.Windows.Forms.Button btnLogin;
-        private System.Windows.Forms.Button btnRegistrar;
         private System.Windows.Forms.TextBox txtUsuario;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label1;
