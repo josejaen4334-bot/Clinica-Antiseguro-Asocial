@@ -61,6 +61,7 @@
             this.btnActualizar = new System.Windows.Forms.Button();
             this.btnRegistrar = new System.Windows.Forms.Button();
             this.lblGestionMedicos = new System.Windows.Forms.Label();
+            this.btnActualizarTabla = new System.Windows.Forms.Button();
             this.grpDatosMedico.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).BeginInit();
             this.grpVerMedicos.SuspendLayout();
@@ -440,6 +441,17 @@
             this.lblGestionMedicos.TabIndex = 35;
             this.lblGestionMedicos.Text = "Unidad de Gestion de Medicos";
             // 
+            // btnActualizarTabla
+            // 
+            this.btnActualizarTabla.Font = new System.Drawing.Font("Manrope", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnActualizarTabla.ForeColor = System.Drawing.Color.MediumSeaGreen;
+            this.btnActualizarTabla.Location = new System.Drawing.Point(1203, 110);
+            this.btnActualizarTabla.Name = "btnActualizarTabla";
+            this.btnActualizarTabla.Size = new System.Drawing.Size(179, 40);
+            this.btnActualizarTabla.TabIndex = 36;
+            this.btnActualizarTabla.Text = "Actualizar Tabla";
+            this.btnActualizarTabla.UseVisualStyleBackColor = true;
+            // 
             // frmMedicos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -447,6 +459,7 @@
             this.BackgroundImage = global::Parcial_3.Properties.Resources.fondo_1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1444, 849);
+            this.Controls.Add(this.btnActualizarTabla);
             this.Controls.Add(this.lblGestionMedicos);
             this.Controls.Add(this.btnLimpiar);
             this.Controls.Add(this.btnEliminar);
@@ -504,5 +517,6 @@
         private System.Windows.Forms.Button btnActualizar;
         private System.Windows.Forms.Button btnRegistrar;
         private System.Windows.Forms.Label lblGestionMedicos;
+        private System.Windows.Forms.Button btnActualizarTabla;
     }
 }
