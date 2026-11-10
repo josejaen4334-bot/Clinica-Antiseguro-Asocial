@@ -60,6 +60,8 @@
             this.btnVolver = new System.Windows.Forms.Button();
             this.lblGestionEmpleados = new System.Windows.Forms.Label();
             this.btnActualizarTabla = new System.Windows.Forms.Button();
+            this.txtBuscar = new System.Windows.Forms.TextBox();
+            this.btnBuscar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).BeginInit();
             this.grpDatosEmpleado.SuspendLayout();
             this.grpEmpleados.SuspendLayout();
@@ -429,6 +431,28 @@
             this.btnActualizarTabla.Text = "Actualizar Tabla";
             this.btnActualizarTabla.UseVisualStyleBackColor = true;
             // 
+            // txtBuscar
+            // 
+            this.txtBuscar.BackColor = System.Drawing.SystemColors.Window;
+            this.txtBuscar.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBuscar.Location = new System.Drawing.Point(835, 143);
+            this.txtBuscar.Name = "txtBuscar";
+            this.txtBuscar.ReadOnly = true;
+            this.txtBuscar.Size = new System.Drawing.Size(241, 24);
+            this.txtBuscar.TabIndex = 40;
+            this.txtBuscar.Text = "Buscar...";
+            // 
+            // btnBuscar
+            // 
+            this.btnBuscar.Font = new System.Drawing.Font("Manrope", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBuscar.ForeColor = System.Drawing.Color.Black;
+            this.btnBuscar.Location = new System.Drawing.Point(1106, 127);
+            this.btnBuscar.Name = "btnBuscar";
+            this.btnBuscar.Size = new System.Drawing.Size(116, 40);
+            this.btnBuscar.TabIndex = 39;
+            this.btnBuscar.Text = "Buscar";
+            this.btnBuscar.UseVisualStyleBackColor = true;
+            // 
             // frmEmpleados
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -436,6 +460,8 @@
             this.BackgroundImage = global::Parcial_3.Properties.Resources.fondo_1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1475, 849);
+            this.Controls.Add(this.txtBuscar);
+            this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.btnActualizarTabla);
             this.Controls.Add(this.lblGestionEmpleados);
             this.Controls.Add(this.btnVolver);
@@ -492,5 +518,7 @@
         private System.Windows.Forms.Button btnVolver;
         private System.Windows.Forms.Label lblGestionEmpleados;
         private System.Windows.Forms.Button btnActualizarTabla;
+        private System.Windows.Forms.TextBox txtBuscar;
+        private System.Windows.Forms.Button btnBuscar;
     }
 }

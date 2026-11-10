@@ -62,6 +62,8 @@
             this.btnRegistrar = new System.Windows.Forms.Button();
             this.lblGestionMedicos = new System.Windows.Forms.Label();
             this.btnActualizarTabla = new System.Windows.Forms.Button();
+            this.txtBuscar = new System.Windows.Forms.TextBox();
+            this.btnBuscar = new System.Windows.Forms.Button();
             this.grpDatosMedico.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).BeginInit();
             this.grpVerMedicos.SuspendLayout();
@@ -452,6 +454,28 @@
             this.btnActualizarTabla.Text = "Actualizar Tabla";
             this.btnActualizarTabla.UseVisualStyleBackColor = true;
             // 
+            // txtBuscar
+            // 
+            this.txtBuscar.BackColor = System.Drawing.SystemColors.Window;
+            this.txtBuscar.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBuscar.Location = new System.Drawing.Point(793, 126);
+            this.txtBuscar.Name = "txtBuscar";
+            this.txtBuscar.ReadOnly = true;
+            this.txtBuscar.Size = new System.Drawing.Size(241, 24);
+            this.txtBuscar.TabIndex = 40;
+            this.txtBuscar.Text = "Buscar...";
+            // 
+            // btnBuscar
+            // 
+            this.btnBuscar.Font = new System.Drawing.Font("Manrope", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBuscar.ForeColor = System.Drawing.Color.Black;
+            this.btnBuscar.Location = new System.Drawing.Point(1064, 110);
+            this.btnBuscar.Name = "btnBuscar";
+            this.btnBuscar.Size = new System.Drawing.Size(116, 40);
+            this.btnBuscar.TabIndex = 39;
+            this.btnBuscar.Text = "Buscar";
+            this.btnBuscar.UseVisualStyleBackColor = true;
+            // 
             // frmMedicos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -459,6 +483,8 @@
             this.BackgroundImage = global::Parcial_3.Properties.Resources.fondo_1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1444, 849);
+            this.Controls.Add(this.txtBuscar);
+            this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.btnActualizarTabla);
             this.Controls.Add(this.lblGestionMedicos);
             this.Controls.Add(this.btnLimpiar);
@@ -518,5 +544,7 @@
         private System.Windows.Forms.Button btnRegistrar;
         private System.Windows.Forms.Label lblGestionMedicos;
         private System.Windows.Forms.Button btnActualizarTabla;
+        private System.Windows.Forms.TextBox txtBuscar;
+        private System.Windows.Forms.Button btnBuscar;
     }
 }
