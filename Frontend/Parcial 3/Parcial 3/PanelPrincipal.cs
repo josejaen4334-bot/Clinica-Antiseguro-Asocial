@@ -42,5 +42,12 @@ namespace Parcial_3
         {
             this.Close();
         }
+
+        private void btnCitas_Click(object sender, EventArgs e)
+        {
+           frmCitas citas = new frmCitas();
+            citas.Show();
+            this.Close();
+        }
     }
 }

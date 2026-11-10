@@ -143,6 +143,7 @@
             this.btnCitas.Text = "Citas";
             this.btnCitas.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnCitas.UseVisualStyleBackColor = true;
+            this.btnCitas.Click += new System.EventHandler(this.btnCitas_Click);
             // 
             // btnHosptalizacion
             // 
