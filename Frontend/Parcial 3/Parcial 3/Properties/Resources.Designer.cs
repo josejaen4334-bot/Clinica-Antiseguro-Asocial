@@ -233,6 +233,16 @@ namespace Parcial_3.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap otro_fondo {
+            get {
+                object obj = ResourceManager.GetObject("otro_fondo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap paciente {
             get {
                 object obj = ResourceManager.GetObject("paciente", resourceCulture);
