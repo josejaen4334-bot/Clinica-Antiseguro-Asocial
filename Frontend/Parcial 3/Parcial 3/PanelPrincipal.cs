@@ -49,5 +49,39 @@ namespace Parcial_3
             citas.Show();
             this.Close();
         }
+
+        private void btnConsultas_Click(object sender, EventArgs e)
+        {
+            frmConsultas consultas = new frmConsultas();
+            consultas.Show();
+            this.Close();
+        }
+
+        private void btnHistorial_Click(object sender, EventArgs e)
+        {
+            frmHistorialClinico historialClinico = new frmHistorialClinico();
+            historialClinico.Show();
+            this.Close();
+        }
+
+        private void btnFacturacion_Click(object sender, EventArgs e)
+        {
+            frmFacturacion facturacion = new frmFacturacion();
+            facturacion.Show();
+            this.Close();
+        }
+        private void btnReportes_Click(object sender, EventArgs e)
+        {
+            frmReportes reportes = new frmReportes();
+            reportes.Show();
+            this.Close();
+        }
+
+        private void btnVideos_Click(object sender, EventArgs e)
+        {
+            frmVideos videos = new frmVideos();
+            videos.Show();
+            this.Close();
+        }
     }
 }

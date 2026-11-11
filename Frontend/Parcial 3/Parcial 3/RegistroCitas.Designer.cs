@@ -298,7 +298,7 @@
             // 
             this.btnActualizarTabla.Font = new System.Drawing.Font("Manrope", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnActualizarTabla.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.btnActualizarTabla.Location = new System.Drawing.Point(1229, 199);
+            this.btnActualizarTabla.Location = new System.Drawing.Point(1218, 127);
             this.btnActualizarTabla.Name = "btnActualizarTabla";
             this.btnActualizarTabla.Size = new System.Drawing.Size(179, 40);
             this.btnActualizarTabla.TabIndex = 46;
@@ -349,7 +349,7 @@
             // 
             this.btnVolver.Font = new System.Drawing.Font("Manrope", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVolver.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.btnVolver.Location = new System.Drawing.Point(1229, 143);
+            this.btnVolver.Location = new System.Drawing.Point(1218, 71);
             this.btnVolver.Name = "btnVolver";
             this.btnVolver.Size = new System.Drawing.Size(179, 40);
             this.btnVolver.TabIndex = 41;
@@ -362,7 +362,7 @@
             this.grpVerCitas.BackColor = System.Drawing.Color.Transparent;
             this.grpVerCitas.Controls.Add(this.dgvRegistro);
             this.grpVerCitas.Font = new System.Drawing.Font("Manrope", 8.063999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.grpVerCitas.Location = new System.Drawing.Point(624, 245);
+            this.grpVerCitas.Location = new System.Drawing.Point(614, 200);
             this.grpVerCitas.Name = "grpVerCitas";
             this.grpVerCitas.Size = new System.Drawing.Size(822, 482);
             this.grpVerCitas.TabIndex = 40;
@@ -384,7 +384,7 @@
             // 
             this.btnVerCalendario.Font = new System.Drawing.Font("Manrope", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVerCalendario.ForeColor = System.Drawing.Color.Green;
-            this.btnVerCalendario.Location = new System.Drawing.Point(1026, 199);
+            this.btnVerCalendario.Location = new System.Drawing.Point(1015, 127);
             this.btnVerCalendario.Name = "btnVerCalendario";
             this.btnVerCalendario.Size = new System.Drawing.Size(179, 40);
             this.btnVerCalendario.TabIndex = 47;

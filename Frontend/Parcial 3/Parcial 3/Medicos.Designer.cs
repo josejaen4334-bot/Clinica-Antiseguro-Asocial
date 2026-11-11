@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.grpDatosMedico = new System.Windows.Forms.GroupBox();
+            this.picFoto = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.cmbEstado = new System.Windows.Forms.ComboBox();
             this.lblEstado = new System.Windows.Forms.Label();
             this.cmbEspecialidad = new System.Windows.Forms.ComboBox();
@@ -65,6 +67,7 @@
             this.txtBuscar = new System.Windows.Forms.TextBox();
             this.btnBuscar = new System.Windows.Forms.Button();
             this.grpDatosMedico.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picFoto)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).BeginInit();
             this.grpVerMedicos.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvRegistro)).BeginInit();
@@ -73,6 +76,8 @@
             // grpDatosMedico
             // 
             this.grpDatosMedico.BackColor = System.Drawing.Color.Transparent;
+            this.grpDatosMedico.Controls.Add(this.picFoto);
+            this.grpDatosMedico.Controls.Add(this.label1);
             this.grpDatosMedico.Controls.Add(this.cmbEstado);
             this.grpDatosMedico.Controls.Add(this.lblEstado);
             this.grpDatosMedico.Controls.Add(this.cmbEspecialidad);
@@ -99,10 +104,32 @@
             this.grpDatosMedico.Font = new System.Drawing.Font("Manrope", 8.063999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grpDatosMedico.Location = new System.Drawing.Point(41, 156);
             this.grpDatosMedico.Name = "grpDatosMedico";
-            this.grpDatosMedico.Size = new System.Drawing.Size(508, 644);
+            this.grpDatosMedico.Size = new System.Drawing.Size(508, 855);
             this.grpDatosMedico.TabIndex = 22;
             this.grpDatosMedico.TabStop = false;
             this.grpDatosMedico.Text = "Datos del Medico";
+            // 
+            // picFoto
+            // 
+            this.picFoto.BackColor = System.Drawing.Color.LightGray;
+            this.picFoto.BackgroundImage = global::Parcial_3.Properties.Resources.perfil_del_usuario1;
+            this.picFoto.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.picFoto.Location = new System.Drawing.Point(241, 103);
+            this.picFoto.Name = "picFoto";
+            this.picFoto.Size = new System.Drawing.Size(213, 171);
+            this.picFoto.TabIndex = 34;
+            this.picFoto.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Manrope SemiBold", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(27, 114);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(50, 22);
+            this.label1.TabIndex = 33;
+            this.label1.Text = "Foto:";
             // 
             // cmbEstado
             // 
@@ -113,7 +140,7 @@
             "Odontologia",
             "Cardiologo"});
             this.cmbEstado.FormattingEnabled = true;
-            this.cmbEstado.Location = new System.Drawing.Point(220, 581);
+            this.cmbEstado.Location = new System.Drawing.Point(226, 779);
             this.cmbEstado.Name = "cmbEstado";
             this.cmbEstado.Size = new System.Drawing.Size(239, 27);
             this.cmbEstado.TabIndex = 32;
@@ -123,7 +150,7 @@
             this.lblEstado.AutoSize = true;
             this.lblEstado.BackColor = System.Drawing.Color.Transparent;
             this.lblEstado.Font = new System.Drawing.Font("Manrope SemiBold", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEstado.Location = new System.Drawing.Point(19, 586);
+            this.lblEstado.Location = new System.Drawing.Point(25, 784);
             this.lblEstado.Name = "lblEstado";
             this.lblEstado.Size = new System.Drawing.Size(69, 22);
             this.lblEstado.TabIndex = 31;
@@ -138,7 +165,7 @@
             "Odontologia",
             "Cardiologo"});
             this.cmbEspecialidad.FormattingEnabled = true;
-            this.cmbEspecialidad.Location = new System.Drawing.Point(218, 416);
+            this.cmbEspecialidad.Location = new System.Drawing.Point(224, 614);
             this.cmbEspecialidad.Name = "cmbEspecialidad";
             this.cmbEspecialidad.Size = new System.Drawing.Size(239, 27);
             this.cmbEspecialidad.TabIndex = 30;
@@ -146,7 +173,7 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(218, 477);
+            this.textBox1.Location = new System.Drawing.Point(224, 675);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(241, 24);
             this.textBox1.TabIndex = 29;
@@ -156,7 +183,7 @@
             this.lblLicencia.AutoSize = true;
             this.lblLicencia.BackColor = System.Drawing.Color.Transparent;
             this.lblLicencia.Font = new System.Drawing.Font("Manrope SemiBold", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblLicencia.Location = new System.Drawing.Point(19, 479);
+            this.lblLicencia.Location = new System.Drawing.Point(25, 677);
             this.lblLicencia.Name = "lblLicencia";
             this.lblLicencia.Size = new System.Drawing.Size(78, 22);
             this.lblLicencia.TabIndex = 28;
@@ -167,7 +194,7 @@
             this.lblEspecialidad.AutoSize = true;
             this.lblEspecialidad.BackColor = System.Drawing.Color.Transparent;
             this.lblEspecialidad.Font = new System.Drawing.Font("Manrope SemiBold", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEspecialidad.Location = new System.Drawing.Point(19, 421);
+            this.lblEspecialidad.Location = new System.Drawing.Point(25, 619);
             this.lblEspecialidad.Name = "lblEspecialidad";
             this.lblEspecialidad.Size = new System.Drawing.Size(131, 22);
             this.lblEspecialidad.TabIndex = 26;
@@ -176,7 +203,7 @@
             // txtCorreo
             // 
             this.txtCorreo.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCorreo.Location = new System.Drawing.Point(218, 364);
+            this.txtCorreo.Location = new System.Drawing.Point(224, 562);
             this.txtCorreo.Name = "txtCorreo";
             this.txtCorreo.Size = new System.Drawing.Size(241, 24);
             this.txtCorreo.TabIndex = 25;
@@ -186,7 +213,7 @@
             this.lblCorreo.AutoSize = true;
             this.lblCorreo.BackColor = System.Drawing.Color.Transparent;
             this.lblCorreo.Font = new System.Drawing.Font("Manrope SemiBold", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCorreo.Location = new System.Drawing.Point(19, 364);
+            this.lblCorreo.Location = new System.Drawing.Point(25, 562);
             this.lblCorreo.Name = "lblCorreo";
             this.lblCorreo.Size = new System.Drawing.Size(69, 22);
             this.lblCorreo.TabIndex = 24;
@@ -196,7 +223,7 @@
             // 
             this.txtTelefono.BackColor = System.Drawing.SystemColors.Window;
             this.txtTelefono.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTelefono.Location = new System.Drawing.Point(218, 309);
+            this.txtTelefono.Location = new System.Drawing.Point(224, 507);
             this.txtTelefono.Name = "txtTelefono";
             this.txtTelefono.ReadOnly = true;
             this.txtTelefono.Size = new System.Drawing.Size(241, 24);
@@ -207,7 +234,7 @@
             this.lblTelefono.AutoSize = true;
             this.lblTelefono.BackColor = System.Drawing.Color.Transparent;
             this.lblTelefono.Font = new System.Drawing.Font("Manrope SemiBold", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTelefono.Location = new System.Drawing.Point(19, 311);
+            this.lblTelefono.Location = new System.Drawing.Point(25, 509);
             this.lblTelefono.Name = "lblTelefono";
             this.lblTelefono.Size = new System.Drawing.Size(84, 22);
             this.lblTelefono.TabIndex = 22;
@@ -216,7 +243,7 @@
             // txtCedula
             // 
             this.txtCedula.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCedula.Location = new System.Drawing.Point(218, 204);
+            this.txtCedula.Location = new System.Drawing.Point(224, 402);
             this.txtCedula.Name = "txtCedula";
             this.txtCedula.Size = new System.Drawing.Size(241, 24);
             this.txtCedula.TabIndex = 21;
@@ -226,7 +253,7 @@
             this.lblCedula.AutoSize = true;
             this.lblCedula.BackColor = System.Drawing.Color.Transparent;
             this.lblCedula.Font = new System.Drawing.Font("Manrope SemiBold", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCedula.Location = new System.Drawing.Point(19, 205);
+            this.lblCedula.Location = new System.Drawing.Point(25, 403);
             this.lblCedula.Name = "lblCedula";
             this.lblCedula.Size = new System.Drawing.Size(70, 22);
             this.lblCedula.TabIndex = 20;
@@ -234,7 +261,7 @@
             // 
             // dtpContratacion
             // 
-            this.dtpContratacion.Location = new System.Drawing.Point(218, 529);
+            this.dtpContratacion.Location = new System.Drawing.Point(224, 727);
             this.dtpContratacion.MaxDate = new System.DateTime(2030, 1, 1, 0, 0, 0, 0);
             this.dtpContratacion.MinDate = new System.DateTime(1920, 1, 1, 0, 0, 0, 0);
             this.dtpContratacion.Name = "dtpContratacion";
@@ -245,7 +272,7 @@
             // radMasculino
             // 
             this.radMasculino.AutoSize = true;
-            this.radMasculino.Location = new System.Drawing.Point(358, 257);
+            this.radMasculino.Location = new System.Drawing.Point(362, 454);
             this.radMasculino.Name = "radMasculino";
             this.radMasculino.Size = new System.Drawing.Size(101, 23);
             this.radMasculino.TabIndex = 17;
@@ -256,7 +283,7 @@
             // radFemenino
             // 
             this.radFemenino.AutoSize = true;
-            this.radFemenino.Location = new System.Drawing.Point(218, 257);
+            this.radFemenino.Location = new System.Drawing.Point(224, 455);
             this.radFemenino.Name = "radFemenino";
             this.radFemenino.Size = new System.Drawing.Size(97, 23);
             this.radFemenino.TabIndex = 16;
@@ -267,7 +294,7 @@
             // txtApellido
             // 
             this.txtApellido.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtApellido.Location = new System.Drawing.Point(218, 153);
+            this.txtApellido.Location = new System.Drawing.Point(224, 351);
             this.txtApellido.Name = "txtApellido";
             this.txtApellido.Size = new System.Drawing.Size(241, 24);
             this.txtApellido.TabIndex = 15;
@@ -275,7 +302,7 @@
             // txtNombre
             // 
             this.txtNombre.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNombre.Location = new System.Drawing.Point(218, 101);
+            this.txtNombre.Location = new System.Drawing.Point(224, 299);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(241, 24);
             this.txtNombre.TabIndex = 14;
@@ -285,7 +312,7 @@
             this.lblNacimiento.AutoSize = true;
             this.lblNacimiento.BackColor = System.Drawing.Color.Transparent;
             this.lblNacimiento.Font = new System.Drawing.Font("Manrope SemiBold", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNacimiento.Location = new System.Drawing.Point(19, 534);
+            this.lblNacimiento.Location = new System.Drawing.Point(25, 732);
             this.lblNacimiento.Name = "lblNacimiento";
             this.lblNacimiento.Size = new System.Drawing.Size(190, 22);
             this.lblNacimiento.TabIndex = 13;
@@ -296,7 +323,7 @@
             this.lblGenero.AutoSize = true;
             this.lblGenero.BackColor = System.Drawing.Color.Transparent;
             this.lblGenero.Font = new System.Drawing.Font("Manrope SemiBold", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGenero.Location = new System.Drawing.Point(19, 256);
+            this.lblGenero.Location = new System.Drawing.Point(25, 454);
             this.lblGenero.Name = "lblGenero";
             this.lblGenero.Size = new System.Drawing.Size(73, 22);
             this.lblGenero.TabIndex = 12;
@@ -307,7 +334,7 @@
             this.lblApellido.AutoSize = true;
             this.lblApellido.BackColor = System.Drawing.Color.Transparent;
             this.lblApellido.Font = new System.Drawing.Font("Manrope SemiBold", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblApellido.Location = new System.Drawing.Point(19, 154);
+            this.lblApellido.Location = new System.Drawing.Point(25, 352);
             this.lblApellido.Name = "lblApellido";
             this.lblApellido.Size = new System.Drawing.Size(78, 22);
             this.lblApellido.TabIndex = 11;
@@ -318,7 +345,7 @@
             this.lblNombre.AutoSize = true;
             this.lblNombre.BackColor = System.Drawing.Color.Transparent;
             this.lblNombre.Font = new System.Drawing.Font("Manrope SemiBold", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNombre.Location = new System.Drawing.Point(19, 100);
+            this.lblNombre.Location = new System.Drawing.Point(25, 298);
             this.lblNombre.Name = "lblNombre";
             this.lblNombre.Size = new System.Drawing.Size(76, 22);
             this.lblNombre.TabIndex = 10;
@@ -328,7 +355,7 @@
             // 
             this.txtIDMedico.BackColor = System.Drawing.SystemColors.Window;
             this.txtIDMedico.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtIDMedico.Location = new System.Drawing.Point(218, 46);
+            this.txtIDMedico.Location = new System.Drawing.Point(226, 55);
             this.txtIDMedico.Name = "txtIDMedico";
             this.txtIDMedico.ReadOnly = true;
             this.txtIDMedico.Size = new System.Drawing.Size(241, 24);
@@ -339,7 +366,7 @@
             this.lblIDMedico.AutoSize = true;
             this.lblIDMedico.BackColor = System.Drawing.Color.Transparent;
             this.lblIDMedico.Font = new System.Drawing.Font("Manrope SemiBold", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblIDMedico.Location = new System.Drawing.Point(19, 47);
+            this.lblIDMedico.Location = new System.Drawing.Point(27, 56);
             this.lblIDMedico.Name = "lblIDMedico";
             this.lblIDMedico.Size = new System.Drawing.Size(113, 22);
             this.lblIDMedico.TabIndex = 1;
@@ -458,9 +485,8 @@
             // 
             this.txtBuscar.BackColor = System.Drawing.SystemColors.Window;
             this.txtBuscar.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBuscar.Location = new System.Drawing.Point(793, 126);
+            this.txtBuscar.Location = new System.Drawing.Point(807, 126);
             this.txtBuscar.Name = "txtBuscar";
-            this.txtBuscar.ReadOnly = true;
             this.txtBuscar.Size = new System.Drawing.Size(241, 24);
             this.txtBuscar.TabIndex = 40;
             this.txtBuscar.Text = "Buscar...";
@@ -469,7 +495,7 @@
             // 
             this.btnBuscar.Font = new System.Drawing.Font("Manrope", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBuscar.ForeColor = System.Drawing.Color.Black;
-            this.btnBuscar.Location = new System.Drawing.Point(1064, 110);
+            this.btnBuscar.Location = new System.Drawing.Point(1078, 110);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(116, 40);
             this.btnBuscar.TabIndex = 39;
@@ -480,9 +506,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
             this.BackgroundImage = global::Parcial_3.Properties.Resources.fondo_1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1444, 849);
+            this.ClientSize = new System.Drawing.Size(1444, 1054);
             this.Controls.Add(this.txtBuscar);
             this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.btnActualizarTabla);
@@ -500,6 +527,7 @@
             this.Text = "Gestion de Medicos";
             this.grpDatosMedico.ResumeLayout(false);
             this.grpDatosMedico.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picFoto)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).EndInit();
             this.grpVerMedicos.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvRegistro)).EndInit();
@@ -544,6 +572,8 @@
         private System.Windows.Forms.Button btnRegistrar;
         private System.Windows.Forms.Label lblGestionMedicos;
         private System.Windows.Forms.Button btnActualizarTabla;
+        private System.Windows.Forms.PictureBox picFoto;
+        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtBuscar;
         private System.Windows.Forms.Button btnBuscar;
     }

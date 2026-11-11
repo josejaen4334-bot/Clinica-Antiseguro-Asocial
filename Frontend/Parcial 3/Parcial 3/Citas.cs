@@ -21,6 +21,7 @@ namespace Parcial_3
         {
             frmRegistroCitas registroCitas = new frmRegistroCitas();
             registroCitas.Show();
+            this.Close();
         }
 
         private void btnVolver_Click(object sender, EventArgs e)

@@ -27,7 +27,7 @@ namespace Parcial_3
 
         private void btnVerCalendario_Click(object sender, EventArgs e)
         {
-            //Si, efectivamente hace lo mismo que el botn volver, pero es por si acaso se les olvida el orden de los formularios
+            //Si, efectivamente hace lo mismo que el btn volver, pero es por practicidad (por si acaso se les olvida el orden de los formularios)
             frmCitas citas = new frmCitas();
             citas.Show();
             this.Close();

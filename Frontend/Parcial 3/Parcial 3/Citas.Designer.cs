@@ -93,7 +93,7 @@
             this.tlpCalendario.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 181F));
             this.tlpCalendario.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 177F));
             this.tlpCalendario.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 180F));
-            this.tlpCalendario.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 178F));
+            this.tlpCalendario.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 179F));
             this.tlpCalendario.Controls.Add(this.flpSabado5, 6, 5);
             this.tlpCalendario.Controls.Add(this.flpViernes5, 5, 5);
             this.tlpCalendario.Controls.Add(this.flpJueves5, 4, 5);
@@ -138,260 +138,261 @@
             this.tlpCalendario.Controls.Add(this.flpDomingo2, 0, 2);
             this.tlpCalendario.Location = new System.Drawing.Point(169, 168);
             this.tlpCalendario.Name = "tlpCalendario";
+            this.tlpCalendario.Padding = new System.Windows.Forms.Padding(5, 5, 0, 10);
             this.tlpCalendario.RowCount = 6;
-            this.tlpCalendario.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 27.2F));
-            this.tlpCalendario.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 72.8F));
-            this.tlpCalendario.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 166F));
-            this.tlpCalendario.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 163F));
-            this.tlpCalendario.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 163F));
-            this.tlpCalendario.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 159F));
-            this.tlpCalendario.Size = new System.Drawing.Size(1235, 870);
+            this.tlpCalendario.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 35.26012F));
+            this.tlpCalendario.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 64.73988F));
+            this.tlpCalendario.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 120F));
+            this.tlpCalendario.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 136F));
+            this.tlpCalendario.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 136F));
+            this.tlpCalendario.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 116F));
+            this.tlpCalendario.Size = new System.Drawing.Size(1235, 705);
             this.tlpCalendario.TabIndex = 0;
             // 
             // flpSabado5
             // 
             this.flpSabado5.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.flpSabado5.Location = new System.Drawing.Point(1059, 713);
+            this.flpSabado5.Location = new System.Drawing.Point(1058, 581);
             this.flpSabado5.Name = "flpSabado5";
-            this.flpSabado5.Size = new System.Drawing.Size(170, 153);
+            this.flpSabado5.Size = new System.Drawing.Size(170, 111);
             this.flpSabado5.TabIndex = 38;
             // 
             // flpViernes5
             // 
             this.flpViernes5.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.flpViernes5.Location = new System.Drawing.Point(879, 713);
+            this.flpViernes5.Location = new System.Drawing.Point(878, 581);
             this.flpViernes5.Name = "flpViernes5";
-            this.flpViernes5.Size = new System.Drawing.Size(172, 153);
+            this.flpViernes5.Size = new System.Drawing.Size(172, 111);
             this.flpViernes5.TabIndex = 37;
             // 
             // flpJueves5
             // 
             this.flpJueves5.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.flpJueves5.Location = new System.Drawing.Point(702, 713);
+            this.flpJueves5.Location = new System.Drawing.Point(701, 581);
             this.flpJueves5.Name = "flpJueves5";
-            this.flpJueves5.Size = new System.Drawing.Size(171, 153);
+            this.flpJueves5.Size = new System.Drawing.Size(171, 111);
             this.flpJueves5.TabIndex = 36;
             // 
             // flpMiercoles5
             // 
             this.flpMiercoles5.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.flpMiercoles5.Location = new System.Drawing.Point(521, 713);
+            this.flpMiercoles5.Location = new System.Drawing.Point(520, 581);
             this.flpMiercoles5.Name = "flpMiercoles5";
-            this.flpMiercoles5.Size = new System.Drawing.Size(172, 153);
+            this.flpMiercoles5.Size = new System.Drawing.Size(172, 111);
             this.flpMiercoles5.TabIndex = 35;
             // 
             // flpMartes5
             // 
             this.flpMartes5.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.flpMartes5.Location = new System.Drawing.Point(349, 713);
+            this.flpMartes5.Location = new System.Drawing.Point(348, 581);
             this.flpMartes5.Name = "flpMartes5";
-            this.flpMartes5.Size = new System.Drawing.Size(166, 153);
+            this.flpMartes5.Size = new System.Drawing.Size(166, 111);
             this.flpMartes5.TabIndex = 34;
             // 
             // flpLunes5
             // 
             this.flpLunes5.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.flpLunes5.Location = new System.Drawing.Point(172, 713);
+            this.flpLunes5.Location = new System.Drawing.Point(174, 581);
             this.flpLunes5.Name = "flpLunes5";
-            this.flpLunes5.Size = new System.Drawing.Size(171, 153);
+            this.flpLunes5.Size = new System.Drawing.Size(168, 111);
             this.flpLunes5.TabIndex = 33;
             // 
             // flpSabado4
             // 
             this.flpSabado4.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.flpSabado4.Location = new System.Drawing.Point(1059, 550);
+            this.flpSabado4.Location = new System.Drawing.Point(1058, 445);
             this.flpSabado4.Name = "flpSabado4";
-            this.flpSabado4.Size = new System.Drawing.Size(170, 153);
+            this.flpSabado4.Size = new System.Drawing.Size(170, 130);
             this.flpSabado4.TabIndex = 32;
             // 
             // flpViernes4
             // 
             this.flpViernes4.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.flpViernes4.Location = new System.Drawing.Point(879, 550);
+            this.flpViernes4.Location = new System.Drawing.Point(878, 445);
             this.flpViernes4.Name = "flpViernes4";
-            this.flpViernes4.Size = new System.Drawing.Size(172, 153);
+            this.flpViernes4.Size = new System.Drawing.Size(172, 130);
             this.flpViernes4.TabIndex = 31;
             // 
             // flpJueves4
             // 
             this.flpJueves4.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.flpJueves4.Location = new System.Drawing.Point(702, 550);
+            this.flpJueves4.Location = new System.Drawing.Point(701, 445);
             this.flpJueves4.Name = "flpJueves4";
-            this.flpJueves4.Size = new System.Drawing.Size(171, 153);
+            this.flpJueves4.Size = new System.Drawing.Size(171, 130);
             this.flpJueves4.TabIndex = 30;
             // 
             // flpMiercoles4
             // 
             this.flpMiercoles4.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.flpMiercoles4.Location = new System.Drawing.Point(521, 550);
+            this.flpMiercoles4.Location = new System.Drawing.Point(520, 445);
             this.flpMiercoles4.Name = "flpMiercoles4";
-            this.flpMiercoles4.Size = new System.Drawing.Size(172, 153);
+            this.flpMiercoles4.Size = new System.Drawing.Size(172, 130);
             this.flpMiercoles4.TabIndex = 29;
             // 
             // flpMartes4
             // 
             this.flpMartes4.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.flpMartes4.Location = new System.Drawing.Point(349, 550);
+            this.flpMartes4.Location = new System.Drawing.Point(348, 445);
             this.flpMartes4.Name = "flpMartes4";
-            this.flpMartes4.Size = new System.Drawing.Size(166, 153);
+            this.flpMartes4.Size = new System.Drawing.Size(166, 130);
             this.flpMartes4.TabIndex = 28;
             // 
             // flpLunes4
             // 
             this.flpLunes4.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.flpLunes4.Location = new System.Drawing.Point(172, 550);
+            this.flpLunes4.Location = new System.Drawing.Point(174, 445);
             this.flpLunes4.Name = "flpLunes4";
-            this.flpLunes4.Size = new System.Drawing.Size(171, 153);
+            this.flpLunes4.Size = new System.Drawing.Size(168, 130);
             this.flpLunes4.TabIndex = 27;
             // 
             // flpSabado3
             // 
             this.flpSabado3.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.flpSabado3.Location = new System.Drawing.Point(1059, 387);
+            this.flpSabado3.Location = new System.Drawing.Point(1058, 309);
             this.flpSabado3.Name = "flpSabado3";
-            this.flpSabado3.Size = new System.Drawing.Size(170, 153);
+            this.flpSabado3.Size = new System.Drawing.Size(170, 130);
             this.flpSabado3.TabIndex = 26;
             // 
             // flpViernes3
             // 
             this.flpViernes3.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.flpViernes3.Location = new System.Drawing.Point(879, 387);
+            this.flpViernes3.Location = new System.Drawing.Point(878, 309);
             this.flpViernes3.Name = "flpViernes3";
-            this.flpViernes3.Size = new System.Drawing.Size(172, 153);
+            this.flpViernes3.Size = new System.Drawing.Size(172, 130);
             this.flpViernes3.TabIndex = 25;
             // 
             // flpJueves3
             // 
             this.flpJueves3.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.flpJueves3.Location = new System.Drawing.Point(702, 387);
+            this.flpJueves3.Location = new System.Drawing.Point(701, 309);
             this.flpJueves3.Name = "flpJueves3";
-            this.flpJueves3.Size = new System.Drawing.Size(171, 153);
+            this.flpJueves3.Size = new System.Drawing.Size(171, 130);
             this.flpJueves3.TabIndex = 24;
             // 
             // flpMiercoles3
             // 
             this.flpMiercoles3.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.flpMiercoles3.Location = new System.Drawing.Point(521, 387);
+            this.flpMiercoles3.Location = new System.Drawing.Point(520, 309);
             this.flpMiercoles3.Name = "flpMiercoles3";
-            this.flpMiercoles3.Size = new System.Drawing.Size(172, 153);
+            this.flpMiercoles3.Size = new System.Drawing.Size(172, 130);
             this.flpMiercoles3.TabIndex = 23;
             // 
             // flpMartes3
             // 
             this.flpMartes3.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.flpMartes3.Location = new System.Drawing.Point(349, 387);
+            this.flpMartes3.Location = new System.Drawing.Point(348, 309);
             this.flpMartes3.Name = "flpMartes3";
-            this.flpMartes3.Size = new System.Drawing.Size(166, 153);
+            this.flpMartes3.Size = new System.Drawing.Size(166, 130);
             this.flpMartes3.TabIndex = 22;
             // 
             // flpLunes3
             // 
             this.flpLunes3.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.flpLunes3.Location = new System.Drawing.Point(172, 387);
+            this.flpLunes3.Location = new System.Drawing.Point(174, 309);
             this.flpLunes3.Name = "flpLunes3";
-            this.flpLunes3.Size = new System.Drawing.Size(171, 153);
+            this.flpLunes3.Size = new System.Drawing.Size(168, 130);
             this.flpLunes3.TabIndex = 21;
             // 
             // flpSabado2
             // 
             this.flpSabado2.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.flpSabado2.Location = new System.Drawing.Point(1059, 221);
+            this.flpSabado2.Location = new System.Drawing.Point(1058, 189);
             this.flpSabado2.Name = "flpSabado2";
-            this.flpSabado2.Size = new System.Drawing.Size(170, 153);
+            this.flpSabado2.Size = new System.Drawing.Size(170, 114);
             this.flpSabado2.TabIndex = 20;
             // 
             // flpViernes2
             // 
             this.flpViernes2.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.flpViernes2.Location = new System.Drawing.Point(879, 221);
+            this.flpViernes2.Location = new System.Drawing.Point(878, 189);
             this.flpViernes2.Name = "flpViernes2";
-            this.flpViernes2.Size = new System.Drawing.Size(172, 153);
+            this.flpViernes2.Size = new System.Drawing.Size(172, 114);
             this.flpViernes2.TabIndex = 19;
             // 
             // flpJueves2
             // 
             this.flpJueves2.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.flpJueves2.Location = new System.Drawing.Point(702, 221);
+            this.flpJueves2.Location = new System.Drawing.Point(701, 189);
             this.flpJueves2.Name = "flpJueves2";
-            this.flpJueves2.Size = new System.Drawing.Size(171, 153);
+            this.flpJueves2.Size = new System.Drawing.Size(171, 114);
             this.flpJueves2.TabIndex = 18;
             // 
             // flpMiercoles2
             // 
             this.flpMiercoles2.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.flpMiercoles2.Location = new System.Drawing.Point(521, 221);
+            this.flpMiercoles2.Location = new System.Drawing.Point(520, 189);
             this.flpMiercoles2.Name = "flpMiercoles2";
-            this.flpMiercoles2.Size = new System.Drawing.Size(172, 153);
+            this.flpMiercoles2.Size = new System.Drawing.Size(172, 114);
             this.flpMiercoles2.TabIndex = 17;
             // 
             // flpMartes2
             // 
             this.flpMartes2.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.flpMartes2.Location = new System.Drawing.Point(349, 221);
+            this.flpMartes2.Location = new System.Drawing.Point(348, 189);
             this.flpMartes2.Name = "flpMartes2";
-            this.flpMartes2.Size = new System.Drawing.Size(166, 153);
+            this.flpMartes2.Size = new System.Drawing.Size(166, 114);
             this.flpMartes2.TabIndex = 16;
             // 
             // flpLunes2
             // 
             this.flpLunes2.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.flpLunes2.Location = new System.Drawing.Point(172, 221);
+            this.flpLunes2.Location = new System.Drawing.Point(174, 189);
             this.flpLunes2.Name = "flpLunes2";
-            this.flpLunes2.Size = new System.Drawing.Size(171, 153);
+            this.flpLunes2.Size = new System.Drawing.Size(168, 114);
             this.flpLunes2.TabIndex = 15;
             // 
             // flpSabado1
             // 
             this.flpSabado1.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.flpSabado1.Location = new System.Drawing.Point(1059, 62);
+            this.flpSabado1.Location = new System.Drawing.Point(1058, 72);
             this.flpSabado1.Name = "flpSabado1";
-            this.flpSabado1.Size = new System.Drawing.Size(170, 153);
+            this.flpSabado1.Size = new System.Drawing.Size(170, 106);
             this.flpSabado1.TabIndex = 14;
             // 
             // flpViernes1
             // 
             this.flpViernes1.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.flpViernes1.Location = new System.Drawing.Point(879, 62);
+            this.flpViernes1.Location = new System.Drawing.Point(878, 72);
             this.flpViernes1.Name = "flpViernes1";
-            this.flpViernes1.Size = new System.Drawing.Size(172, 153);
+            this.flpViernes1.Size = new System.Drawing.Size(172, 106);
             this.flpViernes1.TabIndex = 13;
             // 
             // flpJueves1
             // 
             this.flpJueves1.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.flpJueves1.Location = new System.Drawing.Point(702, 62);
+            this.flpJueves1.Location = new System.Drawing.Point(701, 72);
             this.flpJueves1.Name = "flpJueves1";
-            this.flpJueves1.Size = new System.Drawing.Size(171, 153);
+            this.flpJueves1.Size = new System.Drawing.Size(171, 106);
             this.flpJueves1.TabIndex = 12;
             // 
             // flpMiercoles1
             // 
             this.flpMiercoles1.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.flpMiercoles1.Location = new System.Drawing.Point(521, 62);
+            this.flpMiercoles1.Location = new System.Drawing.Point(520, 72);
             this.flpMiercoles1.Name = "flpMiercoles1";
-            this.flpMiercoles1.Size = new System.Drawing.Size(172, 153);
+            this.flpMiercoles1.Size = new System.Drawing.Size(172, 106);
             this.flpMiercoles1.TabIndex = 11;
             // 
             // flpMartes1
             // 
             this.flpMartes1.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.flpMartes1.Location = new System.Drawing.Point(349, 62);
+            this.flpMartes1.Location = new System.Drawing.Point(348, 72);
             this.flpMartes1.Name = "flpMartes1";
-            this.flpMartes1.Size = new System.Drawing.Size(166, 153);
+            this.flpMartes1.Size = new System.Drawing.Size(166, 106);
             this.flpMartes1.TabIndex = 10;
             // 
             // flpLunes1
             // 
             this.flpLunes1.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.flpLunes1.Location = new System.Drawing.Point(172, 62);
+            this.flpLunes1.Location = new System.Drawing.Point(174, 72);
             this.flpLunes1.Name = "flpLunes1";
-            this.flpLunes1.Size = new System.Drawing.Size(171, 153);
+            this.flpLunes1.Size = new System.Drawing.Size(168, 106);
             this.flpLunes1.TabIndex = 9;
             // 
             // flpSabado0
             // 
             this.flpSabado0.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.flpSabado0.Location = new System.Drawing.Point(1059, 3);
+            this.flpSabado0.Location = new System.Drawing.Point(1058, 8);
             this.flpSabado0.Name = "flpSabado0";
             this.flpSabado0.Size = new System.Drawing.Size(170, 53);
             this.flpSabado0.TabIndex = 8;
@@ -399,7 +400,7 @@
             // flpViernes0
             // 
             this.flpViernes0.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.flpViernes0.Location = new System.Drawing.Point(879, 3);
+            this.flpViernes0.Location = new System.Drawing.Point(878, 8);
             this.flpViernes0.Name = "flpViernes0";
             this.flpViernes0.Size = new System.Drawing.Size(172, 53);
             this.flpViernes0.TabIndex = 7;
@@ -407,7 +408,7 @@
             // flpJueves0
             // 
             this.flpJueves0.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.flpJueves0.Location = new System.Drawing.Point(702, 3);
+            this.flpJueves0.Location = new System.Drawing.Point(701, 8);
             this.flpJueves0.Name = "flpJueves0";
             this.flpJueves0.Size = new System.Drawing.Size(171, 53);
             this.flpJueves0.TabIndex = 6;
@@ -415,7 +416,7 @@
             // flpMiercoles0
             // 
             this.flpMiercoles0.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.flpMiercoles0.Location = new System.Drawing.Point(521, 3);
+            this.flpMiercoles0.Location = new System.Drawing.Point(520, 8);
             this.flpMiercoles0.Name = "flpMiercoles0";
             this.flpMiercoles0.Size = new System.Drawing.Size(172, 53);
             this.flpMiercoles0.TabIndex = 5;
@@ -423,7 +424,7 @@
             // flpMartes0
             // 
             this.flpMartes0.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.flpMartes0.Location = new System.Drawing.Point(349, 3);
+            this.flpMartes0.Location = new System.Drawing.Point(348, 8);
             this.flpMartes0.Name = "flpMartes0";
             this.flpMartes0.Size = new System.Drawing.Size(166, 53);
             this.flpMartes0.TabIndex = 4;
@@ -431,57 +432,57 @@
             // flpLunes0
             // 
             this.flpLunes0.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.flpLunes0.Location = new System.Drawing.Point(172, 3);
+            this.flpLunes0.Location = new System.Drawing.Point(174, 8);
             this.flpLunes0.Name = "flpLunes0";
-            this.flpLunes0.Size = new System.Drawing.Size(171, 53);
+            this.flpLunes0.Size = new System.Drawing.Size(168, 53);
             this.flpLunes0.TabIndex = 3;
             // 
             // flpDomingo5
             // 
             this.flpDomingo5.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.flpDomingo5.Location = new System.Drawing.Point(3, 713);
+            this.flpDomingo5.Location = new System.Drawing.Point(8, 581);
             this.flpDomingo5.Name = "flpDomingo5";
-            this.flpDomingo5.Size = new System.Drawing.Size(163, 154);
+            this.flpDomingo5.Size = new System.Drawing.Size(160, 111);
             this.flpDomingo5.TabIndex = 1;
             // 
             // flpDomingo0
             // 
             this.flpDomingo0.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.flpDomingo0.Location = new System.Drawing.Point(3, 3);
+            this.flpDomingo0.Location = new System.Drawing.Point(8, 8);
             this.flpDomingo0.Name = "flpDomingo0";
-            this.flpDomingo0.Size = new System.Drawing.Size(163, 53);
+            this.flpDomingo0.Size = new System.Drawing.Size(160, 53);
             this.flpDomingo0.TabIndex = 2;
             // 
             // flpDomingo4
             // 
             this.flpDomingo4.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.flpDomingo4.Location = new System.Drawing.Point(3, 550);
+            this.flpDomingo4.Location = new System.Drawing.Point(8, 445);
             this.flpDomingo4.Name = "flpDomingo4";
-            this.flpDomingo4.Size = new System.Drawing.Size(163, 153);
+            this.flpDomingo4.Size = new System.Drawing.Size(160, 130);
             this.flpDomingo4.TabIndex = 1;
             // 
             // flpDomingo3
             // 
             this.flpDomingo3.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.flpDomingo3.Location = new System.Drawing.Point(3, 387);
+            this.flpDomingo3.Location = new System.Drawing.Point(8, 309);
             this.flpDomingo3.Name = "flpDomingo3";
-            this.flpDomingo3.Size = new System.Drawing.Size(163, 153);
+            this.flpDomingo3.Size = new System.Drawing.Size(160, 130);
             this.flpDomingo3.TabIndex = 1;
             // 
             // flpDomingo1
             // 
             this.flpDomingo1.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.flpDomingo1.Location = new System.Drawing.Point(3, 62);
+            this.flpDomingo1.Location = new System.Drawing.Point(8, 72);
             this.flpDomingo1.Name = "flpDomingo1";
-            this.flpDomingo1.Size = new System.Drawing.Size(163, 153);
+            this.flpDomingo1.Size = new System.Drawing.Size(160, 106);
             this.flpDomingo1.TabIndex = 0;
             // 
             // flpDomingo2
             // 
             this.flpDomingo2.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.flpDomingo2.Location = new System.Drawing.Point(3, 221);
+            this.flpDomingo2.Location = new System.Drawing.Point(8, 189);
             this.flpDomingo2.Name = "flpDomingo2";
-            this.flpDomingo2.Size = new System.Drawing.Size(163, 153);
+            this.flpDomingo2.Size = new System.Drawing.Size(160, 114);
             this.flpDomingo2.TabIndex = 1;
             // 
             // picLogo

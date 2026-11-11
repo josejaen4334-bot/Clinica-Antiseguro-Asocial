@@ -436,7 +436,6 @@
             this.txtBuscar.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtBuscar.Location = new System.Drawing.Point(791, 121);
             this.txtBuscar.Name = "txtBuscar";
-            this.txtBuscar.ReadOnly = true;
             this.txtBuscar.Size = new System.Drawing.Size(241, 24);
             this.txtBuscar.TabIndex = 38;
             this.txtBuscar.Text = "Buscar...";

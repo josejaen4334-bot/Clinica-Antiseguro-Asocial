@@ -36,12 +36,11 @@
             this.btnHistorial = new System.Windows.Forms.Button();
             this.btnConsultas = new System.Windows.Forms.Button();
             this.btnCitas = new System.Windows.Forms.Button();
-            this.btnHosptalizacion = new System.Windows.Forms.Button();
-            this.btnHabitacion = new System.Windows.Forms.Button();
             this.btnReportes = new System.Windows.Forms.Button();
             this.btnFacturacion = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnCerrar = new System.Windows.Forms.Button();
+            this.btnVideos = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -115,6 +114,7 @@
             this.btnHistorial.Text = "Historial Clinico";
             this.btnHistorial.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnHistorial.UseVisualStyleBackColor = true;
+            this.btnHistorial.Click += new System.EventHandler(this.btnHistorial_Click);
             // 
             // btnConsultas
             // 
@@ -129,6 +129,7 @@
             this.btnConsultas.Text = "Consultas";
             this.btnConsultas.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnConsultas.UseVisualStyleBackColor = true;
+            this.btnConsultas.Click += new System.EventHandler(this.btnConsultas_Click);
             // 
             // btnCitas
             // 
@@ -145,47 +146,20 @@
             this.btnCitas.UseVisualStyleBackColor = true;
             this.btnCitas.Click += new System.EventHandler(this.btnCitas_Click);
             // 
-            // btnHosptalizacion
-            // 
-            this.btnHosptalizacion.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnHosptalizacion.Font = new System.Drawing.Font("Manrope", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHosptalizacion.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.btnHosptalizacion.Image = global::Parcial_3.Properties.Resources.hospitalizacion;
-            this.btnHosptalizacion.Location = new System.Drawing.Point(591, 329);
-            this.btnHosptalizacion.Name = "btnHosptalizacion";
-            this.btnHosptalizacion.Size = new System.Drawing.Size(216, 82);
-            this.btnHosptalizacion.TabIndex = 15;
-            this.btnHosptalizacion.Text = "Hospitalizaciones";
-            this.btnHosptalizacion.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnHosptalizacion.UseVisualStyleBackColor = true;
-            // 
-            // btnHabitacion
-            // 
-            this.btnHabitacion.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnHabitacion.Font = new System.Drawing.Font("Manrope", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHabitacion.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.btnHabitacion.Image = global::Parcial_3.Properties.Resources.cama;
-            this.btnHabitacion.Location = new System.Drawing.Point(591, 192);
-            this.btnHabitacion.Name = "btnHabitacion";
-            this.btnHabitacion.Size = new System.Drawing.Size(216, 82);
-            this.btnHabitacion.TabIndex = 14;
-            this.btnHabitacion.Text = "Habitaciones";
-            this.btnHabitacion.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnHabitacion.UseVisualStyleBackColor = true;
-            // 
             // btnReportes
             // 
             this.btnReportes.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnReportes.Font = new System.Drawing.Font("Manrope", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReportes.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.btnReportes.Image = global::Parcial_3.Properties.Resources.reportes;
-            this.btnReportes.Location = new System.Drawing.Point(863, 329);
+            this.btnReportes.Location = new System.Drawing.Point(594, 258);
             this.btnReportes.Name = "btnReportes";
             this.btnReportes.Size = new System.Drawing.Size(216, 82);
             this.btnReportes.TabIndex = 18;
             this.btnReportes.Text = "Reportes";
             this.btnReportes.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnReportes.UseVisualStyleBackColor = true;
+            this.btnReportes.Click += new System.EventHandler(this.btnReportes_Click);
             // 
             // btnFacturacion
             // 
@@ -193,13 +167,14 @@
             this.btnFacturacion.Font = new System.Drawing.Font("Manrope", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFacturacion.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.btnFacturacion.Image = global::Parcial_3.Properties.Resources.factura;
-            this.btnFacturacion.Location = new System.Drawing.Point(863, 192);
+            this.btnFacturacion.Location = new System.Drawing.Point(594, 132);
             this.btnFacturacion.Name = "btnFacturacion";
             this.btnFacturacion.Size = new System.Drawing.Size(216, 82);
             this.btnFacturacion.TabIndex = 17;
             this.btnFacturacion.Text = "Facturación";
             this.btnFacturacion.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnFacturacion.UseVisualStyleBackColor = true;
+            this.btnFacturacion.Click += new System.EventHandler(this.btnFacturacion_Click);
             // 
             // pictureBox1
             // 
@@ -216,7 +191,7 @@
             // 
             this.btnCerrar.Font = new System.Drawing.Font("Manrope", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCerrar.ForeColor = System.Drawing.Color.Firebrick;
-            this.btnCerrar.Location = new System.Drawing.Point(899, 41);
+            this.btnCerrar.Location = new System.Drawing.Point(695, 41);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(146, 47);
             this.btnCerrar.TabIndex = 20;
@@ -224,19 +199,33 @@
             this.btnCerrar.UseVisualStyleBackColor = true;
             this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
             // 
+            // btnVideos
+            // 
+            this.btnVideos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnVideos.Font = new System.Drawing.Font("Manrope", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVideos.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.btnVideos.Image = global::Parcial_3.Properties.Resources.video;
+            this.btnVideos.Location = new System.Drawing.Point(594, 379);
+            this.btnVideos.Name = "btnVideos";
+            this.btnVideos.Size = new System.Drawing.Size(216, 82);
+            this.btnVideos.TabIndex = 21;
+            this.btnVideos.Text = "Videos Educativos";
+            this.btnVideos.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnVideos.UseVisualStyleBackColor = true;
+            this.btnVideos.Click += new System.EventHandler(this.btnVideos_Click);
+            // 
             // frmPanelPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Parcial_3.Properties.Resources.fondo_1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1120, 503);
+            this.ClientSize = new System.Drawing.Size(857, 516);
+            this.Controls.Add(this.btnVideos);
             this.Controls.Add(this.btnCerrar);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnReportes);
             this.Controls.Add(this.btnFacturacion);
-            this.Controls.Add(this.btnHosptalizacion);
-            this.Controls.Add(this.btnHabitacion);
             this.Controls.Add(this.btnHistorial);
             this.Controls.Add(this.btnConsultas);
             this.Controls.Add(this.btnCitas);
@@ -262,11 +251,10 @@
         private System.Windows.Forms.Button btnHistorial;
         private System.Windows.Forms.Button btnConsultas;
         private System.Windows.Forms.Button btnCitas;
-        private System.Windows.Forms.Button btnHosptalizacion;
-        private System.Windows.Forms.Button btnHabitacion;
         private System.Windows.Forms.Button btnReportes;
         private System.Windows.Forms.Button btnFacturacion;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnCerrar;
+        private System.Windows.Forms.Button btnVideos;
     }
 }
