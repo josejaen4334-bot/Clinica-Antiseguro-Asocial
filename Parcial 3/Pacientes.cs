@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Text.RegularExpressions;
 
 namespace Parcial_3
 {
@@ -209,6 +210,16 @@ namespace Parcial_3
                 Ui.Aviso("La cédula, el nombre y el apellido son obligatorios.");
                 return false;
             }
+
+            // Validación de formato de cédula panameña y extranjeros (E, N, PE, etc.)
+            string cedula = txtCedula.Text.Trim();
+            Regex regexCedula = new Regex(@"^(?:[1-9]|1[0-3]|PE|E|N|PI)-\d{1,4}-\d{1,6}$", RegexOptions.IgnoreCase);
+            if (!regexCedula.IsMatch(cedula))
+            {
+                Ui.Aviso("El formato de la cédula o identificación no es válido. Ejemplos correctos: 8-123-4567, E-8-123456.");
+                return false;
+            }
+
             if (!radMasculino.Checked && !radFemenino.Checked)
             {
                 Ui.Aviso("Seleccione el género del paciente.");
@@ -231,6 +242,11 @@ namespace Parcial_3
                 return false;
             }
             return true;
+        }
+
+        private void txtCedula_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
