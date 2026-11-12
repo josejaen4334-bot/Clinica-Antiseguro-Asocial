@@ -37,6 +37,8 @@ namespace Parcial_3
                 btnEmpleados.Enabled = false;
                 btnFacturacion.Enabled = false;
                 btnReportes.Enabled = false;
+                btnUsuarios.Enabled = false;   // usuarios y bitácora son solo del Admin
+                btnBitacora.Enabled = false;
             }
             else if (Sesion.Rol == "Paciente")
             {
@@ -45,6 +47,8 @@ namespace Parcial_3
                 btnEmpleados.Enabled = false;
                 btnConsultas.Enabled = false;
                 btnReportes.Enabled = false;
+                btnUsuarios.Enabled = false;   // usuarios y bitácora son solo del Admin
+                btnBitacora.Enabled = false;
             }
         }
 

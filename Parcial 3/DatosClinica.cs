@@ -492,6 +492,80 @@ namespace Parcial_3
                 return idFactura;
             }
         }
+
+        // =====================================================================
+        //  USUARIOS Y BITACORA (metodos agregados para esos dos Forms)
+        // =====================================================================
+
+        public DataTable ListarRoles()
+        {
+            return Consultar("SELECT IdRol, Nombre FROM Roles ORDER BY IdRol");
+        }
+
+        public DataTable ListarEmpleadosCombo()
+        {
+            return Consultar(@"SELECT IdEmpleado, Estado,
+                    CONCAT(Nombre, ' ', Apellido, ' (', Cedula, ')') AS Nombre
+                FROM Empleados WHERE Estado = 'Activo' ORDER BY Apellido, Nombre");
+        }
+
+        // Usuarios con su rol y la persona vinculada (vista vw_Usuarios de la BD)
+        public DataTable ListarUsuarios(string filtro)
+        {
+            return Consultar(@"SELECT * FROM vw_Usuarios
+                WHERE (@f = '' OR NombreUsuario LIKE @l OR Rol LIKE @l OR PersonaVinculada LIKE @l)
+                ORDER BY NombreUsuario",
+                new MySqlParameter("@f", filtro ?? ""), new MySqlParameter("@l", "%" + filtro + "%"));
+        }
+
+        // La contrasena nunca se guarda en texto: se guarda su hash SHA2-256 (igual que sp_CambiarContrasena)
+        public void GuardarUsuario(string usuario, string clave, int rol, int? medico, int? empleado,
+            int? paciente, bool activo)
+        {
+            Ejecutar(@"INSERT INTO Usuarios (NombreUsuario, ContrasenaHash, IdRol, IdMedico, IdEmpleado, IdPaciente, Activo)
+                VALUES (@u, UNHEX(SHA2(@c, 256)), @r, @m, @e, @p, @a)",
+                P("@u", usuario), P("@c", clave), P("@r", rol), P("@m", medico), P("@e", empleado),
+                P("@p", paciente), P("@a", activo ? 1 : 0));
+        }
+
+        public void ActualizarUsuario(int id, string usuario, int rol, int? medico, int? empleado,
+            int? paciente, bool activo)
+        {
+            Ejecutar(@"UPDATE Usuarios SET NombreUsuario=@u, IdRol=@r, IdMedico=@m, IdEmpleado=@e,
+                    IdPaciente=@p, Activo=@a
+                WHERE IdUsuario=@id",
+                P("@u", usuario), P("@r", rol), P("@m", medico), P("@e", empleado),
+                P("@p", paciente), P("@a", activo ? 1 : 0), P("@id", id));
+        }
+
+        public void CambiarContrasena(int id, string clave)
+        {
+            Ejecutar("CALL sp_CambiarContrasena(@id, @c)", P("@id", id), P("@c", clave));
+        }
+
+        // "Eliminar" usuario: se desactiva (la bitacora y las facturas lo referencian)
+        public void DesactivarUsuario(int id)
+        {
+            Ejecutar("UPDATE Usuarios SET Activo = 0 WHERE IdUsuario = @id", P("@id", id));
+        }
+
+        // Valores distintos de una columna de la bitacora, para llenar los filtros
+        public DataTable ListarValoresBitacora(string columna)
+        {
+            if (columna != "Usuario" && columna != "Modulo") throw new ArgumentException("Columna no valida");
+            return Consultar("SELECT DISTINCT " + columna + " FROM vw_Bitacora ORDER BY " + columna);
+        }
+
+        // Registros de la bitacora (los filtros vacios o null no se aplican). Maximo 1000, los mas recientes primero
+        public DataTable ListarBitacora(string usuario, string modulo, string accion, DateTime? desde, DateTime? hasta)
+        {
+            return Consultar(@"SELECT IdBitacora, Fecha, Usuario, Rol, Modulo, Accion, Descripcion
+                FROM vw_Bitacora
+                WHERE (@u IS NULL OR Usuario = @u) AND (@m IS NULL OR Modulo = @m)
+                  AND (@a IS NULL OR Accion = @a) AND (@d IS NULL OR Fecha >= @d) AND (@h IS NULL OR Fecha < @h)
+                ORDER BY Fecha DESC, IdBitacora DESC LIMIT 1000",
+                P("@u", usuario), P("@m", modulo), P("@a", accion), P("@d", desde), P("@h", hasta));
+        }
     }
 
     // Datos del usuario que inicio sesion (se llena en el Login y se usa en los demas Forms)
@@ -550,6 +624,7 @@ namespace Parcial_3
                 {
                     case 1062: // llave unica repetida
                         if (my.Message.Contains("MedicoFechaHora")) msg = "Ese medico ya tiene una cita a esa fecha y hora.";
+                        else if (my.Message.Contains("NombreUsuario")) msg = "Ya existe un usuario con ese nombre.";
                         else if (my.Message.Contains("Cedula")) msg = "Ya existe un registro con esa cedula.";
                         else if (my.Message.Contains("Licencia")) msg = "Ya existe un medico con esa licencia.";
                         else msg = "Ya existe un registro con esos datos.";

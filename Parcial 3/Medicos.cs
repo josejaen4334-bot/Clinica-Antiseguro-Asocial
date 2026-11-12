@@ -87,7 +87,7 @@ namespace Parcial_3
             dtpContratacion.Value = Convert.ToDateTime(f.Cells["FechaContratacion"].Value);
             txtTelefono.Text = Convert.ToString(f.Cells["Telefono"].Value);
             txtCorreo.Text = Convert.ToString(f.Cells["Correo"].Value);
-            txtLicencia.Text = Convert.ToString(f.Cells["Licencia"].Value); // textBox1 = licencia
+            txtLicencia.Text = Convert.ToString(f.Cells["Licencia"].Value);
             cmbEspecialidad.SelectedValue = Convert.ToInt32(f.Cells["IdEspecialidad"].Value);
             cmbEstado.SelectedItem = Convert.ToString(f.Cells["Estado"].Value);
         }
