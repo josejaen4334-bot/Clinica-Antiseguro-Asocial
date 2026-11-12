@@ -28,14 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lblHistorial = new System.Windows.Forms.Label();
+            this.lblConsulta = new System.Windows.Forms.Label();
             this.picLogo = new System.Windows.Forms.PictureBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.grpConsulta = new System.Windows.Forms.GroupBox();
+            this.btnLimpiar = new System.Windows.Forms.Button();
+            this.btnRegistrar = new System.Windows.Forms.Button();
+            this.txtObservaciones = new System.Windows.Forms.TextBox();
             this.txtTratamiento = new System.Windows.Forms.TextBox();
             this.lblTratamiento = new System.Windows.Forms.Label();
             this.lblObservaciones = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtDiagnostico = new System.Windows.Forms.TextBox();
             this.cmbTipo = new System.Windows.Forms.ComboBox();
             this.cmbMedicoResponsable = new System.Windows.Forms.ComboBox();
             this.txtMotivo = new System.Windows.Forms.TextBox();
@@ -46,23 +48,21 @@
             this.txtFechaRegistro = new System.Windows.Forms.TextBox();
             this.lblFechaRegistro = new System.Windows.Forms.Label();
             this.btnVolver = new System.Windows.Forms.Button();
-            this.btnRegistrar = new System.Windows.Forms.Button();
-            this.btnLimpiar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).BeginInit();
-            this.groupBox1.SuspendLayout();
+            this.grpConsulta.SuspendLayout();
             this.SuspendLayout();
             // 
-            // lblHistorial
+            // lblConsulta
             // 
-            this.lblHistorial.AutoSize = true;
-            this.lblHistorial.BackColor = System.Drawing.Color.Transparent;
-            this.lblHistorial.Font = new System.Drawing.Font("Manrope", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHistorial.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.lblHistorial.Location = new System.Drawing.Point(190, 77);
-            this.lblHistorial.Name = "lblHistorial";
-            this.lblHistorial.Size = new System.Drawing.Size(283, 26);
-            this.lblHistorial.TabIndex = 54;
-            this.lblHistorial.Text = "Unidad de Consultas Medicas";
+            this.lblConsulta.AutoSize = true;
+            this.lblConsulta.BackColor = System.Drawing.Color.Transparent;
+            this.lblConsulta.Font = new System.Drawing.Font("Manrope", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblConsulta.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.lblConsulta.Location = new System.Drawing.Point(190, 77);
+            this.lblConsulta.Name = "lblConsulta";
+            this.lblConsulta.Size = new System.Drawing.Size(283, 26);
+            this.lblConsulta.TabIndex = 54;
+            this.lblConsulta.Text = "Unidad de Consultas Medicas";
             // 
             // picLogo
             // 
@@ -75,41 +75,61 @@
             this.picLogo.TabIndex = 53;
             this.picLogo.TabStop = false;
             // 
-            // groupBox1
+            // grpConsulta
             // 
-            this.groupBox1.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox1.Controls.Add(this.btnLimpiar);
-            this.groupBox1.Controls.Add(this.btnRegistrar);
-            this.groupBox1.Controls.Add(this.textBox1);
-            this.groupBox1.Controls.Add(this.txtTratamiento);
-            this.groupBox1.Controls.Add(this.lblTratamiento);
-            this.groupBox1.Controls.Add(this.lblObservaciones);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.cmbTipo);
-            this.groupBox1.Controls.Add(this.cmbMedicoResponsable);
-            this.groupBox1.Controls.Add(this.txtMotivo);
-            this.groupBox1.Controls.Add(this.lblMotivo);
-            this.groupBox1.Controls.Add(this.lblDiagnostico);
-            this.groupBox1.Controls.Add(this.lblTipo);
-            this.groupBox1.Controls.Add(this.lblMedicoResponsable);
-            this.groupBox1.Controls.Add(this.txtFechaRegistro);
-            this.groupBox1.Controls.Add(this.lblFechaRegistro);
-            this.groupBox1.Font = new System.Drawing.Font("Manrope", 8.063999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(71, 161);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(559, 530);
-            this.groupBox1.TabIndex = 56;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Nueva Consulta";
+            this.grpConsulta.BackColor = System.Drawing.Color.Transparent;
+            this.grpConsulta.Controls.Add(this.btnLimpiar);
+            this.grpConsulta.Controls.Add(this.btnRegistrar);
+            this.grpConsulta.Controls.Add(this.txtObservaciones);
+            this.grpConsulta.Controls.Add(this.txtTratamiento);
+            this.grpConsulta.Controls.Add(this.lblTratamiento);
+            this.grpConsulta.Controls.Add(this.lblObservaciones);
+            this.grpConsulta.Controls.Add(this.txtDiagnostico);
+            this.grpConsulta.Controls.Add(this.cmbTipo);
+            this.grpConsulta.Controls.Add(this.cmbMedicoResponsable);
+            this.grpConsulta.Controls.Add(this.txtMotivo);
+            this.grpConsulta.Controls.Add(this.lblMotivo);
+            this.grpConsulta.Controls.Add(this.lblDiagnostico);
+            this.grpConsulta.Controls.Add(this.lblTipo);
+            this.grpConsulta.Controls.Add(this.lblMedicoResponsable);
+            this.grpConsulta.Controls.Add(this.txtFechaRegistro);
+            this.grpConsulta.Controls.Add(this.lblFechaRegistro);
+            this.grpConsulta.Font = new System.Drawing.Font("Manrope", 8.063999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.grpConsulta.Location = new System.Drawing.Point(71, 161);
+            this.grpConsulta.Name = "grpConsulta";
+            this.grpConsulta.Size = new System.Drawing.Size(559, 530);
+            this.grpConsulta.TabIndex = 56;
+            this.grpConsulta.TabStop = false;
+            this.grpConsulta.Text = "Nueva Consulta";
             // 
-            // textBox1
+            // btnLimpiar
             // 
-            this.textBox1.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(262, 362);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(241, 22);
-            this.textBox1.TabIndex = 36;
+            this.btnLimpiar.Font = new System.Drawing.Font("Manrope", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLimpiar.Location = new System.Drawing.Point(313, 435);
+            this.btnLimpiar.Name = "btnLimpiar";
+            this.btnLimpiar.Size = new System.Drawing.Size(190, 47);
+            this.btnLimpiar.TabIndex = 46;
+            this.btnLimpiar.Text = "Limpiar";
+            this.btnLimpiar.UseVisualStyleBackColor = true;
+            // 
+            // btnRegistrar
+            // 
+            this.btnRegistrar.Font = new System.Drawing.Font("Manrope", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRegistrar.Location = new System.Drawing.Point(48, 435);
+            this.btnRegistrar.Name = "btnRegistrar";
+            this.btnRegistrar.Size = new System.Drawing.Size(190, 47);
+            this.btnRegistrar.TabIndex = 43;
+            this.btnRegistrar.Text = "Registrar";
+            this.btnRegistrar.UseVisualStyleBackColor = true;
+            // 
+            // txtObservaciones
+            // 
+            this.txtObservaciones.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtObservaciones.Location = new System.Drawing.Point(262, 362);
+            this.txtObservaciones.Multiline = true;
+            this.txtObservaciones.Name = "txtObservaciones";
+            this.txtObservaciones.Size = new System.Drawing.Size(241, 22);
+            this.txtObservaciones.TabIndex = 36;
             // 
             // txtTratamiento
             // 
@@ -142,14 +162,14 @@
             this.lblObservaciones.TabIndex = 33;
             this.lblObservaciones.Text = "Observaciones:";
             // 
-            // textBox2
+            // txtDiagnostico
             // 
-            this.textBox2.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(262, 256);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(241, 22);
-            this.textBox2.TabIndex = 32;
+            this.txtDiagnostico.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDiagnostico.Location = new System.Drawing.Point(262, 256);
+            this.txtDiagnostico.Multiline = true;
+            this.txtDiagnostico.Name = "txtDiagnostico";
+            this.txtDiagnostico.Size = new System.Drawing.Size(241, 22);
+            this.txtDiagnostico.TabIndex = 32;
             // 
             // cmbTipo
             // 
@@ -256,26 +276,6 @@
             this.btnVolver.UseVisualStyleBackColor = true;
             this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
             // 
-            // btnRegistrar
-            // 
-            this.btnRegistrar.Font = new System.Drawing.Font("Manrope", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegistrar.Location = new System.Drawing.Point(48, 435);
-            this.btnRegistrar.Name = "btnRegistrar";
-            this.btnRegistrar.Size = new System.Drawing.Size(190, 47);
-            this.btnRegistrar.TabIndex = 43;
-            this.btnRegistrar.Text = "Registrar";
-            this.btnRegistrar.UseVisualStyleBackColor = true;
-            // 
-            // btnLimpiar
-            // 
-            this.btnLimpiar.Font = new System.Drawing.Font("Manrope", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLimpiar.Location = new System.Drawing.Point(313, 435);
-            this.btnLimpiar.Name = "btnLimpiar";
-            this.btnLimpiar.Size = new System.Drawing.Size(190, 47);
-            this.btnLimpiar.TabIndex = 46;
-            this.btnLimpiar.Text = "Limpiar";
-            this.btnLimpiar.UseVisualStyleBackColor = true;
-            // 
             // frmConsultas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -285,29 +285,29 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(737, 710);
             this.Controls.Add(this.btnVolver);
-            this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.lblHistorial);
+            this.Controls.Add(this.grpConsulta);
+            this.Controls.Add(this.lblConsulta);
             this.Controls.Add(this.picLogo);
             this.Name = "frmConsultas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Gestion de Consultas Medicas";
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).EndInit();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this.grpConsulta.ResumeLayout(false);
+            this.grpConsulta.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.Label lblHistorial;
+        private System.Windows.Forms.Label lblConsulta;
         private System.Windows.Forms.PictureBox picLogo;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.GroupBox grpConsulta;
+        private System.Windows.Forms.TextBox txtObservaciones;
         private System.Windows.Forms.TextBox txtTratamiento;
         private System.Windows.Forms.Label lblTratamiento;
         private System.Windows.Forms.Label lblObservaciones;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtDiagnostico;
         private System.Windows.Forms.ComboBox cmbTipo;
         private System.Windows.Forms.ComboBox cmbMedicoResponsable;
         private System.Windows.Forms.TextBox txtMotivo;

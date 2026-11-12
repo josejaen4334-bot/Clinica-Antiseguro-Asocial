@@ -35,20 +35,20 @@
             this.btnCitas = new System.Windows.Forms.Button();
             this.btnPacientes = new System.Windows.Forms.Button();
             this.grpReporte = new System.Windows.Forms.GroupBox();
-            this.btnConsultas = new System.Windows.Forms.Button();
             this.btnHistorial = new System.Windows.Forms.Button();
+            this.btnConsultas = new System.Windows.Forms.Button();
             this.grpBusqueda = new System.Windows.Forms.GroupBox();
+            this.btnLimpiar = new System.Windows.Forms.Button();
+            this.btnReporte = new System.Windows.Forms.Button();
+            this.lblEstado = new System.Windows.Forms.Label();
+            this.dtpFechaSuperior = new System.Windows.Forms.DateTimePicker();
+            this.dtpFechaInferior = new System.Windows.Forms.DateTimePicker();
+            this.cmbBuscarPor = new System.Windows.Forms.ComboBox();
+            this.cmbEstado = new System.Windows.Forms.ComboBox();
             this.lblBuscar = new System.Windows.Forms.Label();
             this.lblFechas = new System.Windows.Forms.Label();
-            this.cmbEstado = new System.Windows.Forms.ComboBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.dtpFechaInferior = new System.Windows.Forms.DateTimePicker();
-            this.dtpFechaSuperior = new System.Windows.Forms.DateTimePicker();
-            this.lblEstado = new System.Windows.Forms.Label();
-            this.btnReporte = new System.Windows.Forms.Button();
             this.grpVerPacientes = new System.Windows.Forms.GroupBox();
             this.dgvRegistroPacientes = new System.Windows.Forms.DataGridView();
-            this.btnLimpiar = new System.Windows.Forms.Button();
             this.btnVolver = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).BeginInit();
             this.grpReporte.SuspendLayout();
@@ -138,20 +138,6 @@
             this.grpReporte.TabStop = false;
             this.grpReporte.Text = "Tipo de Reporte";
             // 
-            // btnConsultas
-            // 
-            this.btnConsultas.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnConsultas.Font = new System.Drawing.Font("Manrope", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConsultas.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.btnConsultas.Image = global::Parcial_3.Properties.Resources.consulta;
-            this.btnConsultas.Location = new System.Drawing.Point(521, 26);
-            this.btnConsultas.Name = "btnConsultas";
-            this.btnConsultas.Size = new System.Drawing.Size(216, 82);
-            this.btnConsultas.TabIndex = 61;
-            this.btnConsultas.Text = "Consultas";
-            this.btnConsultas.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnConsultas.UseVisualStyleBackColor = true;
-            // 
             // btnHistorial
             // 
             this.btnHistorial.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
@@ -166,6 +152,20 @@
             this.btnHistorial.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnHistorial.UseVisualStyleBackColor = true;
             // 
+            // btnConsultas
+            // 
+            this.btnConsultas.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnConsultas.Font = new System.Drawing.Font("Manrope", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConsultas.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.btnConsultas.Image = global::Parcial_3.Properties.Resources.consulta;
+            this.btnConsultas.Location = new System.Drawing.Point(521, 26);
+            this.btnConsultas.Name = "btnConsultas";
+            this.btnConsultas.Size = new System.Drawing.Size(216, 82);
+            this.btnConsultas.TabIndex = 61;
+            this.btnConsultas.Text = "Consultas";
+            this.btnConsultas.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnConsultas.UseVisualStyleBackColor = true;
+            // 
             // grpBusqueda
             // 
             this.grpBusqueda.BackColor = System.Drawing.Color.Transparent;
@@ -174,7 +174,7 @@
             this.grpBusqueda.Controls.Add(this.lblEstado);
             this.grpBusqueda.Controls.Add(this.dtpFechaSuperior);
             this.grpBusqueda.Controls.Add(this.dtpFechaInferior);
-            this.grpBusqueda.Controls.Add(this.comboBox1);
+            this.grpBusqueda.Controls.Add(this.cmbBuscarPor);
             this.grpBusqueda.Controls.Add(this.cmbEstado);
             this.grpBusqueda.Controls.Add(this.lblBuscar);
             this.grpBusqueda.Controls.Add(this.lblFechas);
@@ -185,6 +185,73 @@
             this.grpBusqueda.TabIndex = 62;
             this.grpBusqueda.TabStop = false;
             this.grpBusqueda.Text = "Filtro de Busqueda";
+            // 
+            // btnLimpiar
+            // 
+            this.btnLimpiar.Font = new System.Drawing.Font("Manrope", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLimpiar.Location = new System.Drawing.Point(726, 164);
+            this.btnLimpiar.Name = "btnLimpiar";
+            this.btnLimpiar.Size = new System.Drawing.Size(192, 47);
+            this.btnLimpiar.TabIndex = 56;
+            this.btnLimpiar.Text = "Limpiar Filtros";
+            this.btnLimpiar.UseVisualStyleBackColor = true;
+            // 
+            // btnReporte
+            // 
+            this.btnReporte.Font = new System.Drawing.Font("Manrope", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReporte.Location = new System.Drawing.Point(941, 164);
+            this.btnReporte.Name = "btnReporte";
+            this.btnReporte.Size = new System.Drawing.Size(192, 47);
+            this.btnReporte.TabIndex = 55;
+            this.btnReporte.Text = "Generar Reporte";
+            this.btnReporte.UseVisualStyleBackColor = true;
+            // 
+            // lblEstado
+            // 
+            this.lblEstado.AutoSize = true;
+            this.lblEstado.BackColor = System.Drawing.Color.Transparent;
+            this.lblEstado.Font = new System.Drawing.Font("Manrope SemiBold", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEstado.Location = new System.Drawing.Point(722, 49);
+            this.lblEstado.Name = "lblEstado";
+            this.lblEstado.Size = new System.Drawing.Size(69, 22);
+            this.lblEstado.TabIndex = 35;
+            this.lblEstado.Text = "Estado:";
+            // 
+            // dtpFechaSuperior
+            // 
+            this.dtpFechaSuperior.Location = new System.Drawing.Point(334, 83);
+            this.dtpFechaSuperior.MaxDate = new System.DateTime(2030, 1, 1, 0, 0, 0, 0);
+            this.dtpFechaSuperior.MinDate = new System.DateTime(1920, 1, 1, 0, 0, 0, 0);
+            this.dtpFechaSuperior.Name = "dtpFechaSuperior";
+            this.dtpFechaSuperior.Size = new System.Drawing.Size(239, 27);
+            this.dtpFechaSuperior.TabIndex = 34;
+            this.dtpFechaSuperior.Value = new System.DateTime(2026, 11, 4, 0, 0, 0, 0);
+            // 
+            // dtpFechaInferior
+            // 
+            this.dtpFechaInferior.Location = new System.Drawing.Point(48, 83);
+            this.dtpFechaInferior.MaxDate = new System.DateTime(2030, 1, 1, 0, 0, 0, 0);
+            this.dtpFechaInferior.MinDate = new System.DateTime(1920, 1, 1, 0, 0, 0, 0);
+            this.dtpFechaInferior.Name = "dtpFechaInferior";
+            this.dtpFechaInferior.Size = new System.Drawing.Size(239, 27);
+            this.dtpFechaInferior.TabIndex = 33;
+            this.dtpFechaInferior.Value = new System.DateTime(2026, 11, 4, 0, 0, 0, 0);
+            // 
+            // cmbBuscarPor
+            // 
+            this.cmbBuscarPor.FormattingEnabled = true;
+            this.cmbBuscarPor.Location = new System.Drawing.Point(48, 184);
+            this.cmbBuscarPor.Name = "cmbBuscarPor";
+            this.cmbBuscarPor.Size = new System.Drawing.Size(241, 27);
+            this.cmbBuscarPor.TabIndex = 32;
+            // 
+            // cmbEstado
+            // 
+            this.cmbEstado.FormattingEnabled = true;
+            this.cmbEstado.Location = new System.Drawing.Point(726, 86);
+            this.cmbEstado.Name = "cmbEstado";
+            this.cmbEstado.Size = new System.Drawing.Size(305, 27);
+            this.cmbEstado.TabIndex = 31;
             // 
             // lblBuscar
             // 
@@ -207,63 +274,6 @@
             this.lblFechas.Size = new System.Drawing.Size(145, 22);
             this.lblFechas.TabIndex = 1;
             this.lblFechas.Text = "Rango de Fechas:";
-            // 
-            // cmbEstado
-            // 
-            this.cmbEstado.FormattingEnabled = true;
-            this.cmbEstado.Location = new System.Drawing.Point(726, 86);
-            this.cmbEstado.Name = "cmbEstado";
-            this.cmbEstado.Size = new System.Drawing.Size(305, 27);
-            this.cmbEstado.TabIndex = 31;
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(48, 184);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(241, 27);
-            this.comboBox1.TabIndex = 32;
-            // 
-            // dtpFechaInferior
-            // 
-            this.dtpFechaInferior.Location = new System.Drawing.Point(48, 83);
-            this.dtpFechaInferior.MaxDate = new System.DateTime(2030, 1, 1, 0, 0, 0, 0);
-            this.dtpFechaInferior.MinDate = new System.DateTime(1920, 1, 1, 0, 0, 0, 0);
-            this.dtpFechaInferior.Name = "dtpFechaInferior";
-            this.dtpFechaInferior.Size = new System.Drawing.Size(239, 27);
-            this.dtpFechaInferior.TabIndex = 33;
-            this.dtpFechaInferior.Value = new System.DateTime(2026, 11, 4, 0, 0, 0, 0);
-            // 
-            // dtpFechaSuperior
-            // 
-            this.dtpFechaSuperior.Location = new System.Drawing.Point(334, 83);
-            this.dtpFechaSuperior.MaxDate = new System.DateTime(2030, 1, 1, 0, 0, 0, 0);
-            this.dtpFechaSuperior.MinDate = new System.DateTime(1920, 1, 1, 0, 0, 0, 0);
-            this.dtpFechaSuperior.Name = "dtpFechaSuperior";
-            this.dtpFechaSuperior.Size = new System.Drawing.Size(239, 27);
-            this.dtpFechaSuperior.TabIndex = 34;
-            this.dtpFechaSuperior.Value = new System.DateTime(2026, 11, 4, 0, 0, 0, 0);
-            // 
-            // lblEstado
-            // 
-            this.lblEstado.AutoSize = true;
-            this.lblEstado.BackColor = System.Drawing.Color.Transparent;
-            this.lblEstado.Font = new System.Drawing.Font("Manrope SemiBold", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEstado.Location = new System.Drawing.Point(722, 49);
-            this.lblEstado.Name = "lblEstado";
-            this.lblEstado.Size = new System.Drawing.Size(69, 22);
-            this.lblEstado.TabIndex = 35;
-            this.lblEstado.Text = "Estado:";
-            // 
-            // btnReporte
-            // 
-            this.btnReporte.Font = new System.Drawing.Font("Manrope", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReporte.Location = new System.Drawing.Point(941, 164);
-            this.btnReporte.Name = "btnReporte";
-            this.btnReporte.Size = new System.Drawing.Size(192, 47);
-            this.btnReporte.TabIndex = 55;
-            this.btnReporte.Text = "Generar Reporte";
-            this.btnReporte.UseVisualStyleBackColor = true;
             // 
             // grpVerPacientes
             // 
@@ -288,16 +298,6 @@
             this.dgvRegistroPacientes.RowTemplate.Height = 24;
             this.dgvRegistroPacientes.Size = new System.Drawing.Size(1348, 279);
             this.dgvRegistroPacientes.TabIndex = 0;
-            // 
-            // btnLimpiar
-            // 
-            this.btnLimpiar.Font = new System.Drawing.Font("Manrope", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLimpiar.Location = new System.Drawing.Point(726, 164);
-            this.btnLimpiar.Name = "btnLimpiar";
-            this.btnLimpiar.Size = new System.Drawing.Size(192, 47);
-            this.btnLimpiar.TabIndex = 56;
-            this.btnLimpiar.Text = "Limpiar Filtros";
-            this.btnLimpiar.UseVisualStyleBackColor = true;
             // 
             // btnVolver
             // 
@@ -326,7 +326,8 @@
             this.Controls.Add(this.lblReportes);
             this.Controls.Add(this.picLogo);
             this.Name = "frmReportes";
-            this.Text = "Estado:";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Gestion de Reportea";
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).EndInit();
             this.grpReporte.ResumeLayout(false);
             this.grpBusqueda.ResumeLayout(false);
@@ -351,7 +352,7 @@
         private System.Windows.Forms.GroupBox grpBusqueda;
         private System.Windows.Forms.Label lblBuscar;
         private System.Windows.Forms.Label lblFechas;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cmbBuscarPor;
         private System.Windows.Forms.ComboBox cmbEstado;
         private System.Windows.Forms.Label lblEstado;
         private System.Windows.Forms.DateTimePicker dtpFechaSuperior;

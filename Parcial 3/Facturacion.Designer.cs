@@ -42,7 +42,7 @@
             this.radFemenino = new System.Windows.Forms.RadioButton();
             this.txtApellido = new System.Windows.Forms.TextBox();
             this.txtNombre = new System.Windows.Forms.TextBox();
-            this.lblNacimiento = new System.Windows.Forms.Label();
+            this.lblEdad = new System.Windows.Forms.Label();
             this.lblGenero = new System.Windows.Forms.Label();
             this.lblApellido = new System.Windows.Forms.Label();
             this.lblNombre = new System.Windows.Forms.Label();
@@ -63,16 +63,16 @@
             this.btnAgregar = new System.Windows.Forms.Button();
             this.btnBuscarServicio = new System.Windows.Forms.Button();
             this.txtServicio = new System.Windows.Forms.TextBox();
-            this.lblBuscarRegistro = new System.Windows.Forms.Label();
+            this.lblBuscarServicio = new System.Windows.Forms.Label();
             this.grpFactura = new System.Windows.Forms.GroupBox();
-            this.dtpFechaFactura = new System.Windows.Forms.DateTimePicker();
-            this.lblFecha = new System.Windows.Forms.Label();
+            this.lablTotalNumero = new System.Windows.Forms.Label();
+            this.lblTotal = new System.Windows.Forms.Label();
+            this.cmbPago = new System.Windows.Forms.ComboBox();
+            this.lblPago = new System.Windows.Forms.Label();
             this.cmbMedico = new System.Windows.Forms.ComboBox();
             this.lblMedico = new System.Windows.Forms.Label();
-            this.cmbPago = new System.Windows.Forms.ComboBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.lblTotal = new System.Windows.Forms.Label();
-            this.lablTotalNumero = new System.Windows.Forms.Label();
+            this.dtpFechaFactura = new System.Windows.Forms.DateTimePicker();
+            this.lblFecha = new System.Windows.Forms.Label();
             this.grpDetalles = new System.Windows.Forms.GroupBox();
             this.dgvDetalles = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -139,7 +139,7 @@
             this.grpDatosPaciente.Controls.Add(this.radFemenino);
             this.grpDatosPaciente.Controls.Add(this.txtApellido);
             this.grpDatosPaciente.Controls.Add(this.txtNombre);
-            this.grpDatosPaciente.Controls.Add(this.lblNacimiento);
+            this.grpDatosPaciente.Controls.Add(this.lblEdad);
             this.grpDatosPaciente.Controls.Add(this.lblGenero);
             this.grpDatosPaciente.Controls.Add(this.lblApellido);
             this.grpDatosPaciente.Controls.Add(this.lblNombre);
@@ -242,16 +242,16 @@
             this.txtNombre.Size = new System.Drawing.Size(241, 24);
             this.txtNombre.TabIndex = 14;
             // 
-            // lblNacimiento
+            // lblEdad
             // 
-            this.lblNacimiento.AutoSize = true;
-            this.lblNacimiento.BackColor = System.Drawing.Color.Transparent;
-            this.lblNacimiento.Font = new System.Drawing.Font("Manrope SemiBold", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNacimiento.Location = new System.Drawing.Point(927, 98);
-            this.lblNacimiento.Name = "lblNacimiento";
-            this.lblNacimiento.Size = new System.Drawing.Size(53, 22);
-            this.lblNacimiento.TabIndex = 13;
-            this.lblNacimiento.Text = "Edad:";
+            this.lblEdad.AutoSize = true;
+            this.lblEdad.BackColor = System.Drawing.Color.Transparent;
+            this.lblEdad.Font = new System.Drawing.Font("Manrope SemiBold", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEdad.Location = new System.Drawing.Point(927, 98);
+            this.lblEdad.Name = "lblEdad";
+            this.lblEdad.Size = new System.Drawing.Size(53, 22);
+            this.lblEdad.TabIndex = 13;
+            this.lblEdad.Text = "Edad:";
             // 
             // lblGenero
             // 
@@ -357,11 +357,11 @@
             this.lblFacturacion.BackColor = System.Drawing.Color.Transparent;
             this.lblFacturacion.Font = new System.Drawing.Font("Manrope", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblFacturacion.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.lblFacturacion.Location = new System.Drawing.Point(219, 91);
+            this.lblFacturacion.Location = new System.Drawing.Point(200, 93);
             this.lblFacturacion.Name = "lblFacturacion";
-            this.lblFacturacion.Size = new System.Drawing.Size(123, 26);
+            this.lblFacturacion.Size = new System.Drawing.Size(220, 26);
             this.lblFacturacion.TabIndex = 55;
-            this.lblFacturacion.Text = "Facturacion";
+            this.lblFacturacion.Text = "Unidad de Facturacion";
             // 
             // picLogo
             // 
@@ -393,7 +393,7 @@
             this.grpServicios.Controls.Add(this.btnAgregar);
             this.grpServicios.Controls.Add(this.btnBuscarServicio);
             this.grpServicios.Controls.Add(this.txtServicio);
-            this.grpServicios.Controls.Add(this.lblBuscarRegistro);
+            this.grpServicios.Controls.Add(this.lblBuscarServicio);
             this.grpServicios.Font = new System.Drawing.Font("Manrope", 8.063999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grpServicios.Location = new System.Drawing.Point(75, 894);
             this.grpServicios.Name = "grpServicios";
@@ -471,16 +471,16 @@
             this.txtServicio.Size = new System.Drawing.Size(353, 24);
             this.txtServicio.TabIndex = 9;
             // 
-            // lblBuscarRegistro
+            // lblBuscarServicio
             // 
-            this.lblBuscarRegistro.AutoSize = true;
-            this.lblBuscarRegistro.BackColor = System.Drawing.Color.Transparent;
-            this.lblBuscarRegistro.Font = new System.Drawing.Font("Manrope SemiBold", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblBuscarRegistro.Location = new System.Drawing.Point(19, 47);
-            this.lblBuscarRegistro.Name = "lblBuscarRegistro";
-            this.lblBuscarRegistro.Size = new System.Drawing.Size(133, 22);
-            this.lblBuscarRegistro.TabIndex = 1;
-            this.lblBuscarRegistro.Text = "Buscar Servicio:";
+            this.lblBuscarServicio.AutoSize = true;
+            this.lblBuscarServicio.BackColor = System.Drawing.Color.Transparent;
+            this.lblBuscarServicio.Font = new System.Drawing.Font("Manrope SemiBold", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBuscarServicio.Location = new System.Drawing.Point(19, 47);
+            this.lblBuscarServicio.Name = "lblBuscarServicio";
+            this.lblBuscarServicio.Size = new System.Drawing.Size(133, 22);
+            this.lblBuscarServicio.TabIndex = 1;
+            this.lblBuscarServicio.Text = "Buscar Servicio:";
             // 
             // grpFactura
             // 
@@ -488,7 +488,7 @@
             this.grpFactura.Controls.Add(this.lablTotalNumero);
             this.grpFactura.Controls.Add(this.lblTotal);
             this.grpFactura.Controls.Add(this.cmbPago);
-            this.grpFactura.Controls.Add(this.label1);
+            this.grpFactura.Controls.Add(this.lblPago);
             this.grpFactura.Controls.Add(this.cmbMedico);
             this.grpFactura.Controls.Add(this.lblMedico);
             this.grpFactura.Controls.Add(this.dtpFechaFactura);
@@ -501,26 +501,52 @@
             this.grpFactura.TabStop = false;
             this.grpFactura.Text = "Factura";
             // 
-            // dtpFechaFactura
+            // lablTotalNumero
             // 
-            this.dtpFechaFactura.Location = new System.Drawing.Point(205, 58);
-            this.dtpFechaFactura.MaxDate = new System.DateTime(2030, 1, 1, 0, 0, 0, 0);
-            this.dtpFechaFactura.MinDate = new System.DateTime(1920, 1, 1, 0, 0, 0, 0);
-            this.dtpFechaFactura.Name = "dtpFechaFactura";
-            this.dtpFechaFactura.Size = new System.Drawing.Size(239, 27);
-            this.dtpFechaFactura.TabIndex = 21;
-            this.dtpFechaFactura.Value = new System.DateTime(2026, 11, 4, 0, 0, 0, 0);
+            this.lablTotalNumero.AutoSize = true;
+            this.lablTotalNumero.BackColor = System.Drawing.Color.Transparent;
+            this.lablTotalNumero.Font = new System.Drawing.Font("Manrope", 12.096F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lablTotalNumero.Location = new System.Drawing.Point(263, 318);
+            this.lablTotalNumero.Name = "lablTotalNumero";
+            this.lablTotalNumero.Size = new System.Drawing.Size(125, 28);
+            this.lablTotalNumero.TabIndex = 37;
+            this.lablTotalNumero.Text = "Aqui va el $";
             // 
-            // lblFecha
+            // lblTotal
             // 
-            this.lblFecha.AutoSize = true;
-            this.lblFecha.BackColor = System.Drawing.Color.Transparent;
-            this.lblFecha.Font = new System.Drawing.Font("Manrope SemiBold", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFecha.Location = new System.Drawing.Point(48, 63);
-            this.lblFecha.Name = "lblFecha";
-            this.lblFecha.Size = new System.Drawing.Size(61, 22);
-            this.lblFecha.TabIndex = 20;
-            this.lblFecha.Text = "Fecha:";
+            this.lblTotal.AutoSize = true;
+            this.lblTotal.BackColor = System.Drawing.Color.Transparent;
+            this.lblTotal.Font = new System.Drawing.Font("Manrope", 12.096F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotal.Location = new System.Drawing.Point(84, 318);
+            this.lblTotal.Name = "lblTotal";
+            this.lblTotal.Size = new System.Drawing.Size(70, 28);
+            this.lblTotal.TabIndex = 36;
+            this.lblTotal.Text = "Total:";
+            // 
+            // cmbPago
+            // 
+            this.cmbPago.AutoCompleteCustomSource.AddRange(new string[] {
+            "Medicina General",
+            "Oftalmologia",
+            "Cirugia",
+            "Odontologia",
+            "Cardiologo"});
+            this.cmbPago.FormattingEnabled = true;
+            this.cmbPago.Location = new System.Drawing.Point(205, 198);
+            this.cmbPago.Name = "cmbPago";
+            this.cmbPago.Size = new System.Drawing.Size(239, 27);
+            this.cmbPago.TabIndex = 34;
+            // 
+            // lblPago
+            // 
+            this.lblPago.AutoSize = true;
+            this.lblPago.BackColor = System.Drawing.Color.Transparent;
+            this.lblPago.Font = new System.Drawing.Font("Manrope SemiBold", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPago.Location = new System.Drawing.Point(48, 203);
+            this.lblPago.Name = "lblPago";
+            this.lblPago.Size = new System.Drawing.Size(114, 22);
+            this.lblPago.TabIndex = 33;
+            this.lblPago.Text = "Tipo de Pago:";
             // 
             // cmbMedico
             // 
@@ -547,52 +573,26 @@
             this.lblMedico.TabIndex = 31;
             this.lblMedico.Text = "Medico:";
             // 
-            // cmbPago
+            // dtpFechaFactura
             // 
-            this.cmbPago.AutoCompleteCustomSource.AddRange(new string[] {
-            "Medicina General",
-            "Oftalmologia",
-            "Cirugia",
-            "Odontologia",
-            "Cardiologo"});
-            this.cmbPago.FormattingEnabled = true;
-            this.cmbPago.Location = new System.Drawing.Point(205, 198);
-            this.cmbPago.Name = "cmbPago";
-            this.cmbPago.Size = new System.Drawing.Size(239, 27);
-            this.cmbPago.TabIndex = 34;
+            this.dtpFechaFactura.Location = new System.Drawing.Point(205, 58);
+            this.dtpFechaFactura.MaxDate = new System.DateTime(2030, 1, 1, 0, 0, 0, 0);
+            this.dtpFechaFactura.MinDate = new System.DateTime(1920, 1, 1, 0, 0, 0, 0);
+            this.dtpFechaFactura.Name = "dtpFechaFactura";
+            this.dtpFechaFactura.Size = new System.Drawing.Size(239, 27);
+            this.dtpFechaFactura.TabIndex = 21;
+            this.dtpFechaFactura.Value = new System.DateTime(2026, 11, 4, 0, 0, 0, 0);
             // 
-            // label1
+            // lblFecha
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Manrope SemiBold", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(48, 203);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(114, 22);
-            this.label1.TabIndex = 33;
-            this.label1.Text = "Tipo de Pago:";
-            // 
-            // lblTotal
-            // 
-            this.lblTotal.AutoSize = true;
-            this.lblTotal.BackColor = System.Drawing.Color.Transparent;
-            this.lblTotal.Font = new System.Drawing.Font("Manrope", 12.096F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotal.Location = new System.Drawing.Point(84, 318);
-            this.lblTotal.Name = "lblTotal";
-            this.lblTotal.Size = new System.Drawing.Size(70, 28);
-            this.lblTotal.TabIndex = 36;
-            this.lblTotal.Text = "Total:";
-            // 
-            // lablTotalNumero
-            // 
-            this.lablTotalNumero.AutoSize = true;
-            this.lablTotalNumero.BackColor = System.Drawing.Color.Transparent;
-            this.lablTotalNumero.Font = new System.Drawing.Font("Manrope", 12.096F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lablTotalNumero.Location = new System.Drawing.Point(263, 318);
-            this.lablTotalNumero.Name = "lablTotalNumero";
-            this.lablTotalNumero.Size = new System.Drawing.Size(125, 28);
-            this.lablTotalNumero.TabIndex = 37;
-            this.lablTotalNumero.Text = "Aqui va el $";
+            this.lblFecha.AutoSize = true;
+            this.lblFecha.BackColor = System.Drawing.Color.Transparent;
+            this.lblFecha.Font = new System.Drawing.Font("Manrope SemiBold", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFecha.Location = new System.Drawing.Point(48, 63);
+            this.lblFecha.Name = "lblFecha";
+            this.lblFecha.Size = new System.Drawing.Size(61, 22);
+            this.lblFecha.TabIndex = 20;
+            this.lblFecha.Text = "Fecha:";
             // 
             // grpDetalles
             // 
@@ -621,7 +621,7 @@
             this.dgvDetalles.Name = "dgvDetalles";
             this.dgvDetalles.RowHeadersWidth = 53;
             this.dgvDetalles.RowTemplate.Height = 24;
-            this.dgvDetalles.Size = new System.Drawing.Size(1285, 259);
+            this.dgvDetalles.Size = new System.Drawing.Size(1285, 291);
             this.dgvDetalles.TabIndex = 61;
             // 
             // dataGridViewTextBoxColumn1
@@ -673,7 +673,7 @@
             this.Controls.Add(this.btnVolver);
             this.Name = "frmFacturacion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Medico:";
+            this.Text = "Facturacion";
             this.grpVerPacientes.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvRegistroPacientes)).EndInit();
             this.grpDatosPaciente.ResumeLayout(false);
@@ -708,7 +708,7 @@
         private System.Windows.Forms.RadioButton radFemenino;
         private System.Windows.Forms.TextBox txtApellido;
         private System.Windows.Forms.TextBox txtNombre;
-        private System.Windows.Forms.Label lblNacimiento;
+        private System.Windows.Forms.Label lblEdad;
         private System.Windows.Forms.Label lblGenero;
         private System.Windows.Forms.Label lblApellido;
         private System.Windows.Forms.Label lblNombre;
@@ -723,7 +723,7 @@
         private System.Windows.Forms.Button btnVolver;
         private System.Windows.Forms.GroupBox grpServicios;
         private System.Windows.Forms.TextBox txtServicio;
-        private System.Windows.Forms.Label lblBuscarRegistro;
+        private System.Windows.Forms.Label lblBuscarServicio;
         private System.Windows.Forms.Button btnBuscarServicio;
         private System.Windows.Forms.Button btnAgregar;
         private System.Windows.Forms.DataGridView dgvServicios;
@@ -736,7 +736,7 @@
         private System.Windows.Forms.ComboBox cmbMedico;
         private System.Windows.Forms.Label lblMedico;
         private System.Windows.Forms.ComboBox cmbPago;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblPago;
         private System.Windows.Forms.Label lblTotal;
         private System.Windows.Forms.Label lablTotalNumero;
         private System.Windows.Forms.GroupBox grpDetalles;

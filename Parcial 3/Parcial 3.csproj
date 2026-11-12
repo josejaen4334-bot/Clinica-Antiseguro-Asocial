@@ -84,6 +84,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bitacora.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bitacora.Designer.cs">
+      <DependentUpon>Bitacora.cs</DependentUpon>
+    </Compile>
     <Compile Include="Citas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -160,12 +166,21 @@
     <Compile Include="Reportes.Designer.cs">
       <DependentUpon>Reportes.cs</DependentUpon>
     </Compile>
+    <Compile Include="Usuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Usuarios.Designer.cs">
+      <DependentUpon>Usuarios.cs</DependentUpon>
+    </Compile>
     <Compile Include="Videos.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Videos.Designer.cs">
       <DependentUpon>Videos.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Bitacora.resx">
+      <DependentUpon>Bitacora.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Citas.resx">
       <DependentUpon>Citas.cs</DependentUpon>
     </EmbeddedResource>
@@ -206,6 +221,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Usuarios.resx">
+      <DependentUpon>Usuarios.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Videos.resx">
       <DependentUpon>Videos.cs</DependentUpon>
     </EmbeddedResource>
@@ -233,6 +251,7 @@
   <ItemGroup />
   <ItemGroup>
     <Content Include="Resources\Img\CIA logo 2 chiquito.png" />
+    <None Include="Resources\log.png" />
     <None Include="Resources\perfil-del-usuario1.png" />
     <None Include="Resources\perfil-del-usuario.png" />
     <None Include="Resources\Img\fondo 3.jpg" />

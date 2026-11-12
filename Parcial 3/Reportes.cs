@@ -37,7 +37,7 @@ namespace Parcial_3
             btnLimpiar.Click += btnLimpiar_Click;
 
             cmbEstado.Enabled = false;
-            comboBox1.Enabled = false;
+            cmbBuscarPor.Enabled = false;
         }
 
         private void btnVolver_Click(object sender, EventArgs e)
@@ -75,9 +75,9 @@ namespace Parcial_3
                 foreach (DataRow f in origen.Rows)
                     lista.Rows.Add(Convert.ToInt32(f[0]), f["Nombre"]);
 
-                Ui.LlenarCombo(comboBox1, lista, "Nombre", "Id");
-                comboBox1.SelectedIndex = 0;
-                comboBox1.Enabled = true;
+                Ui.LlenarCombo(cmbBuscarPor, lista, "Nombre", "Id");
+                cmbBuscarPor.SelectedIndex = 0;
+                cmbBuscarPor.Enabled = true;
             }
             catch (Exception ex) { Ui.Error(ex); }
 
@@ -114,7 +114,7 @@ namespace Parcial_3
             string campoFecha;
 
             // Valores elegidos en los filtros (0 / "Todos" = sin filtro)
-            int entidad = comboBox1.SelectedValue != null ? Convert.ToInt32(comboBox1.SelectedValue) : 0;
+            int entidad = cmbBuscarPor.SelectedValue != null ? Convert.ToInt32(cmbBuscarPor.SelectedValue) : 0;
             string estado = cmbEstado.Enabled && cmbEstado.SelectedItem != null ? cmbEstado.SelectedItem.ToString() : "Todos";
 
             switch (tipo)
@@ -191,7 +191,7 @@ namespace Parcial_3
 
         private void btnLimpiar_Click(object sender, EventArgs e)
         {
-            if (comboBox1.Enabled && comboBox1.Items.Count > 0) comboBox1.SelectedIndex = 0;
+            if (cmbBuscarPor.Enabled && cmbBuscarPor.Items.Count > 0) cmbBuscarPor.SelectedIndex = 0;
             if (cmbEstado.Enabled && cmbEstado.Items.Count > 0) cmbEstado.SelectedIndex = 0;
             FechasPorDefecto();
 

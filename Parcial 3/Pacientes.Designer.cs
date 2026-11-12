@@ -30,7 +30,7 @@
         {
             this.btnVolver = new System.Windows.Forms.Button();
             this.grpDatosPaciente = new System.Windows.Forms.GroupBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtTipoSangre = new System.Windows.Forms.TextBox();
             this.lblSangre = new System.Windows.Forms.Label();
             this.txtDireccion = new System.Windows.Forms.TextBox();
             this.lblDireccion = new System.Windows.Forms.Label();
@@ -58,7 +58,7 @@
             this.btnEliminar = new System.Windows.Forms.Button();
             this.btnLimpiar = new System.Windows.Forms.Button();
             this.picLogo = new System.Windows.Forms.PictureBox();
-            this.lblGestionEmpleados = new System.Windows.Forms.Label();
+            this.lblGestionPacientes = new System.Windows.Forms.Label();
             this.btnActualizarTabla = new System.Windows.Forms.Button();
             this.btnBuscar = new System.Windows.Forms.Button();
             this.txtBuscar = new System.Windows.Forms.TextBox();
@@ -83,7 +83,7 @@
             // grpDatosPaciente
             // 
             this.grpDatosPaciente.BackColor = System.Drawing.Color.Transparent;
-            this.grpDatosPaciente.Controls.Add(this.textBox1);
+            this.grpDatosPaciente.Controls.Add(this.txtTipoSangre);
             this.grpDatosPaciente.Controls.Add(this.lblSangre);
             this.grpDatosPaciente.Controls.Add(this.txtDireccion);
             this.grpDatosPaciente.Controls.Add(this.lblDireccion);
@@ -112,13 +112,13 @@
             this.grpDatosPaciente.TabStop = false;
             this.grpDatosPaciente.Text = "Datos del Paciente";
             // 
-            // textBox1
+            // txtTipoSangre
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(175, 528);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(241, 21);
-            this.textBox1.TabIndex = 29;
+            this.txtTipoSangre.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTipoSangre.Location = new System.Drawing.Point(175, 528);
+            this.txtTipoSangre.Name = "txtTipoSangre";
+            this.txtTipoSangre.Size = new System.Drawing.Size(241, 21);
+            this.txtTipoSangre.TabIndex = 29;
             // 
             // lblSangre
             // 
@@ -397,17 +397,17 @@
             this.picLogo.TabIndex = 20;
             this.picLogo.TabStop = false;
             // 
-            // lblGestionEmpleados
+            // lblGestionPacientes
             // 
-            this.lblGestionEmpleados.AutoSize = true;
-            this.lblGestionEmpleados.BackColor = System.Drawing.Color.Transparent;
-            this.lblGestionEmpleados.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGestionEmpleados.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.lblGestionEmpleados.Location = new System.Drawing.Point(191, 68);
-            this.lblGestionEmpleados.Name = "lblGestionEmpleados";
-            this.lblGestionEmpleados.Size = new System.Drawing.Size(310, 24);
-            this.lblGestionEmpleados.TabIndex = 35;
-            this.lblGestionEmpleados.Text = "Unidad de Gestion de Pacientes";
+            this.lblGestionPacientes.AutoSize = true;
+            this.lblGestionPacientes.BackColor = System.Drawing.Color.Transparent;
+            this.lblGestionPacientes.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblGestionPacientes.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.lblGestionPacientes.Location = new System.Drawing.Point(191, 68);
+            this.lblGestionPacientes.Name = "lblGestionPacientes";
+            this.lblGestionPacientes.Size = new System.Drawing.Size(310, 24);
+            this.lblGestionPacientes.TabIndex = 35;
+            this.lblGestionPacientes.Text = "Unidad de Gestion de Pacientes";
             // 
             // btnActualizarTabla
             // 
@@ -451,7 +451,7 @@
             this.Controls.Add(this.txtBuscar);
             this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.btnActualizarTabla);
-            this.Controls.Add(this.lblGestionEmpleados);
+            this.Controls.Add(this.lblGestionPacientes);
             this.Controls.Add(this.picLogo);
             this.Controls.Add(this.btnLimpiar);
             this.Controls.Add(this.btnEliminar);
@@ -498,14 +498,14 @@
         private System.Windows.Forms.Label lblCedula;
         private System.Windows.Forms.TextBox txtDireccion;
         private System.Windows.Forms.Label lblDireccion;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtTipoSangre;
         private System.Windows.Forms.Label lblSangre;
         private System.Windows.Forms.Button btnRegistrar;
         private System.Windows.Forms.Button btnActualizar;
         private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.Button btnLimpiar;
         private System.Windows.Forms.PictureBox picLogo;
-        private System.Windows.Forms.Label lblGestionEmpleados;
+        private System.Windows.Forms.Label lblGestionPacientes;
         private System.Windows.Forms.Button btnActualizarTabla;
         private System.Windows.Forms.Button btnBuscar;
         private System.Windows.Forms.TextBox txtBuscar;

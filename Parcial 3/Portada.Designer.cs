@@ -37,10 +37,10 @@
             this.lblIntegrantes = new System.Windows.Forms.Label();
             this.lblMateria = new System.Windows.Forms.Label();
             this.lblFecha = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.picLogoUTP = new System.Windows.Forms.PictureBox();
+            this.picLogoFISC = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.picLogoUTP)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picLogoFISC)).BeginInit();
             this.SuspendLayout();
             // 
             // lblUniversidad
@@ -138,27 +138,27 @@
             this.lblFecha.TabIndex = 11;
             this.lblFecha.Text = "Fecha de Entrega: Noviembre 12, 2026";
             // 
-            // pictureBox1
+            // picLogoUTP
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(37, 28);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(120, 115);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 12;
-            this.pictureBox1.TabStop = false;
+            this.picLogoUTP.BackColor = System.Drawing.Color.Transparent;
+            this.picLogoUTP.Image = ((System.Drawing.Image)(resources.GetObject("picLogoUTP.Image")));
+            this.picLogoUTP.Location = new System.Drawing.Point(37, 28);
+            this.picLogoUTP.Name = "picLogoUTP";
+            this.picLogoUTP.Size = new System.Drawing.Size(120, 115);
+            this.picLogoUTP.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picLogoUTP.TabIndex = 12;
+            this.picLogoUTP.TabStop = false;
             // 
-            // pictureBox2
+            // picLogoFISC
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(852, 28);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(120, 115);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 13;
-            this.pictureBox2.TabStop = false;
+            this.picLogoFISC.BackColor = System.Drawing.Color.Transparent;
+            this.picLogoFISC.Image = ((System.Drawing.Image)(resources.GetObject("picLogoFISC.Image")));
+            this.picLogoFISC.Location = new System.Drawing.Point(852, 28);
+            this.picLogoFISC.Name = "picLogoFISC";
+            this.picLogoFISC.Size = new System.Drawing.Size(120, 115);
+            this.picLogoFISC.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picLogoFISC.TabIndex = 13;
+            this.picLogoFISC.TabStop = false;
             // 
             // frmPortada
             // 
@@ -167,8 +167,8 @@
             this.BackgroundImage = global::Parcial_3.Properties.Resources.fondo_2;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1011, 520);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.picLogoFISC);
+            this.Controls.Add(this.picLogoUTP);
             this.Controls.Add(this.lblFecha);
             this.Controls.Add(this.lblMateria);
             this.Controls.Add(this.lblIntegrantes);
@@ -180,9 +180,9 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmPortada";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Portada";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.Text = "Maravillosa e Increible Portada";
+            ((System.ComponentModel.ISupportInitialize)(this.picLogoUTP)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picLogoFISC)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -198,7 +198,7 @@
         private System.Windows.Forms.Label lblIntegrantes;
         private System.Windows.Forms.Label lblMateria;
         private System.Windows.Forms.Label lblFecha;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox picLogoUTP;
+        private System.Windows.Forms.PictureBox picLogoFISC;
     }
 }

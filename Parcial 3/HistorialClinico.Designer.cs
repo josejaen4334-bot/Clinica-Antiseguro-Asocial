@@ -46,7 +46,7 @@
             this.radFemenino = new System.Windows.Forms.RadioButton();
             this.txtApellido = new System.Windows.Forms.TextBox();
             this.txtNombre = new System.Windows.Forms.TextBox();
-            this.lblNacimiento = new System.Windows.Forms.Label();
+            this.lblEdad = new System.Windows.Forms.Label();
             this.lblGenero = new System.Windows.Forms.Label();
             this.lblApellido = new System.Windows.Forms.Label();
             this.lblNombre = new System.Windows.Forms.Label();
@@ -56,17 +56,17 @@
             this.dgvRegistroPacientes = new System.Windows.Forms.DataGridView();
             this.lblSeparador = new System.Windows.Forms.Label();
             this.grpHistorial = new System.Windows.Forms.GroupBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.btnEliminar = new System.Windows.Forms.Button();
+            this.dgvHistorialRegistro = new System.Windows.Forms.DataGridView();
             this.btnActualizar = new System.Windows.Forms.Button();
-            this.btnRegistrar = new System.Windows.Forms.Button();
+            this.btnNuevaConsulta = new System.Windows.Forms.Button();
             this.panBuscar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).BeginInit();
             this.grpDatosPaciente.SuspendLayout();
             this.grpVerPacientes.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvRegistroPacientes)).BeginInit();
             this.grpHistorial.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvHistorialRegistro)).BeginInit();
             this.SuspendLayout();
             // 
             // panBuscar
@@ -161,7 +161,7 @@
             this.grpDatosPaciente.Controls.Add(this.radFemenino);
             this.grpDatosPaciente.Controls.Add(this.txtApellido);
             this.grpDatosPaciente.Controls.Add(this.txtNombre);
-            this.grpDatosPaciente.Controls.Add(this.lblNacimiento);
+            this.grpDatosPaciente.Controls.Add(this.lblEdad);
             this.grpDatosPaciente.Controls.Add(this.lblGenero);
             this.grpDatosPaciente.Controls.Add(this.lblApellido);
             this.grpDatosPaciente.Controls.Add(this.lblNombre);
@@ -264,16 +264,16 @@
             this.txtNombre.Size = new System.Drawing.Size(241, 24);
             this.txtNombre.TabIndex = 14;
             // 
-            // lblNacimiento
+            // lblEdad
             // 
-            this.lblNacimiento.AutoSize = true;
-            this.lblNacimiento.BackColor = System.Drawing.Color.Transparent;
-            this.lblNacimiento.Font = new System.Drawing.Font("Manrope SemiBold", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNacimiento.Location = new System.Drawing.Point(927, 98);
-            this.lblNacimiento.Name = "lblNacimiento";
-            this.lblNacimiento.Size = new System.Drawing.Size(53, 22);
-            this.lblNacimiento.TabIndex = 13;
-            this.lblNacimiento.Text = "Edad:";
+            this.lblEdad.AutoSize = true;
+            this.lblEdad.BackColor = System.Drawing.Color.Transparent;
+            this.lblEdad.Font = new System.Drawing.Font("Manrope SemiBold", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEdad.Location = new System.Drawing.Point(927, 98);
+            this.lblEdad.Name = "lblEdad";
+            this.lblEdad.Size = new System.Drawing.Size(53, 22);
+            this.lblEdad.TabIndex = 13;
+            this.lblEdad.Text = "Edad:";
             // 
             // lblGenero
             // 
@@ -369,9 +369,9 @@
             // 
             this.grpHistorial.BackColor = System.Drawing.Color.Transparent;
             this.grpHistorial.Controls.Add(this.btnEliminar);
-            this.grpHistorial.Controls.Add(this.dataGridView1);
+            this.grpHistorial.Controls.Add(this.dgvHistorialRegistro);
             this.grpHistorial.Controls.Add(this.btnActualizar);
-            this.grpHistorial.Controls.Add(this.btnRegistrar);
+            this.grpHistorial.Controls.Add(this.btnNuevaConsulta);
             this.grpHistorial.Font = new System.Drawing.Font("Manrope", 8.063999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grpHistorial.Location = new System.Drawing.Point(49, 886);
             this.grpHistorial.Name = "grpHistorial";
@@ -379,17 +379,6 @@
             this.grpHistorial.TabIndex = 53;
             this.grpHistorial.TabStop = false;
             this.grpHistorial.Text = "Historial de Registros anteriores";
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(6, 26);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 53;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(1393, 377);
-            this.dataGridView1.TabIndex = 0;
             // 
             // btnEliminar
             // 
@@ -401,6 +390,17 @@
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = true;
             // 
+            // dgvHistorialRegistro
+            // 
+            this.dgvHistorialRegistro.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.dgvHistorialRegistro.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvHistorialRegistro.Location = new System.Drawing.Point(6, 26);
+            this.dgvHistorialRegistro.Name = "dgvHistorialRegistro";
+            this.dgvHistorialRegistro.RowHeadersWidth = 53;
+            this.dgvHistorialRegistro.RowTemplate.Height = 24;
+            this.dgvHistorialRegistro.Size = new System.Drawing.Size(1393, 377);
+            this.dgvHistorialRegistro.TabIndex = 0;
+            // 
             // btnActualizar
             // 
             this.btnActualizar.Font = new System.Drawing.Font("Manrope", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -411,16 +411,16 @@
             this.btnActualizar.Text = "Actualizar";
             this.btnActualizar.UseVisualStyleBackColor = true;
             // 
-            // btnRegistrar
+            // btnNuevaConsulta
             // 
-            this.btnRegistrar.Font = new System.Drawing.Font("Manrope", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegistrar.Location = new System.Drawing.Point(228, 440);
-            this.btnRegistrar.Name = "btnRegistrar";
-            this.btnRegistrar.Size = new System.Drawing.Size(203, 47);
-            this.btnRegistrar.TabIndex = 54;
-            this.btnRegistrar.Text = "+ Nueva Consulta";
-            this.btnRegistrar.UseVisualStyleBackColor = true;
-            this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrar_Click);
+            this.btnNuevaConsulta.Font = new System.Drawing.Font("Manrope", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNuevaConsulta.Location = new System.Drawing.Point(228, 440);
+            this.btnNuevaConsulta.Name = "btnNuevaConsulta";
+            this.btnNuevaConsulta.Size = new System.Drawing.Size(203, 47);
+            this.btnNuevaConsulta.TabIndex = 54;
+            this.btnNuevaConsulta.Text = "+ Nueva Consulta";
+            this.btnNuevaConsulta.UseVisualStyleBackColor = true;
+            this.btnNuevaConsulta.Click += new System.EventHandler(this.btnRegistrar_Click);
             // 
             // frmHistorialClinico
             // 
@@ -450,7 +450,7 @@
             this.grpVerPacientes.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvRegistroPacientes)).EndInit();
             this.grpHistorial.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvHistorialRegistro)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -472,7 +472,7 @@
         private System.Windows.Forms.Label lblCedula;
         private System.Windows.Forms.TextBox txtApellido;
         private System.Windows.Forms.TextBox txtNombre;
-        private System.Windows.Forms.Label lblNacimiento;
+        private System.Windows.Forms.Label lblEdad;
         private System.Windows.Forms.Label lblGenero;
         private System.Windows.Forms.Label lblApellido;
         private System.Windows.Forms.Label lblNombre;
@@ -485,9 +485,9 @@
         private System.Windows.Forms.TextBox txtEdad;
         private System.Windows.Forms.Label lblSeparador;
         private System.Windows.Forms.GroupBox grpHistorial;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgvHistorialRegistro;
         private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.Button btnActualizar;
-        private System.Windows.Forms.Button btnRegistrar;
+        private System.Windows.Forms.Button btnNuevaConsulta;
     }
 }

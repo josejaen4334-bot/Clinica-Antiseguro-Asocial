@@ -28,7 +28,7 @@ namespace Parcial_3
             radFemenino.AutoCheck = false;
 
             Ui.ConfigurarGrid(dgvRegistroPacientes);
-            Ui.ConfigurarGrid(dataGridView1, false); // el historial se puede editar y luego presionar Actualizar
+            Ui.ConfigurarGrid(dgvHistorialRegistro, false); // el historial se puede editar y luego presionar Actualizar
 
             // Conexión de los eventos que no estaban en el diseño
             this.Load += frmHistorialClinico_Load;
@@ -129,11 +129,11 @@ namespace Parcial_3
         {
             try
             {
-                Ui.Enlazar(dataGridView1, datos.ListarConsultasPaciente(idPaciente), "IdConsulta");
+                Ui.Enlazar(dgvHistorialRegistro, datos.ListarConsultasPaciente(idPaciente), "IdConsulta");
 
                 // Estas columnas no se editan; síntomas, diagnóstico, tratamiento y observaciones sí
                 foreach (string col in new string[] { "Fecha", "Medico", "Especialidad" })
-                    if (dataGridView1.Columns.Contains(col)) dataGridView1.Columns[col].ReadOnly = true;
+                    if (dgvHistorialRegistro.Columns.Contains(col)) dgvHistorialRegistro.Columns[col].ReadOnly = true;
             }
             catch (Exception ex) { Ui.Error(ex); }
         }
@@ -141,14 +141,14 @@ namespace Parcial_3
         // Guarda en la BD los cambios hechos en la fila seleccionada del historial
         private void btnActualizar_Click(object sender, EventArgs e)
         {
-            DataGridViewRow f = dataGridView1.CurrentRow;
+            DataGridViewRow f = dgvHistorialRegistro.CurrentRow;
             if (f == null)
             {
                 Ui.Aviso("Primero seleccione un registro del historial.");
                 return;
             }
 
-            dataGridView1.EndEdit();
+            dgvHistorialRegistro.EndEdit();
             string diagnostico = Convert.ToString(f.Cells["Diagnostico"].Value).Trim();
             if (diagnostico == "")
             {
@@ -172,7 +172,7 @@ namespace Parcial_3
 
         private void btnEliminar_Click(object sender, EventArgs e)
         {
-            DataGridViewRow f = dataGridView1.CurrentRow;
+            DataGridViewRow f = dgvHistorialRegistro.CurrentRow;
             if (f == null)
             {
                 Ui.Aviso("Primero seleccione un registro del historial.");

@@ -38,10 +38,12 @@
             this.btnCitas = new System.Windows.Forms.Button();
             this.btnReportes = new System.Windows.Forms.Button();
             this.btnFacturacion = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.picLogo = new System.Windows.Forms.PictureBox();
             this.btnCerrar = new System.Windows.Forms.Button();
             this.btnVideos = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.btnBitacora = new System.Windows.Forms.Button();
+            this.btnUsuarios = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.picLogo)).BeginInit();
             this.SuspendLayout();
             // 
             // lblBienvenido
@@ -176,16 +178,16 @@
             this.btnFacturacion.UseVisualStyleBackColor = true;
             this.btnFacturacion.Click += new System.EventHandler(this.btnFacturacion_Click);
             // 
-            // pictureBox1
+            // picLogo
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::Parcial_3.Properties.Resources.CIA_logo_2_chiquito;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(123, 100);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 19;
-            this.pictureBox1.TabStop = false;
+            this.picLogo.BackColor = System.Drawing.Color.Transparent;
+            this.picLogo.Image = global::Parcial_3.Properties.Resources.CIA_logo_2_chiquito;
+            this.picLogo.Location = new System.Drawing.Point(12, 12);
+            this.picLogo.Name = "picLogo";
+            this.picLogo.Size = new System.Drawing.Size(123, 100);
+            this.picLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picLogo.TabIndex = 19;
+            this.picLogo.TabStop = false;
             // 
             // btnCerrar
             // 
@@ -214,16 +216,48 @@
             this.btnVideos.UseVisualStyleBackColor = true;
             this.btnVideos.Click += new System.EventHandler(this.btnVideos_Click);
             // 
+            // btnBitacora
+            // 
+            this.btnBitacora.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnBitacora.Font = new System.Drawing.Font("Manrope", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBitacora.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.btnBitacora.Image = global::Parcial_3.Properties.Resources.log;
+            this.btnBitacora.Location = new System.Drawing.Point(461, 500);
+            this.btnBitacora.Name = "btnBitacora";
+            this.btnBitacora.Size = new System.Drawing.Size(216, 82);
+            this.btnBitacora.TabIndex = 23;
+            this.btnBitacora.Text = "Bitacora / Log";
+            this.btnBitacora.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnBitacora.UseVisualStyleBackColor = true;
+            this.btnBitacora.Click += new System.EventHandler(this.btnBitacora_Click);
+            // 
+            // btnUsuarios
+            // 
+            this.btnUsuarios.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnUsuarios.Font = new System.Drawing.Font("Manrope", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUsuarios.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.btnUsuarios.Image = global::Parcial_3.Properties.Resources.add_user;
+            this.btnUsuarios.Location = new System.Drawing.Point(185, 500);
+            this.btnUsuarios.Name = "btnUsuarios";
+            this.btnUsuarios.Size = new System.Drawing.Size(216, 82);
+            this.btnUsuarios.TabIndex = 22;
+            this.btnUsuarios.Text = "Usuarios";
+            this.btnUsuarios.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnUsuarios.UseVisualStyleBackColor = true;
+            this.btnUsuarios.Click += new System.EventHandler(this.btnUsuarios_Click);
+            // 
             // frmPanelPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Parcial_3.Properties.Resources.fondo_1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(857, 516);
+            this.ClientSize = new System.Drawing.Size(857, 627);
+            this.Controls.Add(this.btnBitacora);
+            this.Controls.Add(this.btnUsuarios);
             this.Controls.Add(this.btnVideos);
             this.Controls.Add(this.btnCerrar);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.picLogo);
             this.Controls.Add(this.btnReportes);
             this.Controls.Add(this.btnFacturacion);
             this.Controls.Add(this.btnHistorial);
@@ -236,7 +270,7 @@
             this.Name = "frmPanelPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Panel Principal";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picLogo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -253,8 +287,10 @@
         private System.Windows.Forms.Button btnCitas;
         private System.Windows.Forms.Button btnReportes;
         private System.Windows.Forms.Button btnFacturacion;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox picLogo;
         private System.Windows.Forms.Button btnCerrar;
         private System.Windows.Forms.Button btnVideos;
+        private System.Windows.Forms.Button btnBitacora;
+        private System.Windows.Forms.Button btnUsuarios;
     }
 }

@@ -30,11 +30,11 @@
         {
             this.lstVideos = new System.Windows.Forms.ListBox();
             this.panVideos = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.picLogo = new System.Windows.Forms.PictureBox();
             this.lblVideos = new System.Windows.Forms.Label();
             this.btnVolver = new System.Windows.Forms.Button();
             this.btnReproducir = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picLogo)).BeginInit();
             this.SuspendLayout();
             // 
             // lstVideos
@@ -54,16 +54,16 @@
             this.panVideos.Size = new System.Drawing.Size(771, 407);
             this.panVideos.TabIndex = 1;
             // 
-            // pictureBox1
+            // picLogo
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::Parcial_3.Properties.Resources.CIA_logo_2_chiquito;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(123, 100);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 21;
-            this.pictureBox1.TabStop = false;
+            this.picLogo.BackColor = System.Drawing.Color.Transparent;
+            this.picLogo.Image = global::Parcial_3.Properties.Resources.CIA_logo_2_chiquito;
+            this.picLogo.Location = new System.Drawing.Point(12, 12);
+            this.picLogo.Name = "picLogo";
+            this.picLogo.Size = new System.Drawing.Size(123, 100);
+            this.picLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picLogo.TabIndex = 21;
+            this.picLogo.TabStop = false;
             // 
             // lblVideos
             // 
@@ -109,13 +109,14 @@
             this.ClientSize = new System.Drawing.Size(1377, 685);
             this.Controls.Add(this.btnReproducir);
             this.Controls.Add(this.btnVolver);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.picLogo);
             this.Controls.Add(this.lblVideos);
             this.Controls.Add(this.panVideos);
             this.Controls.Add(this.lstVideos);
             this.Name = "frmVideos";
-            this.Text = "Videos";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Videos Educacionales";
+            ((System.ComponentModel.ISupportInitialize)(this.picLogo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -125,7 +126,7 @@
 
         private System.Windows.Forms.ListBox lstVideos;
         private System.Windows.Forms.Panel panVideos;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox picLogo;
         private System.Windows.Forms.Label lblVideos;
         private System.Windows.Forms.Button btnVolver;
         private System.Windows.Forms.Button btnReproducir;

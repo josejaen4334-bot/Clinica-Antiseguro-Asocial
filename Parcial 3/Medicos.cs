@@ -87,7 +87,7 @@ namespace Parcial_3
             dtpContratacion.Value = Convert.ToDateTime(f.Cells["FechaContratacion"].Value);
             txtTelefono.Text = Convert.ToString(f.Cells["Telefono"].Value);
             txtCorreo.Text = Convert.ToString(f.Cells["Correo"].Value);
-            textBox1.Text = Convert.ToString(f.Cells["Licencia"].Value); // textBox1 = licencia
+            txtLicencia.Text = Convert.ToString(f.Cells["Licencia"].Value); // textBox1 = licencia
             cmbEspecialidad.SelectedValue = Convert.ToInt32(f.Cells["IdEspecialidad"].Value);
             cmbEstado.SelectedItem = Convert.ToString(f.Cells["Estado"].Value);
         }
@@ -102,7 +102,7 @@ namespace Parcial_3
             {
                 datos.GuardarMedico(txtCedula.Text.Trim(), txtNombre.Text.Trim(), txtApellido.Text.Trim(),
                     Genero(), dtpContratacion.Value, txtTelefono.Text.Trim(), txtCorreo.Text.Trim(),
-                    textBox1.Text.Trim(), Convert.ToInt32(cmbEspecialidad.SelectedValue),
+                    txtLicencia.Text.Trim(), Convert.ToInt32(cmbEspecialidad.SelectedValue),
                     cmbEstado.SelectedItem.ToString());
 
                 datos.Bitacora("Medicos", "INSERTAR", "Se registró el médico " + txtCedula.Text.Trim());
@@ -126,7 +126,7 @@ namespace Parcial_3
             {
                 datos.ActualizarMedico(int.Parse(txtIDMedico.Text), txtCedula.Text.Trim(),
                     txtNombre.Text.Trim(), txtApellido.Text.Trim(), Genero(), dtpContratacion.Value,
-                    txtTelefono.Text.Trim(), txtCorreo.Text.Trim(), textBox1.Text.Trim(),
+                    txtTelefono.Text.Trim(), txtCorreo.Text.Trim(), txtLicencia.Text.Trim(),
                     Convert.ToInt32(cmbEspecialidad.SelectedValue), cmbEstado.SelectedItem.ToString());
 
                 datos.Bitacora("Medicos", "ACTUALIZAR", "Se actualizó el médico " + txtCedula.Text.Trim());
@@ -217,7 +217,7 @@ namespace Parcial_3
             dtpContratacion.Value = DateTime.Today;
             txtTelefono.Clear();
             txtCorreo.Clear();
-            textBox1.Clear();
+            txtLicencia.Clear();
             cmbEspecialidad.SelectedIndex = -1;
             cmbEstado.SelectedIndex = 0;
             dgvRegistro.ClearSelection();
@@ -227,7 +227,7 @@ namespace Parcial_3
         private bool DatosValidos()
         {
             if (txtCedula.Text.Trim() == "" || txtNombre.Text.Trim() == "" ||
-                txtApellido.Text.Trim() == "" || textBox1.Text.Trim() == "")
+                txtApellido.Text.Trim() == "" || txtLicencia.Text.Trim() == "")
             {
                 Ui.Aviso("La cédula, el nombre, el apellido y la licencia son obligatorios.");
                 return false;

@@ -30,11 +30,11 @@
         {
             this.grpDatosMedico = new System.Windows.Forms.GroupBox();
             this.picFoto = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblFoto = new System.Windows.Forms.Label();
             this.cmbEstado = new System.Windows.Forms.ComboBox();
             this.lblEstado = new System.Windows.Forms.Label();
             this.cmbEspecialidad = new System.Windows.Forms.ComboBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtLicencia = new System.Windows.Forms.TextBox();
             this.lblLicencia = new System.Windows.Forms.Label();
             this.lblEspecialidad = new System.Windows.Forms.Label();
             this.txtCorreo = new System.Windows.Forms.TextBox();
@@ -77,11 +77,11 @@
             // 
             this.grpDatosMedico.BackColor = System.Drawing.Color.Transparent;
             this.grpDatosMedico.Controls.Add(this.picFoto);
-            this.grpDatosMedico.Controls.Add(this.label1);
+            this.grpDatosMedico.Controls.Add(this.lblFoto);
             this.grpDatosMedico.Controls.Add(this.cmbEstado);
             this.grpDatosMedico.Controls.Add(this.lblEstado);
             this.grpDatosMedico.Controls.Add(this.cmbEspecialidad);
-            this.grpDatosMedico.Controls.Add(this.textBox1);
+            this.grpDatosMedico.Controls.Add(this.txtLicencia);
             this.grpDatosMedico.Controls.Add(this.lblLicencia);
             this.grpDatosMedico.Controls.Add(this.lblEspecialidad);
             this.grpDatosMedico.Controls.Add(this.txtCorreo);
@@ -120,16 +120,16 @@
             this.picFoto.TabIndex = 34;
             this.picFoto.TabStop = false;
             // 
-            // label1
+            // lblFoto
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Manrope SemiBold", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(27, 114);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(50, 22);
-            this.label1.TabIndex = 33;
-            this.label1.Text = "Foto:";
+            this.lblFoto.AutoSize = true;
+            this.lblFoto.BackColor = System.Drawing.Color.Transparent;
+            this.lblFoto.Font = new System.Drawing.Font("Manrope SemiBold", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFoto.Location = new System.Drawing.Point(27, 114);
+            this.lblFoto.Name = "lblFoto";
+            this.lblFoto.Size = new System.Drawing.Size(50, 22);
+            this.lblFoto.TabIndex = 33;
+            this.lblFoto.Text = "Foto:";
             // 
             // cmbEstado
             // 
@@ -170,13 +170,13 @@
             this.cmbEspecialidad.Size = new System.Drawing.Size(239, 27);
             this.cmbEspecialidad.TabIndex = 30;
             // 
-            // textBox1
+            // txtLicencia
             // 
-            this.textBox1.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(224, 675);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(241, 24);
-            this.textBox1.TabIndex = 29;
+            this.txtLicencia.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtLicencia.Location = new System.Drawing.Point(224, 675);
+            this.txtLicencia.Name = "txtLicencia";
+            this.txtLicencia.Size = new System.Drawing.Size(241, 24);
+            this.txtLicencia.TabIndex = 29;
             // 
             // lblLicencia
             // 
@@ -540,7 +540,7 @@
 
         private System.Windows.Forms.PictureBox picLogo;
         private System.Windows.Forms.GroupBox grpDatosMedico;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtLicencia;
         private System.Windows.Forms.Label lblLicencia;
         private System.Windows.Forms.Label lblEspecialidad;
         private System.Windows.Forms.TextBox txtCorreo;
@@ -573,7 +573,7 @@
         private System.Windows.Forms.Label lblGestionMedicos;
         private System.Windows.Forms.Button btnActualizarTabla;
         private System.Windows.Forms.PictureBox picFoto;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblFoto;
         private System.Windows.Forms.TextBox txtBuscar;
         private System.Windows.Forms.Button btnBuscar;
     }

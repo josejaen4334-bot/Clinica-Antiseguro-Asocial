@@ -20,7 +20,7 @@ namespace Parcial_3
             InitializeComponent();
 
             // El ID de la cita lo genera la BD (este campo se llama txtIDEmpleado en el diseño)
-            txtIDEmpleado.ReadOnly = true;
+            txtIDCita.ReadOnly = true;
             Ui.ConfigurarGrid(dgvRegistro);
 
             // El selector de hora solo muestra horas y minutos
@@ -92,7 +92,7 @@ namespace Parcial_3
             DataGridViewRow f = dgvRegistro.SelectedRows[0];
             DateTime fechaHora = Convert.ToDateTime(f.Cells["FechaHora"].Value);
 
-            txtIDEmpleado.Text = Convert.ToString(f.Cells["IdCita"].Value);
+            txtIDCita.Text = Convert.ToString(f.Cells["IdCita"].Value);
             cmbPaciente.SelectedValue = Convert.ToInt32(f.Cells["IdPaciente"].Value);
             cmbMedico.SelectedValue = Convert.ToInt32(f.Cells["IdMedico"].Value);
             dtpFechaCita.Value = fechaHora;
@@ -154,7 +154,7 @@ namespace Parcial_3
 
         private void btnActualizar_Click(object sender, EventArgs e)
         {
-            if (txtIDEmpleado.Text == "")
+            if (txtIDCita.Text == "")
             {
                 Ui.Aviso("Primero seleccione una cita de la tabla.");
                 return;
@@ -163,11 +163,11 @@ namespace Parcial_3
 
             try
             {
-                datos.ActualizarCita(int.Parse(txtIDEmpleado.Text), Convert.ToInt32(cmbPaciente.SelectedValue),
+                datos.ActualizarCita(int.Parse(txtIDCita.Text), Convert.ToInt32(cmbPaciente.SelectedValue),
                     Convert.ToInt32(cmbMedico.SelectedValue), FechaHoraElegida(), MotivoCompleto(),
                     cmbEstadoCita.SelectedItem.ToString());
 
-                datos.Bitacora("Citas", "ACTUALIZAR", "Se actualizó la cita #" + txtIDEmpleado.Text);
+                datos.Bitacora("Citas", "ACTUALIZAR", "Se actualizó la cita #" + txtIDCita.Text);
                 Ui.Info("Cita actualizada correctamente.");
                 Limpiar();
                 CargarTabla();
@@ -177,18 +177,18 @@ namespace Parcial_3
 
         private void btnEliminar_Click(object sender, EventArgs e)
         {
-            if (txtIDEmpleado.Text == "")
+            if (txtIDCita.Text == "")
             {
                 Ui.Aviso("Primero seleccione una cita de la tabla.");
                 return;
             }
-            if (!Ui.Confirmar("¿Desea eliminar (cancelar) la cita #" + txtIDEmpleado.Text + "?")) return;
+            if (!Ui.Confirmar("¿Desea eliminar (cancelar) la cita #" + txtIDCita.Text + "?")) return;
 
             try
             {
                 // La cita no se borra: queda con estado Cancelada para mantener el registro
-                datos.CancelarCita(int.Parse(txtIDEmpleado.Text));
-                datos.Bitacora("Citas", "ELIMINAR", "Se canceló la cita #" + txtIDEmpleado.Text);
+                datos.CancelarCita(int.Parse(txtIDCita.Text));
+                datos.Bitacora("Citas", "ELIMINAR", "Se canceló la cita #" + txtIDCita.Text);
                 Ui.Info("La cita fue cancelada correctamente.");
                 Limpiar();
                 CargarTabla();
@@ -225,7 +225,7 @@ namespace Parcial_3
 
         private void Limpiar()
         {
-            txtIDEmpleado.Clear();
+            txtIDCita.Clear();
             cmbPaciente.SelectedIndex = -1;
             cmbMedico.SelectedIndex = -1;
             cmbTipoCita.SelectedIndex = -1;

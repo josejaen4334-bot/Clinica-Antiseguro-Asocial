@@ -82,7 +82,7 @@ namespace Parcial_3
             txtTelefono.Text = Convert.ToString(f.Cells["Telefono"].Value);
             txtCorreo.Text = Convert.ToString(f.Cells["Correo"].Value);
             txtDireccion.Text = Convert.ToString(f.Cells["Direccion"].Value);
-            textBox1.Text = Convert.ToString(f.Cells["TipoSangre"].Value); // textBox1 = tipo de sangre
+            txtTipoSangre.Text = Convert.ToString(f.Cells["TipoSangre"].Value); // textBox1 = tipo de sangre
         }
 
         // ---------- Botones ----------
@@ -95,7 +95,7 @@ namespace Parcial_3
             {
                 datos.GuardarPaciente(txtCedula.Text.Trim(), txtNombre.Text.Trim(), txtApellido.Text.Trim(),
                     Genero(), dtpNacimiento.Value, txtTelefono.Text.Trim(), txtCorreo.Text.Trim(),
-                    txtDireccion.Text.Trim(), textBox1.Text.Trim().ToUpper());
+                    txtDireccion.Text.Trim(), txtTipoSangre.Text.Trim().ToUpper());
 
                 datos.Bitacora("Pacientes", "INSERTAR", "Se registró el paciente " + txtCedula.Text.Trim());
                 Ui.Info("Paciente registrado correctamente.");
@@ -119,7 +119,7 @@ namespace Parcial_3
                 datos.ActualizarPaciente(int.Parse(txtIDPaciente.Text), txtCedula.Text.Trim(),
                     txtNombre.Text.Trim(), txtApellido.Text.Trim(), Genero(), dtpNacimiento.Value,
                     txtTelefono.Text.Trim(), txtCorreo.Text.Trim(), txtDireccion.Text.Trim(),
-                    textBox1.Text.Trim().ToUpper());
+                    txtTipoSangre.Text.Trim().ToUpper());
 
                 datos.Bitacora("Pacientes", "ACTUALIZAR", "Se actualizó el paciente " + txtCedula.Text.Trim());
                 Ui.Info("Paciente actualizado correctamente.");
@@ -197,7 +197,7 @@ namespace Parcial_3
             txtTelefono.Clear();
             txtCorreo.Clear();
             txtDireccion.Clear();
-            textBox1.Clear();
+            txtTipoSangre.Clear();
             dgvRegistro.ClearSelection();
             txtCedula.Focus();
         }
@@ -235,7 +235,7 @@ namespace Parcial_3
                 Ui.Aviso("El correo no tiene un formato válido.");
                 return false;
             }
-            string sangre = textBox1.Text.Trim().ToUpper();
+            string sangre = txtTipoSangre.Text.Trim().ToUpper();
             if (sangre != "" && Array.IndexOf(TiposSangre, sangre) < 0)
             {
                 Ui.Aviso("Tipo de sangre no válido. Use: A+, A-, B+, B-, AB+, AB-, O+ u O-.");

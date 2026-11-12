@@ -36,8 +36,8 @@
             this.picLogo = new System.Windows.Forms.PictureBox();
             this.btnLogin = new System.Windows.Forms.Button();
             this.txtUsuario = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.txtContrasena = new System.Windows.Forms.TextBox();
+            this.lblRol = new System.Windows.Forms.Label();
             this.cmbRoles = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).BeginInit();
             this.SuspendLayout();
@@ -128,25 +128,25 @@
             this.txtUsuario.Size = new System.Drawing.Size(241, 24);
             this.txtUsuario.TabIndex = 8;
             // 
-            // textBox1
+            // txtContrasena
             // 
-            this.textBox1.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(346, 263);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(241, 24);
-            this.textBox1.TabIndex = 9;
-            this.textBox1.UseSystemPasswordChar = true;
+            this.txtContrasena.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtContrasena.Location = new System.Drawing.Point(346, 263);
+            this.txtContrasena.Name = "txtContrasena";
+            this.txtContrasena.Size = new System.Drawing.Size(241, 24);
+            this.txtContrasena.TabIndex = 9;
+            this.txtContrasena.UseSystemPasswordChar = true;
             // 
-            // label1
+            // lblRol
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Manrope SemiBold", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(226, 328);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(39, 22);
-            this.label1.TabIndex = 10;
-            this.label1.Text = "Rol:";
+            this.lblRol.AutoSize = true;
+            this.lblRol.BackColor = System.Drawing.Color.Transparent;
+            this.lblRol.Font = new System.Drawing.Font("Manrope SemiBold", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRol.Location = new System.Drawing.Point(226, 328);
+            this.lblRol.Name = "lblRol";
+            this.lblRol.Size = new System.Drawing.Size(39, 22);
+            this.lblRol.TabIndex = 10;
+            this.lblRol.Text = "Rol:";
             // 
             // cmbRoles
             // 
@@ -169,8 +169,8 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(828, 472);
             this.Controls.Add(this.cmbRoles);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.lblRol);
+            this.Controls.Add(this.txtContrasena);
             this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.picLogo);
@@ -198,8 +198,8 @@
         private System.Windows.Forms.PictureBox picLogo;
         private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.TextBox txtUsuario;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txtContrasena;
+        private System.Windows.Forms.Label lblRol;
         private System.Windows.Forms.ComboBox cmbRoles;
     }
 }

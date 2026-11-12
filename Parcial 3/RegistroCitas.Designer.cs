@@ -43,7 +43,7 @@
             this.lblMotivo = new System.Windows.Forms.Label();
             this.lblMedico = new System.Windows.Forms.Label();
             this.lblPaciente = new System.Windows.Forms.Label();
-            this.txtIDEmpleado = new System.Windows.Forms.TextBox();
+            this.txtIDCita = new System.Windows.Forms.TextBox();
             this.lblIDCita = new System.Windows.Forms.Label();
             this.lblCitas = new System.Windows.Forms.Label();
             this.picLogo = new System.Windows.Forms.PictureBox();
@@ -79,7 +79,7 @@
             this.grpDatosCitas.Controls.Add(this.lblMotivo);
             this.grpDatosCitas.Controls.Add(this.lblMedico);
             this.grpDatosCitas.Controls.Add(this.lblPaciente);
-            this.grpDatosCitas.Controls.Add(this.txtIDEmpleado);
+            this.grpDatosCitas.Controls.Add(this.txtIDCita);
             this.grpDatosCitas.Controls.Add(this.lblIDCita);
             this.grpDatosCitas.Font = new System.Drawing.Font("Manrope", 8.063999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grpDatosCitas.Location = new System.Drawing.Point(37, 199);
@@ -250,15 +250,15 @@
             this.lblPaciente.TabIndex = 10;
             this.lblPaciente.Text = "Paciente:";
             // 
-            // txtIDEmpleado
+            // txtIDCita
             // 
-            this.txtIDEmpleado.BackColor = System.Drawing.SystemColors.Window;
-            this.txtIDEmpleado.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtIDEmpleado.Location = new System.Drawing.Point(216, 46);
-            this.txtIDEmpleado.Name = "txtIDEmpleado";
-            this.txtIDEmpleado.ReadOnly = true;
-            this.txtIDEmpleado.Size = new System.Drawing.Size(243, 24);
-            this.txtIDEmpleado.TabIndex = 9;
+            this.txtIDCita.BackColor = System.Drawing.SystemColors.Window;
+            this.txtIDCita.Font = new System.Drawing.Font("Manrope SemiBold", 6.911999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtIDCita.Location = new System.Drawing.Point(216, 46);
+            this.txtIDCita.Name = "txtIDCita";
+            this.txtIDCita.ReadOnly = true;
+            this.txtIDCita.Size = new System.Drawing.Size(243, 24);
+            this.txtIDCita.TabIndex = 9;
             // 
             // lblIDCita
             // 
@@ -412,7 +412,7 @@
             this.Controls.Add(this.picLogo);
             this.Name = "frmRegistroCitas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "RegistroCitas";
+            this.Text = "Registro de Citas";
             this.grpDatosCitas.ResumeLayout(false);
             this.grpDatosCitas.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).EndInit();
@@ -440,7 +440,7 @@
         private System.Windows.Forms.Label lblMotivo;
         private System.Windows.Forms.Label lblMedico;
         private System.Windows.Forms.Label lblPaciente;
-        private System.Windows.Forms.TextBox txtIDEmpleado;
+        private System.Windows.Forms.TextBox txtIDCita;
         private System.Windows.Forms.Label lblIDCita;
         private System.Windows.Forms.Label lblCitas;
         private System.Windows.Forms.PictureBox picLogo;

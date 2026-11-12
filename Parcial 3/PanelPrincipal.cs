@@ -119,5 +119,19 @@ namespace Parcial_3
             videos.Show();
             this.Close();
         }
+
+        private void btnUsuarios_Click(object sender, EventArgs e)
+        {
+            frmUsuarios usuarios = new frmUsuarios();
+            usuarios.Show();
+            this.Close();
+        }
+
+        private void btnBitacora_Click(object sender, EventArgs e)
+        {
+            frmBitacora bitacora = new frmBitacora();
+            bitacora.Show();
+            this.Close();
+        }
     }
 }

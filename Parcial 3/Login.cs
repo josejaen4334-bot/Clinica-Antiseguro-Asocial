@@ -24,7 +24,7 @@ namespace Parcial_3
         private void btnLogin_Click(object sender, EventArgs e)
         {
             // 1. Validar que se llenaron los tres campos (textBox1 es el campo de la contraseña)
-            if (txtUsuario.Text.Trim() == "" || textBox1.Text.Trim() == "" || cmbRoles.SelectedItem == null)
+            if (txtUsuario.Text.Trim() == "" || txtContrasena.Text.Trim() == "" || cmbRoles.SelectedItem == null)
             {
                 Ui.Aviso("Ingrese el usuario, la contraseña y seleccione un rol.");
                 return;
@@ -34,13 +34,13 @@ namespace Parcial_3
             try
             {
                 bool acceso = new DatosClinica().IniciarSesion(
-                    txtUsuario.Text.Trim(), textBox1.Text, cmbRoles.SelectedItem.ToString());
+                    txtUsuario.Text.Trim(), txtContrasena.Text, cmbRoles.SelectedItem.ToString());
 
                 if (!acceso)
                 {
                     Ui.Aviso("Usuario, contraseña o rol incorrectos.");
-                    textBox1.Clear();
-                    textBox1.Focus();
+                    txtContrasena.Clear();
+                    txtContrasena.Focus();
                     return;
                 }
             }

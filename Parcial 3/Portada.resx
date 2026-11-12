@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="picLogoUTP.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4CAYAAAA5ZDbSAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wQAADsEBuJFr7QAAJYNJREFUeF7tXQd4VdWytt3i01tU7tP7LiiiohcBUa8I2LhepHeVIlWRDpYrivQq
+        vwAADr8BOAVTJAAAJYNJREFUeF7tXQd4VdWytt3i01tU7tP7LiiiohcBUa8I2LhepHeVIlWRDpYrivQq
         LQGpSi8CQmhphNCS0EnoJCQkEAghCaGEEmpCYOZ9/zp7bc5Zu5xzkhMImP/75kvO3vuss/eavWbNzJqZ
         dd99xShGMYpRjGLcHjDzH5m5NBFVY+bGRPQZEX1JRH0UwrHPtGuqEdEz+K7aXjHuEJj5ASIqSURNiegH
         IgohoqNEdIPzCXxXawNtDdfaLonfUn+/GIUAZn6MiJoT0SwiOk5EpDLJ18BvEFGq9pvNmPmv6n0VowAg
@@ -284,10 +284,10 @@
         mir4TrHmW4xiFKMYxbiN+H+QZVEsjuXukgAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="picLogoFISC.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4CAYAAAA5ZDbSAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vwAADr8BOAVTJAAAHx9JREFUeF7tnQfUVEWWxye4q87upHNmd2dn3JnZ47rqODszjIMIGIgimCMKgjln
+        vQAADr0BR/uQrQAAHx9JREFUeF7tnQfUVEWWxye4q87upHNmd2dn3JnZ47rqODszjIMIGIgimCMKgjln
         cpCMICpRsggIKCAqkgSJioKgJAGJIiJIEkTJsWrPr75XbfWt6vR198cH0/9z/ofQ9eq9V/dV1a17b936
         wQ8KKKCAAgoooIACCiiggAIKOJmhtf6x1vp3SqmKSqkblFL3KqUaKaVaa63bQv4e/R+/UaYi13CtrK+A
         4wit9U+UUpWVUk2UUqOUUsuVUgd1McG1UR3URZ2VuYe8bwF5hFKqjFKqlVLqfaXUYSmkXIN7RPfinmXk

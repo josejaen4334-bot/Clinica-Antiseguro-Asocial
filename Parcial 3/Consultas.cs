@@ -83,7 +83,7 @@ namespace Parcial_3
                 Ui.Aviso("Seleccione el médico responsable.");
                 return;
             }
-            if (textBox2.Text.Trim() == "")
+            if (txtDiagnostico.Text.Trim() == "")
             {
                 Ui.Aviso("El diagnóstico es obligatorio.");
                 return;
@@ -97,10 +97,10 @@ namespace Parcial_3
             }
 
             // La BD no tiene columna para el tipo de registro, se guarda al inicio de las observaciones
-            string observaciones = textBox1.Text.Trim();
+            string observaciones = txtObservaciones.Text.Trim();
             if (cmbTipo.SelectedItem != null) observaciones = "[" + cmbTipo.SelectedItem + "] " + observaciones;
 
-            if (txtMotivo.Text.Length > 500 || textBox2.Text.Length > 500 ||
+            if (txtMotivo.Text.Length > 500 || txtDiagnostico.Text.Length > 500 ||
                 txtTratamiento.Text.Length > 500 || observaciones.Length > 500)
             {
                 Ui.Aviso("Cada campo de texto puede tener máximo 500 caracteres.");
@@ -110,7 +110,7 @@ namespace Parcial_3
             try
             {
                 datos.GuardarConsulta(idPaciente, Convert.ToInt32(cmbMedicoResponsable.SelectedValue),
-                    txtMotivo.Text.Trim(), textBox2.Text.Trim(), txtTratamiento.Text.Trim(), observaciones.Trim());
+                    txtMotivo.Text.Trim(), txtDiagnostico.Text.Trim(), txtTratamiento.Text.Trim(), observaciones.Trim());
 
                 datos.Bitacora("Consultas", "INSERTAR", "Nueva consulta para el paciente #" + idPaciente);
                 Ui.Info("Consulta registrada correctamente.");
@@ -130,9 +130,9 @@ namespace Parcial_3
             cmbTipo.SelectedIndex = -1;
             if (cmbMedicoResponsable.Enabled) cmbMedicoResponsable.SelectedIndex = -1;
             txtMotivo.Clear();
-            textBox2.Clear();
+            txtDiagnostico.Clear();
             txtTratamiento.Clear();
-            textBox1.Clear();
+            txtObservaciones.Clear();
         }
     }
 }
