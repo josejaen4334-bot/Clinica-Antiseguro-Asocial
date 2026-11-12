@@ -1,0 +1,83 @@
+C:\VS\Parcial 3\Parcial 3\obj\Debug\Parcial 3.csproj.AssemblyReference.cache
+C:\VS\Parcial 3\Parcial 3\obj\Debug\Parcial_3.frmLogin.resources
+C:\VS\Parcial 3\Parcial 3\obj\Debug\Parcial_3.Properties.Resources.resources
+C:\VS\Parcial 3\Parcial 3\obj\Debug\Parcial 3.csproj.GenerateResource.cache
+C:\VS\Parcial 3\Parcial 3\obj\Debug\Parcial 3.csproj.CoreCompileInputs.cache
+C:\VS\Parcial 3\Parcial 3\bin\Debug\Parcial 3.exe.config
+C:\VS\Parcial 3\Parcial 3\bin\Debug\Parcial 3.exe
+C:\VS\Parcial 3\Parcial 3\bin\Debug\Parcial 3.pdb
+C:\VS\Parcial 3\Parcial 3\obj\Debug\Parcial 3.exe
+C:\VS\Parcial 3\Parcial 3\obj\Debug\Parcial 3.pdb
+C:\VS\Parcial 3\Parcial 3\obj\Debug\Parcial_3.frmPortada.resources
+C:\VS\Parcial 3\Parcial 3\obj\Debug\Parcial_3.frmPanelPrincipal.resources
+C:\VS\Parcial 3\Parcial 3\obj\Debug\Parcial_3.frmRegistro.resources
+C:\VS\Parcial 3\Parcial 3\obj\Debug\Parcial_3.frmPacientes.resources
+C:\VS\Parcial 3\Parcial 3\obj\Debug\Parcial_3.frmMedicos.resources
+C:\VS\Parcial 3\Parcial 3\obj\Debug\Parcial_3.frmEmpleados.resources
+C:\Users\Claud\Downloads\Parcial 3 - Github\Clinica-Antiseguro-Asocial\Frontend\Parcial 3\Parcial 3\bin\Debug\Parcial 3.exe.config
+C:\Users\Claud\Downloads\Parcial 3 - Github\Clinica-Antiseguro-Asocial\Frontend\Parcial 3\Parcial 3\bin\Debug\Parcial 3.exe
+C:\Users\Claud\Downloads\Parcial 3 - Github\Clinica-Antiseguro-Asocial\Frontend\Parcial 3\Parcial 3\bin\Debug\Parcial 3.pdb
+C:\Users\Claud\Downloads\Parcial 3 - Github\Clinica-Antiseguro-Asocial\Frontend\Parcial 3\Parcial 3\obj\Debug\Parcial 3.csproj.AssemblyReference.cache
+C:\Users\Claud\Downloads\Parcial 3 - Github\Clinica-Antiseguro-Asocial\Frontend\Parcial 3\Parcial 3\obj\Debug\Parcial_3.frmEmpleados.resources
+C:\Users\Claud\Downloads\Parcial 3 - Github\Clinica-Antiseguro-Asocial\Frontend\Parcial 3\Parcial 3\obj\Debug\Parcial_3.frmMedicos.resources
+C:\Users\Claud\Downloads\Parcial 3 - Github\Clinica-Antiseguro-Asocial\Frontend\Parcial 3\Parcial 3\obj\Debug\Parcial_3.frmPacientes.resources
+C:\Users\Claud\Downloads\Parcial 3 - Github\Clinica-Antiseguro-Asocial\Frontend\Parcial 3\Parcial 3\obj\Debug\Parcial_3.frmLogin.resources
+C:\Users\Claud\Downloads\Parcial 3 - Github\Clinica-Antiseguro-Asocial\Frontend\Parcial 3\Parcial 3\obj\Debug\Parcial_3.frmPanelPrincipal.resources
+C:\Users\Claud\Downloads\Parcial 3 - Github\Clinica-Antiseguro-Asocial\Frontend\Parcial 3\Parcial 3\obj\Debug\Parcial_3.frmPortada.resources
+C:\Users\Claud\Downloads\Parcial 3 - Github\Clinica-Antiseguro-Asocial\Frontend\Parcial 3\Parcial 3\obj\Debug\Parcial_3.Properties.Resources.resources
+C:\Users\Claud\Downloads\Parcial 3 - Github\Clinica-Antiseguro-Asocial\Frontend\Parcial 3\Parcial 3\obj\Debug\Parcial 3.csproj.GenerateResource.cache
+C:\Users\Claud\Downloads\Parcial 3 - Github\Clinica-Antiseguro-Asocial\Frontend\Parcial 3\Parcial 3\obj\Debug\Parcial 3.csproj.CoreCompileInputs.cache
+C:\Users\Claud\Downloads\Parcial 3 - Github\Clinica-Antiseguro-Asocial\Frontend\Parcial 3\Parcial 3\obj\Debug\Parcial 3.exe
+C:\Users\Claud\Downloads\Parcial 3 - Github\Clinica-Antiseguro-Asocial\Frontend\Parcial 3\Parcial 3\obj\Debug\Parcial 3.pdb
+C:\Users\Claud\Downloads\Parcial 3 - Github\Clinica-Antiseguro-Asocial\Frontend\Parcial 3\Parcial 3\obj\Debug\Parcial_3.frmCitas.resources
+C:\Users\Claud\Downloads\Parcial 3 - Github\Clinica-Antiseguro-Asocial\Frontend\Parcial 3\Parcial 3\obj\Debug\Parcial_3.frmRegistroCitas.resources
+C:\Users\Claud\Downloads\Parcial 3 - Github\Clinica-Antiseguro-Asocial\Frontend\Parcial 3\Parcial 3\obj\Debug\Parcial_3.frmConsultas.resources
+C:\Users\Claud\Downloads\Parcial 3 - Github\Clinica-Antiseguro-Asocial\Frontend\Parcial 3\Parcial 3\obj\Debug\Parcial_3.frmHistorialClinico.resources
+C:\Users\Claud\Downloads\Parcial 3 - Github\Clinica-Antiseguro-Asocial\Frontend\Parcial 3\Parcial 3\obj\Debug\Parcial_3.frmFacturacion.resources
+C:\Users\Claud\Downloads\Parcial 3 - Github\Clinica-Antiseguro-Asocial\Frontend\Parcial 3\Parcial 3\obj\Debug\Parcial_3.frmVideos.resources
+C:\Users\Claud\Downloads\Parcial 3 - Github\Clinica-Antiseguro-Asocial\Frontend\Parcial 3\Parcial 3\obj\Debug\Parcial_3.frmReportes.resources
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\Parcial 3 - Github (2)\Parcial 3\bin\Debug\Parcial 3.exe.config
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\Parcial 3 - Github (2)\Parcial 3\bin\Debug\Parcial 3.exe
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\Parcial 3 - Github (2)\Parcial 3\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\Parcial 3 - Github (2)\Parcial 3\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\Parcial 3 - Github (2)\Parcial 3\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\Parcial 3 - Github (2)\Parcial 3\bin\Debug\MySqlConnector.dll
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\Parcial 3 - Github (2)\Parcial 3\bin\Debug\System.Buffers.dll
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\Parcial 3 - Github (2)\Parcial 3\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\Parcial 3 - Github (2)\Parcial 3\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\Parcial 3 - Github (2)\Parcial 3\bin\Debug\System.Memory.dll
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\Parcial 3 - Github (2)\Parcial 3\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\Parcial 3 - Github (2)\Parcial 3\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\Parcial 3 - Github (2)\Parcial 3\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\Parcial 3 - Github (2)\Parcial 3\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\Parcial 3 - Github (2)\Parcial 3\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\Parcial 3 - Github (2)\Parcial 3\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\Parcial 3 - Github (2)\Parcial 3\bin\Debug\MySqlConnector.xml
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\Parcial 3 - Github (2)\Parcial 3\bin\Debug\System.Buffers.xml
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\Parcial 3 - Github (2)\Parcial 3\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\Parcial 3 - Github (2)\Parcial 3\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\Parcial 3 - Github (2)\Parcial 3\bin\Debug\System.Memory.xml
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\Parcial 3 - Github (2)\Parcial 3\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\Parcial 3 - Github (2)\Parcial 3\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\Parcial 3 - Github (2)\Parcial 3\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\Parcial 3 - Github (2)\Parcial 3\obj\Debug\Parcial 3.csproj.AssemblyReference.cache
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\Parcial 3 - Github (2)\Parcial 3\obj\Debug\Parcial_3.frmCitas.resources
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\Parcial 3 - Github (2)\Parcial 3\obj\Debug\Parcial_3.frmConsultas.resources
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\Parcial 3 - Github (2)\Parcial 3\obj\Debug\Parcial_3.frmEmpleados.resources
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\Parcial 3 - Github (2)\Parcial 3\obj\Debug\Parcial_3.frmFacturacion.resources
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\Parcial 3 - Github (2)\Parcial 3\obj\Debug\Parcial_3.frmHistorialClinico.resources
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\Parcial 3 - Github (2)\Parcial 3\obj\Debug\Parcial_3.frmMedicos.resources
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\Parcial 3 - Github (2)\Parcial 3\obj\Debug\Parcial_3.frmPacientes.resources
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\Parcial 3 - Github (2)\Parcial 3\obj\Debug\Parcial_3.frmLogin.resources
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\Parcial 3 - Github (2)\Parcial 3\obj\Debug\Parcial_3.frmPanelPrincipal.resources
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\Parcial 3 - Github (2)\Parcial 3\obj\Debug\Parcial_3.frmPortada.resources
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\Parcial 3 - Github (2)\Parcial 3\obj\Debug\Parcial_3.Properties.Resources.resources
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\Parcial 3 - Github (2)\Parcial 3\obj\Debug\Parcial_3.frmVideos.resources
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\Parcial 3 - Github (2)\Parcial 3\obj\Debug\Parcial_3.frmRegistroCitas.resources
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\Parcial 3 - Github (2)\Parcial 3\obj\Debug\Parcial_3.frmReportes.resources
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\Parcial 3 - Github (2)\Parcial 3\obj\Debug\Parcial 3.csproj.GenerateResource.cache
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\Parcial 3 - Github (2)\Parcial 3\obj\Debug\Parcial 3.csproj.CoreCompileInputs.cache
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\Parcial 3 - Github (2)\Parcial 3\obj\Debug\Parcial 3.csproj.Up2Date
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\Parcial 3 - Github (2)\Parcial 3\obj\Debug\Parcial 3.exe
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\Parcial 3 - Github (2)\Parcial 3\obj\Debug\Parcial 3.pdb
+C:\Users\josej\Documents\UNIVERSIDAD\DSIV\JOSE\Parcial 3 - Github (2)\Parcial 3\bin\Debug\Parcial 3.pdb
