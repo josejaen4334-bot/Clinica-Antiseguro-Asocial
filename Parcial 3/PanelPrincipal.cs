@@ -15,6 +15,37 @@ namespace Parcial_3
         public frmPanelPrincipal()
         {
             InitializeComponent();
+
+            // Saludo con el nombre de quien inició sesión y permisos según su rol
+            if (Sesion.IdUsuario > 0)
+            {
+                string nombre = (string.IsNullOrEmpty(Sesion.Persona) || Sesion.Persona == "(sin vincular)")
+                    ? Sesion.NombreUsuario : Sesion.Persona;
+                lblBienvenido.Text = "¡Bienvenido al panel principal, " + nombre + "!";
+                AplicarPermisos();
+            }
+        }
+
+        // Según la descripción de los roles en la BD: Admin ve todo,
+        // Médico trabaja con citas/consultas/historial y Paciente con citas/historial/facturas
+        private void AplicarPermisos()
+        {
+            if (Sesion.Rol == "Medico")
+            {
+                btnPacientes.Enabled = false;
+                btnMedicos.Enabled = false;
+                btnEmpleados.Enabled = false;
+                btnFacturacion.Enabled = false;
+                btnReportes.Enabled = false;
+            }
+            else if (Sesion.Rol == "Paciente")
+            {
+                btnPacientes.Enabled = false;
+                btnMedicos.Enabled = false;
+                btnEmpleados.Enabled = false;
+                btnConsultas.Enabled = false;
+                btnReportes.Enabled = false;
+            }
         }
 
         private void btnPacientes_Click(object sender, EventArgs e)
@@ -40,12 +71,17 @@ namespace Parcial_3
 
         private void btnCerrar_Click(object sender, EventArgs e)
         {
+            // Se deja constancia del cierre de sesión, se limpia la sesión y se vuelve al login
+            new DatosClinica().Bitacora("Login", "LOGOUT", "Cierre de sesión");
+            Sesion.Cerrar();
+            frmLogin login = new frmLogin();
+            login.Show();
             this.Close();
         }
 
         private void btnCitas_Click(object sender, EventArgs e)
         {
-           frmCitas citas = new frmCitas();
+            frmCitas citas = new frmCitas();
             citas.Show();
             this.Close();
         }
